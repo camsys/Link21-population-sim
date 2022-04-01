@@ -1,0 +1,155 @@
+####################################################################
+# PopulationSim Properties
+####################################################################
+
+
+# Algorithm/Software Configuration
+# ------------------------------------------------------------------
+INTEGERIZE_WITH_BACKSTOPPED_CONTROLS: True
+SUB_BALANCE_WITH_FLOAT_SEED_WEIGHTS: False
+GROUP_BY_INCIDENCE_SIGNATURE: True
+USE_SIMUL_INTEGERIZER: True
+USE_CVXPY: False
+max_expansion_factor: 50
+
+
+# Geographic Settings
+# ------------------------------------------------------------------
+geographies: [COUNTYCOMB, PUMA, TAZ]
+seed_geography: PUMA
+
+
+# Tracing
+# ------------------------------------------------------------------
+#trace_geography:
+#  PUMA: 7503
+#   TRACT: 10200
+
+  
+# Data Directory
+# ------------------------------------------------------------------
+data_dir: data
+
+
+# Input Data Tables
+# ------------------------------------------------------------------
+# input_pre_processor input_table_list
+input_table_list:
+  - tablename: households
+    filename : seed_households.csv
+    index_col: hh_serial_id
+  - tablename: persons
+    filename : seed_persons.csv
+  - tablename: geo_cross_walk
+    filename : geo_crosswalk.csv
+  - tablename: TAZ_control_data
+    filename : control_totals_taz.csv
+  - tablename: COUNTYCOMB_control_data
+    filename : control_totals_countycomb.csv
+
+
+# Reserved Column Names
+# ------------------------------------------------------------------
+household_weight_col: WGTP
+household_id_col: hh_serial_id
+total_hh_control: num_hh
+
+
+# Control Specification File Name
+# ------------------------------------------------------------------
+control_file_name: controls.csv
+
+
+# Output Tables
+# ------------------------------------------------------------------
+# output_tables can specify either a list of output tables to include or to skip
+# if neither is specified, then no tables will be written
+
+output_tables:
+  action: include
+  tables:
+    - summary_TAZ
+    - summary_COUNTYCOMB_1
+    - summary_COUNTYCOMB_2
+    - summary_COUNTYCOMB_3
+    - summary_COUNTYCOMB_4
+    - summary_COUNTYCOMB_5
+    - summary_COUNTYCOMB_6
+    - summary_COUNTYCOMB_7
+    - summary_COUNTYCOMB_8
+    - summary_COUNTYCOMB_9
+    - summary_COUNTYCOMB_10
+    - summary_COUNTYCOMB_11
+    - summary_COUNTYCOMB_12
+    - summary_COUNTYCOMB_13
+    - summary_COUNTYCOMB_14
+    - summary_COUNTYCOMB_15
+    - summary_COUNTYCOMB_16
+    - summary_COUNTYCOMB_17
+    - summary_COUNTYCOMB_18
+    - summary_COUNTYCOMB_19
+    - expanded_household_ids
+
+
+# Synthetic Population Output Specification
+# ------------------------------------------------------------------
+#
+
+output_synthetic_population:
+  household_id: household_id
+  households:
+    filename: synthetic_households.csv
+    columns:
+      - NP                    # Number of person records
+      - TYPE                  # Type of unit
+      - HINCP                 # Household income in survey year dollars
+      - BLD                   # Building type
+      - HUPAC                 # HH presence and age category of children
+      - hh_serial_id          # ID mapped to unique SERIALNO
+      - hh_income_2018        # Adjusted household income ($2018)
+      - hh_income_2017        # Adjusted household income ($2017)
+      - hh_income_2010        # Adjusted household income ($2010)
+      - hh_workers_from_esr   # Number of workers
+      - household_type        # Household type (single-family, multi-family, mobile home, duplex)
+      - hh_children           # Household children (none, one or more)
+  persons:
+    filename: synthetic_persons.csv
+    columns:
+      - SPORDER               # Person number
+      - OCCP                  # Occupation code
+      - SOCP                  # Standard occupation code
+      - PUMA                  # Public use microdata area code
+      - PWGTP                 # Person's weight
+      - AGEP                  # Age
+      - COW                   # Class of worker
+      - MIL                   # Military service
+      - RELSHIPP              # Relationship to reference person
+      - SCHG                  # Grade level attending
+      - SCHL                  # Educational attainment
+      - SEX                   # Sex
+      - WKHP                  # Usual hours worked per week past 12 months
+      - WKW                   # Weeks worked during past 12 months
+      - ESR                   # Employment status recode
+      - hh_serial_id          # Integer identifier mapped to unique SERIALNO
+      - employed              # Employed
+      - standard_occupation   # Standard occupation code
+      - occupation            # Occupation code
+
+
+# Model steps for base mode
+# ------------------------------------------------------------------
+models:
+    - input_pre_processor
+    - setup_data_structures
+    - initial_seed_balancing
+    - meta_control_factoring
+    - final_seed_balancing
+    - integerize_final_seed_weights
+    - sub_balancing.geography=TAZ
+    - expand_households
+    - write_data_dictionary
+    - summarize
+    - write_tables
+    - write_synthetic_population
+
+resume_after:

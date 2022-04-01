@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  popsim:
+    build: .
+    image: popsim
+    ports: 
+      - 80:80
+    volumes: 
+      - ./populationsim-census:/ps_census
+      - ./populationsim-taz:/ps_taz

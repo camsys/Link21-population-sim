@@ -31,6 +31,9 @@ summarise_countycomb_fileprefix <- paste0(input_dir, "output/final_summary_COUNT
 sim_output_hh_filename <- paste0(input_dir, "output/synthetic_households.csv")
 sim_output_per_filename <- paste0(input_dir, "output/synthetic_persons.csv")
 
+sim_output_hh_renamed_filename <- paste0(input_dir, "output/synthetic_households_renamed.csv")
+sim_output_per_renamed_filename <- paste0(input_dir, "output/synthetic_persons_renamed.csv")
+
 output_for_tableau_filename <- paste0(output_dir, "taz-summaries.csv")
 
 ```
@@ -51,13 +54,27 @@ sum_taz_df <- read_csv(summarise_taz_filename, col_types = cols(.default = col_d
                                                                 id = col_integer()))
 
 meta_df <- read_csv(controls_meta_filename, col_types = cols(.default = col_double(),
-                                                                 COUNTYCOMB = col_integer()))
+                                                             COUNTYCOMB = col_integer()))
 
 hh_df <- read_csv(sim_output_hh_filename, col_types = cols(.default = col_integer(),
-                                                           PUMA = col_character()))
+                                                           PUMA = col_character(),
+                                                           hh_income_2018 = col_double(),
+                                                           hh_income_2017 = col_double(),
+                                                           hh_income_2010 = col_double(),
+                                                           hh_income_2000 = col_double()))
 
 person_df <- read_csv(sim_output_per_filename, col_types = cols(.default = col_integer(),
                                                                 PUMA = col_character()))
+
+hh_renamed_df <- read_csv(sim_output_hh_renamed_filename, col_types = cols(.default = col_integer(),
+                                                                           PUMA = col_character(),
+                                                                           hh_income_2018 = col_double(),
+                                                                           hh_income_2017 = col_double(),
+                                                                           hh_income_2010 = col_double(),
+                                                                           hh_income_2000 = col_double()))
+
+person_renamed_df <- read_csv(sim_output_per_renamed_filename, col_types = cols(.default = col_integer(),
+                                                                                PUMA = col_character()))
 
 ```
 
@@ -147,6 +164,15 @@ output_df <- wide_df %>%
   left_join(., join_cross_df, by = c("id", "geography"))
 
 ```
+
+# Check Ranges for Computed variables
+```{r check}
+table(hh_renamed_df$hhinccat1)
+table(person_renamed_df$pemploy)
+table(person_renamed_df$pstudent)
+table(person_renamed_df$ptype)
+```
+
 
 # Write to Disk
 ```{r writes}

@@ -8,11 +8,13 @@ To set up and use the environment to run populationsim:
 
 2. Run the popsim image interactively with bash: `docker-compose run popsim bash`
 
-3. Navigate to the model directory: `cd ps_*`, where `*` is either `census` or `taz`
+3. Navigate to the model directory: `cd ps_taz`
 
-4. (First time) If you need to create the seed files from the PUMS data: `python make-seed-from-pums.py`
+4. (Only need to do once) If you need to create the seed files from the PUMS data: `python make-seed-from-pums.py`
 
 5. Run populationsim: `python run_populationsim.py`
+
+6. Rename variables per model spec: `python update-variable-names.py`
 
 ## Common Problems
 

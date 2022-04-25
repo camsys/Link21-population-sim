@@ -1,10 +1,9 @@
 target,geography,seed_table,importance,control_field,expression
 num_hh,TAZ,households,1000000000,HHBASE,(households.WGTP > 0) & (households.WGTP < np.inf)
-hh_inc_25,TAZ,households,500,HHINC1,(households.hh_income_2018 > -999999999) & (households.hh_income_2017 <= 25000)
-hh_inc_25_50,TAZ,households,500,HHINC2,(households.hh_income_2017 > 25000) & (households.hh_income_2017 <= 50000)
-hh_inc_50_75,TAZ,households,500,HHINC3,(households.hh_income_2017 > 50000) & (households.hh_income_2017 <= 75000)
-hh_inc_75_100,TAZ,households,500,HHINC4,(households.hh_income_2017 > 75000) & (households.hh_income_2017 <= 100000)
-hh_inc_100_plus,TAZ,households,500,HHINC5,(households.hh_income_2017 > 100000) & (households.hh_income_2017 <= 999999999)
+hh_inc_30,TAZ,households,500,HHINC1,(households.hh_income_2000 > -999999999) & (households.hh_income_2000 <= 30000)
+hh_inc_30_60,TAZ,households,500,HHINC2,(households.hh_income_2000 > 30000) & (households.hh_income_2000 <= 60000)
+hh_inc_60_100,TAZ,households,500,HHINC3,(households.hh_income_2000 > 60000) & (households.hh_income_2000 <= 100000)
+hh_inc_100_plus,TAZ,households,500,HHINC5,(households.hh_income_2000 > 100000) & (households.hh_income_2000 <= 999999999)
 hh_child,TAZ,households,500,HHCHILDNO,households.hh_children == 1
 hh_no_child,TAZ,households,500,HHCHILDYES,households.hh_children == 2
 hh_size_1,COUNTYCOMB,households,1000,HHSIZE1,households.NP == 1

@@ -130,7 +130,10 @@ hh_update.loc[hh_update['ADJINC']==1010145, 'hh_income_2018'] = round((hh_update
 
 hh_update['hh_income_2017'] = hh_update['hh_income_2018'] * 0.97695
 hh_update['hh_income_2010'] = hh_update['hh_income_2018'] * 0.87208
+hh_update['hh_income_2000'] = hh_update['hh_income_2018'] * 0.68602
 
+hh_update['hhinccat1'] = pd.cut(hh_update['hh_income_2000'], [-np.inf, 20000, 50000, 100000, np.inf], labels = [1, 2, 3, 4]).values.add_categories(999)
+hh_update.loc[pd.isna(hh_update['HINCP']), 'hhinccat1'] = 999
 
 # add household type to hh seed table
 hh_update['household_type'] = 999
@@ -150,11 +153,38 @@ hh_update.loc[hh_update['HUPAC'].isin([1,2,3]), 'hh_children'] = 2 # 1 or more c
 per_update['employed'] = 0
 per_update.loc[per_update['ESR'].isin([1,2,4,5]), 'employed'] = 1
 
+# tm1.5 person employment variable
+per_update['pemploy'] = 999
+per_update.loc[(per_update['ESR']==1)|(per_update['ESR']==2)|(per_update['ESR']==4)|(per_update['ESR']==5), 'pemploy'] = 2 # part-time worker
+per_update.loc[
+    ((per_update['ESR']==1)|(per_update['ESR']==2)|(per_update['ESR']==4)|(per_update['ESR']==5))&
+    ((per_update['WKW']==1)|(per_update['WKW']==2)|(per_update['WKW']==3)|(per_update['WKW']==4))&
+                      (per_update['WKHP']>=35),
+                       'pemploy'
+                       ] = 1 # full-time worker
+per_update.loc[pd.isna(per_update['ESR']), 'pemploy'] = 4 # student under 16
+per_update.loc[(per_update['ESR']==6)|(per_update['ESR']==3), 'pemploy'] = 3  # not in the labor force
+
+# tm1.5 person student variable
+per_update['pstudent'] = 999
+per_update.loc[(per_update['SCHG']==1)|(per_update['SCHG']==2)|(per_update['SCHG']==3)|(per_update['SCHG']==4)|(per_update['SCHG']==5), 'pstudent'] = 1 # pre-school through grade 12 student
+per_update.loc[(per_update['SCHG']==6)|(per_update['SCHG']==7), 'pstudent'] = 2 # university/professional school student
+per_update.loc[pd.isnull(per_update['SCHG']), 'pstudent'] = 3 # non-student
+
+# tm1.5 person type
+per_update['ptype'] = 999
+per_update['ptype'] = 5 # non-working senior
+per_update.loc[(per_update['AGEP']<65), 'ptype'] = 4 # non-working adult
+per_update.loc[(per_update['pemploy']==2), 'ptype'] = 2 # part-time worker
+per_update.loc[(per_update['pstudent']==1), 'ptype'] = 6  # driving-age student
+per_update.loc[(per_update['pstudent']==2)|((per_update['AGEP']>=20)&(per_update['pstudent']==1)), 'ptype'] = 3 # college student
+per_update.loc[(per_update['pemploy']==1), 'ptype'] = 1 # full-time worker
+per_update.loc[(per_update['AGEP']<=15), 'ptype'] = 7 # non-driving under 16
+per_update.loc[(per_update['AGEP']<6)&(per_update['pstudent']==3), 'ptype'] = 8 # pre-school
 
 # add standard occupation to per seed table
 per_update['standard_occupation'] = '999'
 per_update.loc[per_update['ESR'].isin([1,2,4,5]), 'standard_occupation'] = per_update['SOCP'].str[:2]
-
 
 # add occupation to per seed table
 per_update['occupation'] = 999

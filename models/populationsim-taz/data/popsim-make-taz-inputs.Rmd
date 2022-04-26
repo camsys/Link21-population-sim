@@ -1,0 +1,350 @@
+---
+title: "Populationsim -- Make TAZ Inputs"
+output: html_notebook
+---
+
+Dollars
+TAZ $2017
+ADJINC to get $2018
+
+County needs to nest in PUMA to work
+Try replacing County with PUMA
+- make PUMA level control
+- add to settings
+
+# Overhead
+```{r overhead, include = FALSE}
+packages_vector <- c("tidyverse",
+                     "readxl",
+                     "sf")
+
+need_to_install <- packages_vector[!(packages_vector %in% installed.packages()[,"Package"])]
+
+if (length(need_to_install)) install.packages(need_to_install)
+
+for (package in packages_vector) {
+  library(package, character.only = TRUE)
+}
+
+```
+
+# Remote I-O
+```{r remote-io}
+interim_dir <- "../../data/interim/"
+external_dir <- "../../data/external/"
+model_dir <- "../../models/populationsim-taz/"
+
+excel_filename <- paste0(interim_dir, "PopSim Control Totals 03-25-2022.xlsx")
+puma_shape_filename <- paste0(external_dir, "census/tl_2010_06_puma10.shp")
+taz_shape_filename <- paste0(interim_dir, "Link21_TAZ_Merged_FINAL_v15.shp")
+
+output_crosswalk_filename <- paste0(model_dir, "data/geo_crosswalk.csv")
+output_taz_control_filename <- paste0(model_dir, "data/control_totals_taz.csv")
+output_county_control_filename <- paste0(model_dir, "data/control_totals_county.csv")
+output_countypuma_control_filename <- paste0(model_dir, "data/control_totals_countypuma.csv")
+output_combined_county_control_filename <- paste0(model_dir, "data/control_totals_countycomb.csv")
+output_sub_region_control_filename <- paste0(model_dir, "data/control_totals_subregion.csv")
+output_region_control_filename <- paste0(model_dir, "data/control_totals_region.csv")
+output_single_control_filename <- paste0(model_dir, "data/control_totals_single.csv")
+```
+
+# Parameters
+```{r parameters}
+LAT_LNG_EPSG <- 4326
+PLANAR_EPSG <- 3857
+
+```
+
+# Data Reads
+```{r data-reads}
+taz_df <- read_excel(excel_filename, sheet = "TAZ")
+county_df <- read_excel(excel_filename, sheet = "County", skip = 1L)
+region_df <- read_excel(excel_filename, sheet = "Region", skip = 1L)
+
+taz_sf <- st_read(taz_shape_filename)
+puma_sf <- st_read(puma_shape_filename)
+```
+
+# Make Geometry Crosswalk
+```{r make-geography}
+taz_centroid_sf <- taz_sf %>%
+  select(TAZ = LINK21_TAZ, geometry) %>%
+  st_transform(., crs = PLANAR_EPSG) %>%
+  st_centroid(.)
+
+taz_puma_df <- puma_sf %>%
+  mutate(PUMA = as.integer(PUMACE10)) %>%
+  st_transform(., crs = PLANAR_EPSG) %>%
+  select(PUMA, geometry) %>%
+  st_join(taz_centroid_sf, ., join = st_intersects) %>%
+  st_drop_geometry(.) %>%
+  mutate(PUMA = if_else(TAZ == 3, 7506L, PUMA))
+
+missing_df <- taz_puma_df %>%
+  filter(is.na(PUMA))
+
+county_names_df <- select(taz_df, county_name = County) %>%
+  distinct(.) %>%
+  mutate(COUNTY = row_number())
+
+temp_df <- tibble(COUNTY = seq(1,21),
+                  COUNTYCOMB = c( 1L,  2L,  3L,  4L,  5L,
+                                  6L,  7L,  8L,  9L, 10L,
+                                  11L, 12L, 11L, 13L, 14L,
+                                  15L, 16L, 17L, 18L, 19L,
+                                  18L))
+
+combined_county_df <- temp_df %>%
+  left_join(., county_names_df, by = c("COUNTY")) %>%
+  group_by(COUNTYCOMB) %>%
+  summarise(countycomb_label = paste(county_name, collapse = "-"), .groups = "drop") %>%
+  left_join(temp_df, ., by = c("COUNTYCOMB"))
+  
+county_puma_df <- taz_df %>%
+  select(TAZ, county_name = County) %>%
+  left_join(., county_names_df, by = c("county_name")) %>%
+  left_join(., taz_puma_df, by = c("TAZ")) %>%
+  distinct(COUNTY, PUMA) %>%
+  arrange(COUNTY, PUMA) %>%
+  mutate(COUNTYPUMA = row_number())
+  
+crosswalk_df <- taz_df %>%
+  select(TAZ, county_name = County, REGION = Region) %>%
+  left_join(., taz_puma_df, by = c("TAZ")) %>%
+  left_join(., county_names_df, by = c("county_name")) %>%
+  select(-county_name) %>%
+  select(TAZ, COUNTY, PUMA, REGION) %>%
+  left_join(., county_puma_df, by = c("COUNTY", "PUMA")) %>%
+  left_join(., combined_county_df, by = c("COUNTY"))
+
+check_df <- crosswalk_df %>%
+  distinct(COUNTY, PUMA) %>%
+  group_by(PUMA) %>%
+  summarise(count = n(), .groups = "drop") %>%
+  filter(count > 1)
+
+check_cross_df <- filter(crosswalk_df, PUMA %in% check_df$PUMA)
+
+write_csv(crosswalk_df, output_crosswalk_filename)
+
+```
+
+# Make TAZ Control
+```{r taz-control}
+taz_control_df <- taz_df %>%
+  select(TAZ,
+         HHBASE = HH,
+         HHCHILDNO = `No Children`,
+         HHCHILDYES = Children,
+         HHINC1 = `Less than 25k`,
+         HHINC2 = `25-50k`,
+         HHINC3 = `50-75k`,
+         HHINC4 = `75-100k`,
+         HHINC5 = `100k`)
+
+write_csv(taz_control_df, output_taz_control_filename)
+```
+
+# Make County Puma Control
+```{r county-puma-control}
+join_taz_df <- taz_control_df %>%
+  left_join(., select(crosswalk_df, TAZ, COUNTYPUMA, COUNTY), by = c("TAZ")) %>%
+  select(-TAZ) %>%
+  group_by(COUNTY, COUNTYPUMA) %>%
+  summarise_all(sum)
+  
+county_puma_control_df <- county_df %>%
+  filter(County != "Total") %>%
+  select(county_name = County,
+         HHSIZE1 = `1...11`,
+         HHSIZE2 = `2...12`,
+         HHSIZE3 = `3`,
+         HHSIZE4 = `4+`,
+         HHWORK0 = `0`,
+         HHWORK1 = `1...16`,
+         HHWORK2 = `2...17`,
+         HHWORK3 = `3+`) %>%
+  left_join(., county_names_df, by = c("county_name")) %>%
+  left_join(join_taz_df, ., by = c("COUNTY")) %>%
+  group_by(COUNTY) %>%
+  mutate(share = HHBASE / sum(HHBASE)) %>%
+  mutate(HHSIZE1 = round(HHSIZE1 * share),
+         HHSIZE2 = round(HHSIZE2 * share),
+         HHSIZE3 = round(HHSIZE3 * share),
+         HHSIZE4 = round(HHSIZE4 * share),
+         HHWORK0 = round(HHWORK0 * share),
+         HHWORK1 = round(HHWORK1 * share),
+         HHWORK2 = round(HHWORK2 * share),
+         HHWORK3 = round(HHWORK3 * share)) %>%
+  ungroup() %>%
+  select(-share, -COUNTY, -county_name)
+
+write_csv(county_puma_control_df, output_countypuma_control_filename)
+
+```
+
+# Make County Control
+```{r county-control}
+join_taz_df <- taz_control_df %>%
+  left_join(., select(crosswalk_df, TAZ, COUNTY), by = c("TAZ")) %>%
+  select(-TAZ) %>%
+  group_by(COUNTY) %>%
+  summarise_all(sum)
+  
+county_control_df <- county_df %>%
+  filter(County != "Total") %>%
+  select(county_name = County,
+         HHSIZE1 = `1...11`,
+         HHSIZE2 = `2...12`,
+         HHSIZE3 = `3`,
+         HHSIZE4 = `4+`,
+         HHWORK0 = `0`,
+         HHWORK1 = `1...16`,
+         HHWORK2 = `2...17`,
+         HHWORK3 = `3+`,
+         HHGQYES = GQ,
+         HHGQNO = `Not GQ`,
+         POPAGE1 = `0-4`,
+         POPAGE2 = `5-17`,
+         POPAGE3 = `18-24`,
+         POPAGE4 = `25-34`,
+         POPAGE5 = `35-64`,
+         POPAGE6 = `65+`,
+         POPSEX1 = Male,
+         POPSEX2 = Female) %>%
+  left_join(., county_names_df, by = c("county_name")) %>%
+  left_join(., join_taz_df, by = c("COUNTY")) %>%
+  select(-county_name) %>%
+  arrange(COUNTY) %>%
+  relocate(COUNTY)
+
+write_csv(county_control_df, output_county_control_filename)
+```
+
+
+# Make Combined County Control -- select PUMAs cross county boundaries, which breaks Populationsim
+```{r combined-county-control}
+join_taz_df <- taz_control_df %>%
+  left_join(., select(crosswalk_df, TAZ, COUNTY), by = c("TAZ")) %>%
+  select(-TAZ) %>%
+  group_by(COUNTY) %>%
+  summarise_all(sum)
+  
+combined_county_control_df <- county_df %>%
+  filter(County != "Total") %>%
+  select(county_name = County,
+         HHSIZE1 = `1...11`,
+         HHSIZE2 = `2...12`,
+         HHSIZE3 = `3`,
+         HHSIZE4 = `4+`,
+         HHWORK0 = `0`,
+         HHWORK1 = `1...16`,
+         HHWORK2 = `2...17`,
+         HHWORK3 = `3+`,
+         HHGQYES = GQ,
+         HHGQNO = `Not GQ`,
+         POPAGE1 = `0-4`,
+         POPAGE2 = `5-17`,
+         POPAGE3 = `18-24`,
+         POPAGE4 = `25-34`,
+         POPAGE5 = `35-64`,
+         POPAGE6 = `65+`,
+         POPSEX1 = Male,
+         POPSEX2 = Female) %>%
+  left_join(., county_names_df, by = c("county_name")) %>%
+  left_join(., join_taz_df, by = c("COUNTY")) %>%
+  select(-county_name) %>%
+  mutate(temp = COUNTY) %>%
+  mutate(temp = if_else(temp == 13L, 11L, temp)) %>%
+  mutate(temp = if_else(temp == 21L, 19L, temp)) %>%
+  select(-COUNTY) %>%
+  group_by(temp) %>%
+  summarise_all(sum) %>%
+  mutate(COUNTYCOMB = row_number()) %>%
+  select(-temp) %>%
+  relocate(COUNTYCOMB)
+
+write_csv(combined_county_control_df, output_combined_county_control_filename)
+```
+
+# Make Sub-Region Control
+```{r sub-region-control}
+sub_region_control_df <- region_df %>%
+  filter(County != "Total") %>%
+  select(REGION = Region,
+         POPAGE1 = `0-4`,
+         POPAGE2 = `5-17`,
+         POPAGE3 = `18-24`,
+         POPAGE4 = `25-34`,
+         POPAGE5 = `35-64`,
+         POPAGE6 = `65+`,
+         POPSEX1 = Male,
+         POPSEX2 = Female) %>%
+  arrange(REGION)
+  
+write_csv(sub_region_control_df, output_sub_region_control_filename)
+```
+
+# Make Sub-Region Control
+```{r region-control}
+region_control_df <- region_df %>%
+  filter(County != "Total") %>%
+  select(REGION = Region,
+         POPAGE1 = `0-4`,
+         POPAGE2 = `5-17`,
+         POPAGE3 = `18-24`,
+         POPAGE4 = `25-34`,
+         POPAGE5 = `35-64`,
+         POPAGE6 = `65+`,
+         POPSEX1 = Male,
+         POPSEX2 = Female) %>%
+  mutate(REGION = 1L) %>%
+  group_by(REGION) %>%
+  summarise_all(sum) 
+  
+write_csv(region_control_df, output_region_control_filename)
+```
+
+
+
+# Make Single Control for Testing
+```{r single-control}
+single_control_df <- county_control_df %>%
+  mutate(SINGLE = 1L) %>%
+  select(-COUNTY) %>%
+  group_by(SINGLE) %>%
+  summarise_all(sum) %>%
+  mutate(PERSBASE = 12523333)
+
+write_csv(single_control_df, output_single_control_filename)  
+```
+
+
+# Debug
+```{r }
+problem_taz_vector <- crosswalk_df %>%
+  filter(PUMA == 7503) %>%
+  .$TAZ
+
+df_controls <- taz_control_df %>%
+  filter(TAZ %in% problem_taz_vector)
+
+
+seed_hh_filename <- paste0(model_dir, "data/seed_households.csv")
+seed_hh_df <- read_csv(seed_hh_filename)
+
+df_hh_seed <- seed_hh_df %>%
+  select(hhnum, PUMA, WGTP, NP) %>%
+  filter(PUMA == 7503)
+
+seed_person_filename <- paste0(model_dir, "data/seed_persons.csv")
+seed_person_df <- read_csv(seed_person_filename)
+
+df_persons <- seed_hh_df %>%
+  mutate(persons = NP * WGTP)
+
+sum(seed_person_df$PWGTP)
+sum(df_persons$persons)
+
+```
+

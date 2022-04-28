@@ -167,7 +167,6 @@ output_df <- wide_df %>%
 
 # Check Ranges for Computed variables
 ```{r check}
-table(hh_renamed_df$hhinccat1)
 table(person_renamed_df$pemploy)
 table(person_renamed_df$pstudent)
 table(person_renamed_df$ptype)

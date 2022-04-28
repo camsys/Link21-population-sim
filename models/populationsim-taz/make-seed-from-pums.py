@@ -132,8 +132,8 @@ hh_update['hh_income_2017'] = hh_update['hh_income_2018'] * 0.97695
 hh_update['hh_income_2010'] = hh_update['hh_income_2018'] * 0.87208
 hh_update['hh_income_2000'] = hh_update['hh_income_2018'] * 0.68602
 
-hh_update['hhinccat1'] = pd.cut(hh_update['hh_income_2000'], [-np.inf, 20000, 50000, 100000, np.inf], labels = [1, 2, 3, 4]).values.add_categories(999)
-hh_update.loc[pd.isna(hh_update['HINCP']), 'hhinccat1'] = 999
+# hh_update['hhinccat1'] = pd.cut(hh_update['hh_income_2000'], [-np.inf, 20000, 50000, 100000, np.inf], labels = [1, 2, 3, 4]).values.add_categories(999)
+# hh_update.loc[pd.isna(hh_update['HINCP']), 'hhinccat1'] = 999
 
 # add household type to hh seed table
 hh_update['household_type'] = 999
@@ -167,9 +167,9 @@ per_update.loc[(per_update['ESR']==6)|(per_update['ESR']==3), 'pemploy'] = 3  # 
 
 # tm1.5 person student variable
 per_update['pstudent'] = 999
-per_update.loc[(per_update['SCHG']==1)|(per_update['SCHG']==2)|(per_update['SCHG']==3)|(per_update['SCHG']==4)|(per_update['SCHG']==5), 'pstudent'] = 1 # pre-school through grade 12 student
-per_update.loc[(per_update['SCHG']==6)|(per_update['SCHG']==7), 'pstudent'] = 2 # university/professional school student
-per_update.loc[pd.isnull(per_update['SCHG']), 'pstudent'] = 3 # non-student
+per_update.loc[per_update['SCHG']<=14, 'pstudent'] = 1 # pre-school through grade 12 student
+per_update.loc[(per_update['SCHG']==15)|(per_update['SCHG']==16), 'pstudent'] = 2 # university/professional school student
+per_update.loc[pd.isna(per_update['SCHG']), 'pstudent'] = 3 # non-student
 
 # tm1.5 person type
 per_update['ptype'] = 999

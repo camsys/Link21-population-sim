@@ -30,22 +30,23 @@ for (package in packages_vector) {
 
 # Remote I-O
 ```{r remote-io}
-interim_dir <- "../../data/interim/"
-external_dir <- "../../data/external/"
-model_dir <- "../../models/populationsim-taz/"
+interim_dir <- "./"
+external_dir <- "./"
+model_dir <- "./"
 
 excel_filename <- paste0(interim_dir, "PopSim Control Totals 03-25-2022.xlsx")
+taz_correspondence_excel_filename <- paste0(interim_dir, "TAZ Renumbers v15.xlsx")
 puma_shape_filename <- paste0(external_dir, "census/tl_2010_06_puma10.shp")
-taz_shape_filename <- paste0(interim_dir, "Link21_TAZ_Merged_FINAL_v15.shp")
+taz_shape_filename <- paste0(interim_dir, "taz_boundary/Link21_TAZ_Merged_FINAL_v15.shp")
 
-output_crosswalk_filename <- paste0(model_dir, "data/geo_crosswalk.csv")
-output_taz_control_filename <- paste0(model_dir, "data/control_totals_taz.csv")
-output_county_control_filename <- paste0(model_dir, "data/control_totals_county.csv")
-output_countypuma_control_filename <- paste0(model_dir, "data/control_totals_countypuma.csv")
-output_combined_county_control_filename <- paste0(model_dir, "data/control_totals_countycomb.csv")
-output_sub_region_control_filename <- paste0(model_dir, "data/control_totals_subregion.csv")
-output_region_control_filename <- paste0(model_dir, "data/control_totals_region.csv")
-output_single_control_filename <- paste0(model_dir, "data/control_totals_single.csv")
+output_crosswalk_filename <- paste0(model_dir, "geo_crosswalk.csv")
+output_taz_control_filename <- paste0(model_dir, "control_totals_taz.csv")
+output_county_control_filename <- paste0(model_dir, "control_totals_county.csv")
+output_countypuma_control_filename <- paste0(model_dir, "control_totals_countypuma.csv")
+output_combined_county_control_filename <- paste0(model_dir, "control_totals_countycomb.csv")
+output_sub_region_control_filename <- paste0(model_dir, "control_totals_subregion.csv")
+output_region_control_filename <- paste0(model_dir, "control_totals_region.csv")
+output_single_control_filename <- paste0(model_dir, "control_totals_single.csv")
 ```
 
 # Parameters
@@ -61,12 +62,16 @@ taz_df <- read_excel(excel_filename, sheet = "TAZ")
 county_df <- read_excel(excel_filename, sheet = "County", skip = 1L)
 region_df <- read_excel(excel_filename, sheet = "Region", skip = 1L)
 
+renumber_df <- read_excel(taz_correspondence_excel_filename, sheet = "Correspondence")
+
 taz_sf <- st_read(taz_shape_filename)
 puma_sf <- st_read(puma_shape_filename)
 ```
 
 # Make Geometry Crosswalk
 ```{r make-geography}
+renumber_join_df <- select(renumber_df, TAZ_old = LINK21_TAZ, TAZ_new = TAZ_Renum)
+
 taz_centroid_sf <- taz_sf %>%
   select(TAZ = LINK21_TAZ, geometry) %>%
   st_transform(., crs = PLANAR_EPSG) %>%
@@ -115,7 +120,12 @@ crosswalk_df <- taz_df %>%
   select(-county_name) %>%
   select(TAZ, COUNTY, PUMA, REGION) %>%
   left_join(., county_puma_df, by = c("COUNTY", "PUMA")) %>%
-  left_join(., combined_county_df, by = c("COUNTY"))
+  left_join(., combined_county_df, by = c("COUNTY")) %>%
+  rename(TAZ_old = TAZ) %>%
+  left_join(., renumber_join_df, by = c("TAZ_old")) %>%
+  rename(TAZ = TAZ_new) %>%
+  select(-TAZ_old) %>%
+  relocate(TAZ)
 
 check_df <- crosswalk_df %>%
   distinct(COUNTY, PUMA) %>%
@@ -140,7 +150,12 @@ taz_control_df <- taz_df %>%
          HHINC2 = `25-50k`,
          HHINC3 = `50-75k`,
          HHINC4 = `75-100k`,
-         HHINC5 = `100k`)
+         HHINC5 = `100k`) %>%
+  rename(TAZ_old = TAZ) %>%
+  left_join(., renumber_join_df, by = c("TAZ_old")) %>%
+  rename(TAZ = TAZ_new) %>%
+  select(-TAZ_old) %>%
+  relocate(TAZ)
 
 write_csv(taz_control_df, output_taz_control_filename)
 ```
@@ -322,29 +337,6 @@ write_csv(single_control_df, output_single_control_filename)
 
 # Debug
 ```{r }
-problem_taz_vector <- crosswalk_df %>%
-  filter(PUMA == 7503) %>%
-  .$TAZ
-
-df_controls <- taz_control_df %>%
-  filter(TAZ %in% problem_taz_vector)
-
-
-seed_hh_filename <- paste0(model_dir, "data/seed_households.csv")
-seed_hh_df <- read_csv(seed_hh_filename)
-
-df_hh_seed <- seed_hh_df %>%
-  select(hhnum, PUMA, WGTP, NP) %>%
-  filter(PUMA == 7503)
-
-seed_person_filename <- paste0(model_dir, "data/seed_persons.csv")
-seed_person_df <- read_csv(seed_person_filename)
-
-df_persons <- seed_hh_df %>%
-  mutate(persons = NP * WGTP)
-
-sum(seed_person_df$PWGTP)
-sum(df_persons$persons)
 
 ```
 

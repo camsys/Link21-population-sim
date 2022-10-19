@@ -1,0 +1,13 @@
+# MacOS
+.DS_Store
+
+# R
+.Rhistory
+.Rproj.user/*
+
+# PopulationSim
+models/populationsim-taz/data/psam_*.csv
+models/populationsim-taz/data/seed_*.csv
+models/populationsim-taz/output/*.zip
+models/populationsim-taz-validate/.Rproj.user/*
+.Rproj.user

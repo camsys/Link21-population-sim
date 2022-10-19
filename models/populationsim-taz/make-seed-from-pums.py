@@ -128,9 +128,9 @@ hh_update.loc[hh_update['ADJINC']==1054606, 'hh_income_2018'] = round((hh_update
 hh_update.loc[hh_update['ADJINC']==1031452, 'hh_income_2018'] = round((hh_update['HINCP']/1.0)*1.013097*1.01811790,2)
 hh_update.loc[hh_update['ADJINC']==1010145, 'hh_income_2018'] = round((hh_update['HINCP']/1.0)*1.010145*1.00000000,2)
 
-hh_update['hh_income_2017'] = hh_update['hh_income_2018'] * 0.97695
-hh_update['hh_income_2010'] = hh_update['hh_income_2018'] * 0.87208
-hh_update['hh_income_2000'] = hh_update['hh_income_2018'] * 0.68602
+hh_update['hh_income_2017'] = hh_update['hh_income_2018'] * 0.9628
+hh_update['hh_income_2010'] = hh_update['hh_income_2018'] * 0.7966
+hh_update['hh_income_2000'] = hh_update['hh_income_2018'] * 0.6311
 
 # hh_update['hhinccat1'] = pd.cut(hh_update['hh_income_2000'], [-np.inf, 20000, 50000, 100000, np.inf], labels = [1, 2, 3, 4]).values.add_categories(999)
 # hh_update.loc[pd.isna(hh_update['HINCP']), 'hhinccat1'] = 999

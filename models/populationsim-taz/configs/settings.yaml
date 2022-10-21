@@ -15,7 +15,7 @@ max_expansion_factor: 50
 
 # Geographic Settings
 # ------------------------------------------------------------------
-geographies: [COUNTYCOMB, PUMA, TAZ]
+geographies: [COUNTY, PUMA, TAZ]
 seed_geography: PUMA
 
 
@@ -44,8 +44,8 @@ input_table_list:
     filename : geo_crosswalk.csv
   - tablename: TAZ_control_data
     filename : control_totals_taz.csv
-  - tablename: COUNTYCOMB_control_data
-    filename : control_totals_countycomb.csv
+  - tablename: COUNTY_control_data
+    filename : control_totals_county.csv
 
 
 # Reserved Column Names
@@ -69,25 +69,15 @@ output_tables:
   action: include
   tables:
     - summary_TAZ
-    - summary_COUNTYCOMB_1
-    - summary_COUNTYCOMB_2
-    - summary_COUNTYCOMB_3
-    - summary_COUNTYCOMB_4
-    - summary_COUNTYCOMB_5
-    - summary_COUNTYCOMB_6
-    - summary_COUNTYCOMB_7
-    - summary_COUNTYCOMB_8
-    - summary_COUNTYCOMB_9
-    - summary_COUNTYCOMB_10
-    - summary_COUNTYCOMB_11
-    - summary_COUNTYCOMB_12
-    - summary_COUNTYCOMB_13
-    - summary_COUNTYCOMB_14
-    - summary_COUNTYCOMB_15
-    - summary_COUNTYCOMB_16
-    - summary_COUNTYCOMB_17
-    - summary_COUNTYCOMB_18
-    - summary_COUNTYCOMB_19
+    - summary_COUNTY_1
+    - summary_COUNTY_2
+    - summary_COUNTY_3
+    - summary_COUNTY_4
+    - summary_COUNTY_5
+    - summary_COUNTY_6
+    - summary_COUNTY_7
+    - summary_COUNTY_8
+    - summary_COUNTY_9
     - expanded_household_ids
 
 

@@ -22,11 +22,11 @@ for (package in packages_vector) {
 input_dir <- "../populationsim-taz/"
 output_dir <- "./"
 
-controls_meta_filename <- paste0(input_dir, "data/control_totals_countycomb.csv")
+controls_meta_filename <- paste0(input_dir, "data/control_totals_county.csv")
 geo_crosswalk_filename <- paste0(input_dir, "data/geo_crosswalk.csv")
 
 summarise_taz_filename <- paste0(input_dir, "output/final_summary_TAZ.csv")
-summarise_countycomb_fileprefix <- paste0(input_dir, "output/final_summary_COUNTYCOMB_")
+summarise_county_fileprefix <- paste0(input_dir, "output/final_summary_COUNTY_")
 
 sim_output_hh_filename <- paste0(input_dir, "output/synthetic_households.csv")
 sim_output_per_filename <- paste0(input_dir, "output/synthetic_persons.csv")
@@ -54,7 +54,7 @@ sum_taz_df <- read_csv(summarise_taz_filename, col_types = cols(.default = col_d
                                                                 id = col_integer()))
 
 meta_df <- read_csv(controls_meta_filename, col_types = cols(.default = col_double(),
-                                                             COUNTYCOMB = col_integer()))
+                                                             COUNTY = col_integer()))
 
 hh_df <- read_csv(sim_output_hh_filename, col_types = cols(.default = col_integer(),
                                                            PUMA = col_character(),
@@ -88,7 +88,7 @@ consume_meta_summary <- function(input_filename, meta_index) {
   output_df <- df %>%
     select(name = control_name,
            Control = control_value,
-           Result = COUNTYCOMB_integer_weight) %>%
+           Result = COUNTY_integer_weight) %>%
     mutate(id = index,
            geography = "META") %>%
     mutate(Difference = Control - Result) %>%
@@ -106,12 +106,12 @@ consume_meta_summary <- function(input_filename, meta_index) {
 
 # Process Meta-level Summaries
 ```{r meta-summaries}
-number_meta <- length(unique(crosswalk_df$COUNTYCOMB))
+number_meta <- length(unique(crosswalk_df$COUNTY))
 
 sum_meta_df <- tibble()
 for (index in 1:number_meta){
   
-  filename <- paste0(summarise_countycomb_fileprefix, index, ".csv")
+  filename <- paste0(summarise_county_fileprefix, index, ".csv")
   df <- consume_meta_summary(filename, index)
   sum_meta_df <- bind_rows(sum_meta_df, df)
   
@@ -122,7 +122,7 @@ for (index in 1:number_meta){
 # Reduce Output
 ```{r reduce-output}
 sum_region_hh_df <- hh_df %>%
-  mutate(geography = "MEGAREGION") %>%
+  mutate(geography = "REGION") %>%
   group_by(geography) %>%
   summarise(hh_total_result = n(), .groups = "drop") %>%
   mutate(id = 1L) %>%
@@ -130,7 +130,7 @@ sum_region_hh_df <- hh_df %>%
   mutate(hh_total_diff = hh_total_control - hh_total_result)
 
 sum_region_pers_df <- person_df %>%
-  mutate(geography = "MEGAREGION") %>%
+  mutate(geography = "REGION") %>%
   group_by(geography) %>%
   summarise(per_total_result = n(), .groups = "drop") %>%
   mutate(id = 1L) %>%
@@ -142,7 +142,7 @@ wide_df <- bind_rows(sum_taz_df,
                      sum_region_pers_df)
 
 join_cross_df <- crosswalk_df %>%
-  select(id = COUNTYCOMB, countycomb_label) %>%
+  select(id = COUNTY) %>%
   distinct(.) %>%
   mutate(geography = "META")
   

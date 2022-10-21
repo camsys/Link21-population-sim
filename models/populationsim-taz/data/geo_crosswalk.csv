@@ -1,4300 +1,3333 @@
-TAZ,COUNTY,PUMA,REGION,COUNTYPUMA,COUNTYCOMB,countycomb_label
-1,1,7503,1,3,1,San Francisco
-2,1,7507,1,7,1,San Francisco
-3,1,7506,1,6,1,San Francisco
-4,1,7502,1,2,1,San Francisco
-5,1,7507,1,7,1,San Francisco
-6,1,7503,1,3,1,San Francisco
-7,1,7502,1,2,1,San Francisco
-8,1,7503,1,3,1,San Francisco
-9,1,7502,1,2,1,San Francisco
-10,1,7502,1,2,1,San Francisco
-11,1,7502,1,2,1,San Francisco
-12,1,7502,1,2,1,San Francisco
-13,1,7502,1,2,1,San Francisco
-14,1,7502,1,2,1,San Francisco
-15,1,7502,1,2,1,San Francisco
-16,1,7502,1,2,1,San Francisco
-17,1,7502,1,2,1,San Francisco
-18,1,7502,1,2,1,San Francisco
-19,1,7503,1,3,1,San Francisco
-20,1,7502,1,2,1,San Francisco
-21,1,7502,1,2,1,San Francisco
-22,1,7502,1,2,1,San Francisco
-23,1,7503,1,3,1,San Francisco
-24,1,7503,1,3,1,San Francisco
-25,1,7503,1,3,1,San Francisco
-26,1,7503,1,3,1,San Francisco
-27,1,7503,1,3,1,San Francisco
-28,1,7503,1,3,1,San Francisco
-29,1,7503,1,3,1,San Francisco
-30,1,7503,1,3,1,San Francisco
-31,1,7503,1,3,1,San Francisco
-32,1,7503,1,3,1,San Francisco
-33,1,7502,1,2,1,San Francisco
-34,1,7502,1,2,1,San Francisco
-35,1,7503,1,3,1,San Francisco
-36,1,7503,1,3,1,San Francisco
-37,1,7503,1,3,1,San Francisco
-38,1,7503,1,3,1,San Francisco
-39,1,7503,1,3,1,San Francisco
-40,1,7503,1,3,1,San Francisco
-41,1,7502,1,2,1,San Francisco
-42,1,7502,1,2,1,San Francisco
-43,1,7502,1,2,1,San Francisco
-44,1,7502,1,2,1,San Francisco
-45,1,7502,1,2,1,San Francisco
-46,1,7502,1,2,1,San Francisco
-47,1,7502,1,2,1,San Francisco
-48,1,7502,1,2,1,San Francisco
-49,1,7503,1,3,1,San Francisco
-50,1,7503,1,3,1,San Francisco
-51,1,7503,1,3,1,San Francisco
-52,1,7503,1,3,1,San Francisco
-53,1,7502,1,2,1,San Francisco
-54,1,7502,1,2,1,San Francisco
-55,1,7502,1,2,1,San Francisco
-56,1,7502,1,2,1,San Francisco
-57,1,7502,1,2,1,San Francisco
-58,1,7502,1,2,1,San Francisco
-59,1,7502,1,2,1,San Francisco
-60,1,7502,1,2,1,San Francisco
-61,1,7502,1,2,1,San Francisco
-62,1,7502,1,2,1,San Francisco
-63,1,7502,1,2,1,San Francisco
-64,1,7502,1,2,1,San Francisco
-65,1,7502,1,2,1,San Francisco
-66,1,7502,1,2,1,San Francisco
-67,1,7502,1,2,1,San Francisco
-68,1,7502,1,2,1,San Francisco
-69,1,7502,1,2,1,San Francisco
-70,1,7503,1,3,1,San Francisco
-71,1,7503,1,3,1,San Francisco
-72,1,7503,1,3,1,San Francisco
-73,1,7502,1,2,1,San Francisco
-74,1,7503,1,3,1,San Francisco
-75,1,7503,1,3,1,San Francisco
-76,1,7503,1,3,1,San Francisco
-77,1,7503,1,3,1,San Francisco
-78,1,7503,1,3,1,San Francisco
-79,1,7503,1,3,1,San Francisco
-80,1,7503,1,3,1,San Francisco
-81,1,7503,1,3,1,San Francisco
-82,1,7502,1,2,1,San Francisco
-83,1,7502,1,2,1,San Francisco
-84,1,7502,1,2,1,San Francisco
-85,1,7503,1,3,1,San Francisco
-86,1,7503,1,3,1,San Francisco
-87,1,7503,1,3,1,San Francisco
-88,1,7503,1,3,1,San Francisco
-89,1,7503,1,3,1,San Francisco
-90,1,7503,1,3,1,San Francisco
-91,1,7503,1,3,1,San Francisco
-92,1,7503,1,3,1,San Francisco
-93,1,7503,1,3,1,San Francisco
-94,1,7503,1,3,1,San Francisco
-95,1,7503,1,3,1,San Francisco
-96,1,7503,1,3,1,San Francisco
-97,1,7503,1,3,1,San Francisco
-98,1,7503,1,3,1,San Francisco
-99,1,7503,1,3,1,San Francisco
-100,1,7503,1,3,1,San Francisco
-101,2,8103,1,10,2,San Mateo
-102,2,8103,1,10,2,San Mateo
-103,2,8103,1,10,2,San Mateo
-104,1,7502,1,2,1,San Francisco
-105,1,7502,1,2,1,San Francisco
-106,1,7502,1,2,1,San Francisco
-107,1,7502,1,2,1,San Francisco
-108,1,7502,1,2,1,San Francisco
-109,1,7502,1,2,1,San Francisco
-110,1,7502,1,2,1,San Francisco
-111,1,7504,1,4,1,San Francisco
-112,1,7501,1,1,1,San Francisco
-113,1,7501,1,1,1,San Francisco
-114,1,7501,1,1,1,San Francisco
-115,1,7501,1,1,1,San Francisco
-116,1,7501,1,1,1,San Francisco
-117,1,7501,1,1,1,San Francisco
-118,1,7501,1,1,1,San Francisco
-119,1,7501,1,1,1,San Francisco
-120,1,7501,1,1,1,San Francisco
-121,1,7501,1,1,1,San Francisco
-122,1,7501,1,1,1,San Francisco
-123,1,7501,1,1,1,San Francisco
-124,1,7501,1,1,1,San Francisco
-125,1,7501,1,1,1,San Francisco
-126,1,7501,1,1,1,San Francisco
-127,1,7501,1,1,1,San Francisco
-128,1,7501,1,1,1,San Francisco
-129,1,7501,1,1,1,San Francisco
-130,1,7501,1,1,1,San Francisco
-131,1,7501,1,1,1,San Francisco
-132,1,7501,1,1,1,San Francisco
-133,1,7501,1,1,1,San Francisco
-134,1,7501,1,1,1,San Francisco
-135,1,7501,1,1,1,San Francisco
-136,1,7501,1,1,1,San Francisco
-137,1,7501,1,1,1,San Francisco
-138,1,7501,1,1,1,San Francisco
-139,1,7501,1,1,1,San Francisco
-140,1,7501,1,1,1,San Francisco
-141,1,7501,1,1,1,San Francisco
-142,1,7501,1,1,1,San Francisco
-143,1,7501,1,1,1,San Francisco
-144,1,7501,1,1,1,San Francisco
-145,1,7501,1,1,1,San Francisco
-146,1,7501,1,1,1,San Francisco
-147,1,7501,1,1,1,San Francisco
-148,1,7501,1,1,1,San Francisco
-149,1,7501,1,1,1,San Francisco
-150,1,7501,1,1,1,San Francisco
-151,1,7501,1,1,1,San Francisco
-152,1,7501,1,1,1,San Francisco
-153,1,7501,1,1,1,San Francisco
-154,1,7501,1,1,1,San Francisco
-155,1,7501,1,1,1,San Francisco
-156,1,7501,1,1,1,San Francisco
-157,1,7502,1,2,1,San Francisco
-158,1,7502,1,2,1,San Francisco
-159,1,7502,1,2,1,San Francisco
-160,1,7502,1,2,1,San Francisco
-161,1,7501,1,1,1,San Francisco
-162,1,7501,1,1,1,San Francisco
-163,1,7501,1,1,1,San Francisco
-164,1,7501,1,1,1,San Francisco
-165,1,7501,1,1,1,San Francisco
-166,1,7504,1,4,1,San Francisco
-167,1,7504,1,4,1,San Francisco
-168,1,7504,1,4,1,San Francisco
-169,1,7504,1,4,1,San Francisco
-170,1,7504,1,4,1,San Francisco
-171,1,7504,1,4,1,San Francisco
-172,1,7504,1,4,1,San Francisco
-173,1,7504,1,4,1,San Francisco
-174,1,7504,1,4,1,San Francisco
-175,1,7504,1,4,1,San Francisco
-176,1,7504,1,4,1,San Francisco
-177,1,7502,1,2,1,San Francisco
-178,1,7502,1,2,1,San Francisco
-179,1,7502,1,2,1,San Francisco
-180,1,7501,1,1,1,San Francisco
-181,1,7502,1,2,1,San Francisco
-182,1,7502,1,2,1,San Francisco
-183,1,7502,1,2,1,San Francisco
-184,1,7501,1,1,1,San Francisco
-185,1,7501,1,1,1,San Francisco
-186,1,7501,1,1,1,San Francisco
-187,1,7501,1,1,1,San Francisco
-188,1,7502,1,2,1,San Francisco
-189,1,7502,1,2,1,San Francisco
-190,1,7502,1,2,1,San Francisco
-191,1,7502,1,2,1,San Francisco
-192,1,7502,1,2,1,San Francisco
-193,1,7501,1,1,1,San Francisco
-194,1,7501,1,1,1,San Francisco
-195,1,7501,1,1,1,San Francisco
-196,1,7501,1,1,1,San Francisco
-197,1,7501,1,1,1,San Francisco
-198,1,7501,1,1,1,San Francisco
-199,1,7501,1,1,1,San Francisco
-200,1,7501,1,1,1,San Francisco
-201,1,7501,1,1,1,San Francisco
-202,1,7501,1,1,1,San Francisco
-203,1,7501,1,1,1,San Francisco
-204,1,7501,1,1,1,San Francisco
-205,1,7501,1,1,1,San Francisco
-206,1,7501,1,1,1,San Francisco
-207,1,7501,1,1,1,San Francisco
-208,1,7501,1,1,1,San Francisco
-209,1,7501,1,1,1,San Francisco
-210,1,7501,1,1,1,San Francisco
-211,1,7501,1,1,1,San Francisco
-212,1,7501,1,1,1,San Francisco
-213,1,7501,1,1,1,San Francisco
-214,1,7501,1,1,1,San Francisco
-215,1,7501,1,1,1,San Francisco
-216,1,7501,1,1,1,San Francisco
-217,1,7501,1,1,1,San Francisco
-218,1,7501,1,1,1,San Francisco
-219,1,7501,1,1,1,San Francisco
-220,1,7501,1,1,1,San Francisco
-221,1,7501,1,1,1,San Francisco
-222,1,7501,1,1,1,San Francisco
-223,1,7501,1,1,1,San Francisco
-224,1,7501,1,1,1,San Francisco
-225,1,7501,1,1,1,San Francisco
-226,1,7501,1,1,1,San Francisco
-227,1,7501,1,1,1,San Francisco
-228,1,7501,1,1,1,San Francisco
-229,1,7501,1,1,1,San Francisco
-230,1,7501,1,1,1,San Francisco
-231,1,7504,1,4,1,San Francisco
-232,1,7504,1,4,1,San Francisco
-233,1,7504,1,4,1,San Francisco
-234,1,7504,1,4,1,San Francisco
-235,1,7504,1,4,1,San Francisco
-236,1,7504,1,4,1,San Francisco
-237,1,7501,1,1,1,San Francisco
-238,1,7501,1,1,1,San Francisco
-239,1,7501,1,1,1,San Francisco
-240,1,7501,1,1,1,San Francisco
-241,1,7501,1,1,1,San Francisco
-242,1,7501,1,1,1,San Francisco
-243,1,7501,1,1,1,San Francisco
-244,1,7501,1,1,1,San Francisco
-245,1,7504,1,4,1,San Francisco
-246,1,7504,1,4,1,San Francisco
-247,1,7504,1,4,1,San Francisco
-248,1,7504,1,4,1,San Francisco
-249,1,7504,1,4,1,San Francisco
-250,1,7504,1,4,1,San Francisco
-251,1,7504,1,4,1,San Francisco
-252,1,7501,1,1,1,San Francisco
-253,1,7501,1,1,1,San Francisco
-254,1,7504,1,4,1,San Francisco
-255,1,7504,1,4,1,San Francisco
-256,1,7501,1,1,1,San Francisco
-257,1,7501,1,1,1,San Francisco
-258,1,7503,1,3,1,San Francisco
-259,1,7503,1,3,1,San Francisco
-260,1,7505,1,5,1,San Francisco
-261,1,7504,1,4,1,San Francisco
-262,1,7504,1,4,1,San Francisco
-263,1,7504,1,4,1,San Francisco
-264,1,7503,1,3,1,San Francisco
-265,1,7507,1,7,1,San Francisco
-266,1,7507,1,7,1,San Francisco
-267,1,7507,1,7,1,San Francisco
-268,1,7507,1,7,1,San Francisco
-269,1,7507,1,7,1,San Francisco
-270,1,7507,1,7,1,San Francisco
-271,1,7504,1,4,1,San Francisco
-272,1,7504,1,4,1,San Francisco
-273,1,7507,1,7,1,San Francisco
-274,1,7507,1,7,1,San Francisco
-275,1,7507,1,7,1,San Francisco
-276,1,7507,1,7,1,San Francisco
-277,1,7507,1,7,1,San Francisco
-278,1,7506,1,6,1,San Francisco
-279,1,7506,1,6,1,San Francisco
-280,1,7506,1,6,1,San Francisco
-281,1,7507,1,7,1,San Francisco
-282,1,7507,1,7,1,San Francisco
-283,1,7507,1,7,1,San Francisco
-284,1,7507,1,7,1,San Francisco
-285,1,7504,1,4,1,San Francisco
-286,1,7504,1,4,1,San Francisco
-287,1,7504,1,4,1,San Francisco
-288,1,7504,1,4,1,San Francisco
-289,1,7504,1,4,1,San Francisco
-290,1,7504,1,4,1,San Francisco
-291,1,7504,1,4,1,San Francisco
-292,1,7504,1,4,1,San Francisco
-293,1,7504,1,4,1,San Francisco
-294,1,7504,1,4,1,San Francisco
-295,1,7504,1,4,1,San Francisco
-296,1,7504,1,4,1,San Francisco
-297,1,7504,1,4,1,San Francisco
-298,1,7503,1,3,1,San Francisco
-299,1,7503,1,3,1,San Francisco
-300,1,7503,1,3,1,San Francisco
-301,1,7503,1,3,1,San Francisco
-302,1,7503,1,3,1,San Francisco
-303,1,7503,1,3,1,San Francisco
-304,1,7503,1,3,1,San Francisco
-305,1,7503,1,3,1,San Francisco
-306,1,7504,1,4,1,San Francisco
-307,1,7506,1,6,1,San Francisco
-308,1,7503,1,3,1,San Francisco
-309,1,7507,1,7,1,San Francisco
-310,1,7507,1,7,1,San Francisco
-311,1,7507,1,7,1,San Francisco
-312,1,7504,1,4,1,San Francisco
-313,1,7504,1,4,1,San Francisco
-314,1,7504,1,4,1,San Francisco
-315,1,7504,1,4,1,San Francisco
-316,1,7504,1,4,1,San Francisco
-317,1,7504,1,4,1,San Francisco
-318,1,7504,1,4,1,San Francisco
-319,1,7504,1,4,1,San Francisco
-320,1,7504,1,4,1,San Francisco
-321,1,7504,1,4,1,San Francisco
-322,1,7504,1,4,1,San Francisco
-323,1,7504,1,4,1,San Francisco
-324,1,7504,1,4,1,San Francisco
-325,1,7504,1,4,1,San Francisco
-326,1,7504,1,4,1,San Francisco
-327,1,7504,1,4,1,San Francisco
-328,1,7504,1,4,1,San Francisco
-329,1,7506,1,6,1,San Francisco
-330,1,7506,1,6,1,San Francisco
-331,1,7506,1,6,1,San Francisco
-332,1,7506,1,6,1,San Francisco
-333,1,7507,1,7,1,San Francisco
-334,1,7507,1,7,1,San Francisco
-335,1,7507,1,7,1,San Francisco
-336,1,7507,1,7,1,San Francisco
-337,1,7506,1,6,1,San Francisco
-338,1,7506,1,6,1,San Francisco
-339,1,7503,1,3,1,San Francisco
-340,1,7503,1,3,1,San Francisco
-341,1,7503,1,3,1,San Francisco
-342,1,7503,1,3,1,San Francisco
-343,1,7503,1,3,1,San Francisco
-344,1,7503,1,3,1,San Francisco
-345,1,7503,1,3,1,San Francisco
-346,1,7503,1,3,1,San Francisco
-347,1,7503,1,3,1,San Francisco
-348,1,7503,1,3,1,San Francisco
-349,1,7503,1,3,1,San Francisco
-350,1,7503,1,3,1,San Francisco
-351,1,7503,1,3,1,San Francisco
-352,1,7503,1,3,1,San Francisco
-353,1,7507,1,7,1,San Francisco
-354,1,7503,1,3,1,San Francisco
-355,1,7507,1,7,1,San Francisco
-356,1,7506,1,6,1,San Francisco
-357,1,7504,1,4,1,San Francisco
-358,1,7504,1,4,1,San Francisco
-359,1,7507,1,7,1,San Francisco
-360,1,7507,1,7,1,San Francisco
-361,1,7504,1,4,1,San Francisco
-362,1,7504,1,4,1,San Francisco
-363,1,7507,1,7,1,San Francisco
-364,1,7507,1,7,1,San Francisco
-365,1,7507,1,7,1,San Francisco
-366,1,7504,1,4,1,San Francisco
-367,1,7504,1,4,1,San Francisco
-368,1,7504,1,4,1,San Francisco
-369,1,7504,1,4,1,San Francisco
-370,1,7506,1,6,1,San Francisco
-371,1,7506,1,6,1,San Francisco
-372,1,7506,1,6,1,San Francisco
-373,1,7506,1,6,1,San Francisco
-374,1,7506,1,6,1,San Francisco
-375,1,7506,1,6,1,San Francisco
-376,1,7506,1,6,1,San Francisco
-377,1,7506,1,6,1,San Francisco
-378,1,7506,1,6,1,San Francisco
-379,1,7506,1,6,1,San Francisco
-380,1,7506,1,6,1,San Francisco
-381,1,7506,1,6,1,San Francisco
-382,1,7504,1,4,1,San Francisco
-383,1,7504,1,4,1,San Francisco
-384,1,7504,1,4,1,San Francisco
-385,1,7504,1,4,1,San Francisco
-386,1,7504,1,4,1,San Francisco
-387,1,7504,1,4,1,San Francisco
-388,1,7504,1,4,1,San Francisco
-389,1,7504,1,4,1,San Francisco
-390,1,7504,1,4,1,San Francisco
-391,1,7504,1,4,1,San Francisco
-392,1,7507,1,7,1,San Francisco
-393,1,7506,1,6,1,San Francisco
-394,1,7506,1,6,1,San Francisco
-395,1,7506,1,6,1,San Francisco
-396,1,7506,1,6,1,San Francisco
-397,1,7506,1,6,1,San Francisco
-398,1,7506,1,6,1,San Francisco
-399,1,7507,1,7,1,San Francisco
-400,1,7507,1,7,1,San Francisco
-401,1,7507,1,7,1,San Francisco
-402,1,7507,1,7,1,San Francisco
-403,1,7507,1,7,1,San Francisco
-404,1,7507,1,7,1,San Francisco
-405,1,7507,1,7,1,San Francisco
-406,1,7507,1,7,1,San Francisco
-407,1,7507,1,7,1,San Francisco
-408,1,7507,1,7,1,San Francisco
-409,1,7507,1,7,1,San Francisco
-410,1,7507,1,7,1,San Francisco
-411,1,7507,1,7,1,San Francisco
-412,1,7506,1,6,1,San Francisco
-413,1,7506,1,6,1,San Francisco
-414,1,7506,1,6,1,San Francisco
-415,1,7506,1,6,1,San Francisco
-416,1,7506,1,6,1,San Francisco
-417,1,7506,1,6,1,San Francisco
-418,1,7506,1,6,1,San Francisco
-419,1,7506,1,6,1,San Francisco
-420,1,7506,1,6,1,San Francisco
-421,1,7507,1,7,1,San Francisco
-422,1,7507,1,7,1,San Francisco
-423,1,7507,1,7,1,San Francisco
-424,1,7507,1,7,1,San Francisco
-425,1,7507,1,7,1,San Francisco
-426,1,7507,1,7,1,San Francisco
-427,1,7507,1,7,1,San Francisco
-428,1,7507,1,7,1,San Francisco
-429,1,7507,1,7,1,San Francisco
-430,1,7505,1,5,1,San Francisco
-431,1,7505,1,5,1,San Francisco
-432,1,7505,1,5,1,San Francisco
-433,1,7505,1,5,1,San Francisco
-434,1,7505,1,5,1,San Francisco
-435,1,7505,1,5,1,San Francisco
-436,1,7503,1,3,1,San Francisco
-437,1,7503,1,3,1,San Francisco
-438,1,7503,1,3,1,San Francisco
-439,1,7505,1,5,1,San Francisco
-440,1,7507,1,7,1,San Francisco
-441,1,7507,1,7,1,San Francisco
-442,1,7505,1,5,1,San Francisco
-443,1,7505,1,5,1,San Francisco
-444,1,7505,1,5,1,San Francisco
-445,1,7503,1,3,1,San Francisco
-446,1,7503,1,3,1,San Francisco
-447,1,7503,1,3,1,San Francisco
-448,1,7503,1,3,1,San Francisco
-449,1,7507,1,7,1,San Francisco
-450,1,7507,1,7,1,San Francisco
-451,1,7504,1,4,1,San Francisco
-452,1,7507,1,7,1,San Francisco
-453,1,7507,1,7,1,San Francisco
-454,1,7507,1,7,1,San Francisco
-455,1,7507,1,7,1,San Francisco
-456,1,7507,1,7,1,San Francisco
-457,1,7507,1,7,1,San Francisco
-458,1,7507,1,7,1,San Francisco
-459,1,7507,1,7,1,San Francisco
-460,1,7505,1,5,1,San Francisco
-461,1,7505,1,5,1,San Francisco
-462,1,7505,1,5,1,San Francisco
-463,1,7503,1,3,1,San Francisco
-464,1,7503,1,3,1,San Francisco
-465,1,7507,1,7,1,San Francisco
-466,1,7507,1,7,1,San Francisco
-467,1,7507,1,7,1,San Francisco
-468,1,7507,1,7,1,San Francisco
-469,1,7506,1,6,1,San Francisco
-470,1,7506,1,6,1,San Francisco
-471,1,7506,1,6,1,San Francisco
-472,1,7506,1,6,1,San Francisco
-473,1,7506,1,6,1,San Francisco
-474,1,7506,1,6,1,San Francisco
-475,1,7507,1,7,1,San Francisco
-476,1,7503,1,3,1,San Francisco
-477,1,7504,1,4,1,San Francisco
-478,1,7504,1,4,1,San Francisco
-479,1,7503,1,3,1,San Francisco
-480,1,7504,1,4,1,San Francisco
-481,1,7504,1,4,1,San Francisco
-482,1,7503,1,3,1,San Francisco
-483,1,7503,1,3,1,San Francisco
-484,1,7503,1,3,1,San Francisco
-485,1,7507,1,7,1,San Francisco
-486,1,7507,1,7,1,San Francisco
-487,1,7507,1,7,1,San Francisco
-488,1,7507,1,7,1,San Francisco
-489,1,7503,1,3,1,San Francisco
-490,1,7503,1,3,1,San Francisco
-491,1,7503,1,3,1,San Francisco
-492,1,7503,1,3,1,San Francisco
-493,1,7503,1,3,1,San Francisco
-494,1,7503,1,3,1,San Francisco
-495,1,7503,1,3,1,San Francisco
-496,1,7503,1,3,1,San Francisco
-497,1,7503,1,3,1,San Francisco
-498,1,7503,1,3,1,San Francisco
-499,1,7503,1,3,1,San Francisco
-500,1,7503,1,3,1,San Francisco
-501,1,7503,1,3,1,San Francisco
-502,1,7503,1,3,1,San Francisco
-503,1,7507,1,7,1,San Francisco
-504,1,7507,1,7,1,San Francisco
-505,1,7507,1,7,1,San Francisco
-506,1,7507,1,7,1,San Francisco
-507,1,7507,1,7,1,San Francisco
-508,1,7507,1,7,1,San Francisco
-509,1,7507,1,7,1,San Francisco
-510,1,7507,1,7,1,San Francisco
-511,1,7507,1,7,1,San Francisco
-512,1,7507,1,7,1,San Francisco
-513,1,7507,1,7,1,San Francisco
-514,1,7507,1,7,1,San Francisco
-515,1,7507,1,7,1,San Francisco
-516,1,7507,1,7,1,San Francisco
-517,1,7507,1,7,1,San Francisco
-518,1,7507,1,7,1,San Francisco
-519,1,7507,1,7,1,San Francisco
-520,1,7507,1,7,1,San Francisco
-521,1,7506,1,6,1,San Francisco
-522,1,7506,1,6,1,San Francisco
-523,1,7506,1,6,1,San Francisco
-524,1,7506,1,6,1,San Francisco
-525,1,7506,1,6,1,San Francisco
-526,1,7503,1,3,1,San Francisco
-527,3,102,1,15,3,Alameda
-528,3,101,1,14,3,Alameda
-529,3,105,1,18,3,Alameda
-530,3,105,1,18,3,Alameda
-531,3,102,1,15,3,Alameda
-532,3,102,1,15,3,Alameda
-533,1,7506,1,6,1,San Francisco
-534,1,7506,1,6,1,San Francisco
-535,1,7506,1,6,1,San Francisco
-536,1,7506,1,6,1,San Francisco
-537,1,7506,1,6,1,San Francisco
-538,1,7506,1,6,1,San Francisco
-539,1,7506,1,6,1,San Francisco
-540,1,7506,1,6,1,San Francisco
-541,1,7506,1,6,1,San Francisco
-542,1,7506,1,6,1,San Francisco
-543,1,7506,1,6,1,San Francisco
-544,1,7506,1,6,1,San Francisco
-545,1,7506,1,6,1,San Francisco
-546,1,7506,1,6,1,San Francisco
-547,1,7506,1,6,1,San Francisco
-548,1,7506,1,6,1,San Francisco
-549,1,7506,1,6,1,San Francisco
-550,1,7505,1,5,1,San Francisco
-551,1,7505,1,5,1,San Francisco
-552,1,7505,1,5,1,San Francisco
-553,1,7505,1,5,1,San Francisco
-554,1,7505,1,5,1,San Francisco
-555,1,7505,1,5,1,San Francisco
-556,1,7505,1,5,1,San Francisco
-557,1,7506,1,6,1,San Francisco
-558,1,7506,1,6,1,San Francisco
-559,1,7506,1,6,1,San Francisco
-560,1,7506,1,6,1,San Francisco
-561,1,7506,1,6,1,San Francisco
-562,1,7506,1,6,1,San Francisco
-563,1,7506,1,6,1,San Francisco
-564,1,7506,1,6,1,San Francisco
-565,1,7506,1,6,1,San Francisco
-566,1,7506,1,6,1,San Francisco
-567,1,7505,1,5,1,San Francisco
-568,1,7505,1,5,1,San Francisco
-569,1,7505,1,5,1,San Francisco
-570,1,7505,1,5,1,San Francisco
-571,1,7505,1,5,1,San Francisco
-572,1,7505,1,5,1,San Francisco
-573,1,7505,1,5,1,San Francisco
-574,1,7505,1,5,1,San Francisco
-575,1,7505,1,5,1,San Francisco
-576,1,7505,1,5,1,San Francisco
-577,1,7505,1,5,1,San Francisco
-578,1,7505,1,5,1,San Francisco
-579,1,7505,1,5,1,San Francisco
-580,1,7505,1,5,1,San Francisco
-581,1,7505,1,5,1,San Francisco
-582,1,7505,1,5,1,San Francisco
-583,1,7505,1,5,1,San Francisco
-584,1,7505,1,5,1,San Francisco
-585,1,7505,1,5,1,San Francisco
-586,1,7505,1,5,1,San Francisco
-587,1,7505,1,5,1,San Francisco
-588,1,7505,1,5,1,San Francisco
-589,1,7505,1,5,1,San Francisco
-590,1,7505,1,5,1,San Francisco
-591,1,7505,1,5,1,San Francisco
-592,1,7505,1,5,1,San Francisco
-593,1,7505,1,5,1,San Francisco
-594,1,7505,1,5,1,San Francisco
-595,1,7505,1,5,1,San Francisco
-596,1,7505,1,5,1,San Francisco
-597,1,7505,1,5,1,San Francisco
-598,1,7506,1,6,1,San Francisco
-599,1,7505,1,5,1,San Francisco
-600,1,7505,1,5,1,San Francisco
-601,1,7505,1,5,1,San Francisco
-602,1,7505,1,5,1,San Francisco
-603,1,7505,1,5,1,San Francisco
-604,1,7505,1,5,1,San Francisco
-605,1,7505,1,5,1,San Francisco
-606,1,7505,1,5,1,San Francisco
-607,1,7506,1,6,1,San Francisco
-608,1,7506,1,6,1,San Francisco
-609,1,7505,1,5,1,San Francisco
-610,1,7505,1,5,1,San Francisco
-611,1,7506,1,6,1,San Francisco
-612,1,7506,1,6,1,San Francisco
-613,1,7506,1,6,1,San Francisco
-614,1,7506,1,6,1,San Francisco
-615,1,7506,1,6,1,San Francisco
-616,1,7506,1,6,1,San Francisco
-617,1,7505,1,5,1,San Francisco
-618,1,7505,1,5,1,San Francisco
-619,1,7505,1,5,1,San Francisco
-620,1,7505,1,5,1,San Francisco
-621,1,7505,1,5,1,San Francisco
-622,1,7505,1,5,1,San Francisco
-623,1,7505,1,5,1,San Francisco
-624,1,7505,1,5,1,San Francisco
-625,1,7505,1,5,1,San Francisco
-626,1,7505,1,5,1,San Francisco
-627,1,7505,1,5,1,San Francisco
-628,1,7505,1,5,1,San Francisco
-629,1,7505,1,5,1,San Francisco
-630,1,7505,1,5,1,San Francisco
-631,1,7505,1,5,1,San Francisco
-632,1,7505,1,5,1,San Francisco
-633,1,7505,1,5,1,San Francisco
-634,1,7505,1,5,1,San Francisco
-635,1,7505,1,5,1,San Francisco
-636,1,7506,1,6,1,San Francisco
-637,1,7506,1,6,1,San Francisco
-638,1,7506,1,6,1,San Francisco
-639,1,7505,1,5,1,San Francisco
-640,1,7505,1,5,1,San Francisco
-641,1,7506,1,6,1,San Francisco
-642,1,7506,1,6,1,San Francisco
-643,1,7506,1,6,1,San Francisco
-644,1,7506,1,6,1,San Francisco
-645,1,7506,1,6,1,San Francisco
-646,1,7506,1,6,1,San Francisco
-647,1,7505,1,5,1,San Francisco
-648,4,1303,1,26,4,Contra Costa
-649,4,1301,1,24,4,Contra Costa
-650,2,8102,1,9,2,San Mateo
-651,2,8102,1,9,2,San Mateo
-652,2,8101,1,8,2,San Mateo
-653,2,8101,1,8,2,San Mateo
-654,2,8102,1,9,2,San Mateo
-655,2,8102,1,9,2,San Mateo
-656,2,8102,1,9,2,San Mateo
-657,2,8101,1,8,2,San Mateo
-658,2,8101,1,8,2,San Mateo
-659,2,8102,1,9,2,San Mateo
-660,2,8102,1,9,2,San Mateo
-661,2,8102,1,9,2,San Mateo
-662,2,8102,1,9,2,San Mateo
-663,2,8102,1,9,2,San Mateo
-664,2,8101,1,8,2,San Mateo
-665,2,8102,1,9,2,San Mateo
-666,2,8101,1,8,2,San Mateo
-667,2,8101,1,8,2,San Mateo
-668,2,8101,1,8,2,San Mateo
-669,2,8101,1,8,2,San Mateo
-670,2,8101,1,8,2,San Mateo
-671,2,8101,1,8,2,San Mateo
-672,2,8101,1,8,2,San Mateo
-673,2,8101,1,8,2,San Mateo
-674,2,8102,1,9,2,San Mateo
-675,2,8102,1,9,2,San Mateo
-676,2,8102,1,9,2,San Mateo
-677,2,8102,1,9,2,San Mateo
-678,2,8101,1,8,2,San Mateo
-679,2,8101,1,8,2,San Mateo
-680,2,8101,1,8,2,San Mateo
-681,2,8101,1,8,2,San Mateo
-682,2,8101,1,8,2,San Mateo
-683,2,8101,1,8,2,San Mateo
-684,2,8102,1,9,2,San Mateo
-685,2,8102,1,9,2,San Mateo
-686,2,8102,1,9,2,San Mateo
-687,2,8102,1,9,2,San Mateo
-688,2,8102,1,9,2,San Mateo
-689,2,8103,1,10,2,San Mateo
-690,2,8103,1,10,2,San Mateo
-691,2,8103,1,10,2,San Mateo
-692,2,8103,1,10,2,San Mateo
-693,2,8103,1,10,2,San Mateo
-694,2,8103,1,10,2,San Mateo
-695,2,8102,1,9,2,San Mateo
-696,2,8101,1,8,2,San Mateo
-697,2,8101,1,8,2,San Mateo
-698,2,8102,1,9,2,San Mateo
-699,2,8102,1,9,2,San Mateo
-700,2,8102,1,9,2,San Mateo
-701,2,8102,1,9,2,San Mateo
-702,2,8102,1,9,2,San Mateo
-703,2,8102,1,9,2,San Mateo
-704,2,8102,1,9,2,San Mateo
-705,2,8102,1,9,2,San Mateo
-706,2,8102,1,9,2,San Mateo
-707,2,8102,1,9,2,San Mateo
-708,2,8102,1,9,2,San Mateo
-709,2,8103,1,10,2,San Mateo
-710,2,8102,1,9,2,San Mateo
-711,2,8103,1,10,2,San Mateo
-712,2,8102,1,9,2,San Mateo
-713,2,8102,1,9,2,San Mateo
-714,2,8102,1,9,2,San Mateo
-715,2,8102,1,9,2,San Mateo
-716,2,8102,1,9,2,San Mateo
-717,2,8102,1,9,2,San Mateo
-718,2,8103,1,10,2,San Mateo
-719,2,8101,1,8,2,San Mateo
-720,2,8103,1,10,2,San Mateo
-721,2,8103,1,10,2,San Mateo
-722,2,8102,1,9,2,San Mateo
-723,2,8102,1,9,2,San Mateo
-724,2,8102,1,9,2,San Mateo
-725,2,8103,1,10,2,San Mateo
-726,2,8103,1,10,2,San Mateo
-727,2,8103,1,10,2,San Mateo
-728,2,8103,1,10,2,San Mateo
-729,2,8103,1,10,2,San Mateo
-730,2,8103,1,10,2,San Mateo
-731,2,8101,1,8,2,San Mateo
-732,2,8101,1,8,2,San Mateo
-733,2,8102,1,9,2,San Mateo
-734,2,8102,1,9,2,San Mateo
-735,2,8103,1,10,2,San Mateo
-736,2,8102,1,9,2,San Mateo
-737,2,8102,1,9,2,San Mateo
-738,2,8101,1,8,2,San Mateo
-739,2,8101,1,8,2,San Mateo
-740,2,8101,1,8,2,San Mateo
-741,2,8101,1,8,2,San Mateo
-742,2,8101,1,8,2,San Mateo
-743,2,8101,1,8,2,San Mateo
-744,2,8101,1,8,2,San Mateo
-745,2,8101,1,8,2,San Mateo
-746,2,8101,1,8,2,San Mateo
-747,2,8101,1,8,2,San Mateo
-748,2,8101,1,8,2,San Mateo
-749,2,8102,1,9,2,San Mateo
-750,2,8102,1,9,2,San Mateo
-751,2,8102,1,9,2,San Mateo
-752,2,8102,1,9,2,San Mateo
-753,2,8102,1,9,2,San Mateo
-754,2,8101,1,8,2,San Mateo
-755,2,8101,1,8,2,San Mateo
-756,2,8101,1,8,2,San Mateo
-757,2,8101,1,8,2,San Mateo
-758,2,8101,1,8,2,San Mateo
-759,2,8101,1,8,2,San Mateo
-760,2,8101,1,8,2,San Mateo
-761,2,8102,1,9,2,San Mateo
-762,2,8103,1,10,2,San Mateo
-763,2,8103,1,10,2,San Mateo
-764,2,8103,1,10,2,San Mateo
-765,2,8103,1,10,2,San Mateo
-766,2,8103,1,10,2,San Mateo
-767,2,8101,1,8,2,San Mateo
-768,2,8101,1,8,2,San Mateo
-769,2,8101,1,8,2,San Mateo
-770,2,8101,1,8,2,San Mateo
-771,2,8103,1,10,2,San Mateo
-772,2,8103,1,10,2,San Mateo
-773,2,8103,1,10,2,San Mateo
-774,2,8101,1,8,2,San Mateo
-775,2,8101,1,8,2,San Mateo
-776,2,8101,1,8,2,San Mateo
-777,2,8101,1,8,2,San Mateo
-778,2,8102,1,9,2,San Mateo
-779,2,8102,1,9,2,San Mateo
-780,2,8101,1,8,2,San Mateo
-781,2,8101,1,8,2,San Mateo
-782,2,8102,1,9,2,San Mateo
-783,2,8102,1,9,2,San Mateo
-784,2,8102,1,9,2,San Mateo
-785,2,8102,1,9,2,San Mateo
-786,2,8102,1,9,2,San Mateo
-787,2,8102,1,9,2,San Mateo
-788,2,8102,1,9,2,San Mateo
-789,2,8102,1,9,2,San Mateo
-790,2,8102,1,9,2,San Mateo
-791,2,8102,1,9,2,San Mateo
-792,2,8103,1,10,2,San Mateo
-793,2,8103,1,10,2,San Mateo
-794,2,8104,1,11,2,San Mateo
-795,2,8104,1,11,2,San Mateo
-796,2,8104,1,11,2,San Mateo
-797,2,8104,1,11,2,San Mateo
-798,2,8104,1,11,2,San Mateo
-799,2,8104,1,11,2,San Mateo
-800,2,8103,1,10,2,San Mateo
-801,2,8104,1,11,2,San Mateo
-802,2,8104,1,11,2,San Mateo
-803,2,8104,1,11,2,San Mateo
-804,2,8104,1,11,2,San Mateo
-805,2,8104,1,11,2,San Mateo
-806,2,8104,1,11,2,San Mateo
-807,2,8104,1,11,2,San Mateo
-808,2,8104,1,11,2,San Mateo
-809,2,8105,1,12,2,San Mateo
-810,2,8105,1,12,2,San Mateo
-811,2,8105,1,12,2,San Mateo
-812,2,8105,1,12,2,San Mateo
-813,2,8103,1,10,2,San Mateo
-814,2,8103,1,10,2,San Mateo
-815,2,8103,1,10,2,San Mateo
-816,2,8104,1,11,2,San Mateo
-817,2,8104,1,11,2,San Mateo
-818,2,8104,1,11,2,San Mateo
-819,2,8104,1,11,2,San Mateo
-820,2,8104,1,11,2,San Mateo
-821,2,8104,1,11,2,San Mateo
-822,2,8105,1,12,2,San Mateo
-823,2,8104,1,11,2,San Mateo
-824,2,8104,1,11,2,San Mateo
-825,2,8104,1,11,2,San Mateo
-826,2,8104,1,11,2,San Mateo
-827,2,8105,1,12,2,San Mateo
-828,2,8103,1,10,2,San Mateo
-829,2,8103,1,10,2,San Mateo
-830,2,8103,1,10,2,San Mateo
-831,2,8103,1,10,2,San Mateo
-832,2,8103,1,10,2,San Mateo
-833,2,8103,1,10,2,San Mateo
-834,2,8105,1,12,2,San Mateo
-835,2,8105,1,12,2,San Mateo
-836,2,8105,1,12,2,San Mateo
-837,2,8103,1,10,2,San Mateo
-838,2,8103,1,10,2,San Mateo
-839,2,8103,1,10,2,San Mateo
-840,2,8103,1,10,2,San Mateo
-841,2,8103,1,10,2,San Mateo
-842,2,8103,1,10,2,San Mateo
-843,2,8103,1,10,2,San Mateo
-844,2,8103,1,10,2,San Mateo
-845,2,8105,1,12,2,San Mateo
-846,2,8103,1,10,2,San Mateo
-847,2,8103,1,10,2,San Mateo
-848,2,8103,1,10,2,San Mateo
-849,2,8104,1,11,2,San Mateo
-850,2,8103,1,10,2,San Mateo
-851,2,8104,1,11,2,San Mateo
-852,2,8104,1,11,2,San Mateo
-853,2,8105,1,12,2,San Mateo
-854,2,8105,1,12,2,San Mateo
-855,2,8103,1,10,2,San Mateo
-856,2,8103,1,10,2,San Mateo
-857,2,8104,1,11,2,San Mateo
-858,2,8104,1,11,2,San Mateo
-859,2,8104,1,11,2,San Mateo
-860,2,8104,1,11,2,San Mateo
-861,2,8103,1,10,2,San Mateo
-862,2,8103,1,10,2,San Mateo
-863,2,8103,1,10,2,San Mateo
-864,2,8103,1,10,2,San Mateo
-865,2,8103,1,10,2,San Mateo
-866,2,8103,1,10,2,San Mateo
-867,2,8103,1,10,2,San Mateo
-868,2,8103,1,10,2,San Mateo
-869,2,8104,1,11,2,San Mateo
-870,2,8104,1,11,2,San Mateo
-871,2,8104,1,11,2,San Mateo
-872,2,8104,1,11,2,San Mateo
-873,2,8104,1,11,2,San Mateo
-874,2,8103,1,10,2,San Mateo
-875,2,8103,1,10,2,San Mateo
-876,2,8103,1,10,2,San Mateo
-877,2,8104,1,11,2,San Mateo
-878,2,8103,1,10,2,San Mateo
-879,2,8104,1,11,2,San Mateo
-880,2,8104,1,11,2,San Mateo
-881,2,8104,1,11,2,San Mateo
-882,2,8104,1,11,2,San Mateo
-883,2,8104,1,11,2,San Mateo
-884,2,8104,1,11,2,San Mateo
-885,2,8104,1,11,2,San Mateo
-886,2,8104,1,11,2,San Mateo
-887,2,8103,1,10,2,San Mateo
-888,2,8103,1,10,2,San Mateo
-889,2,8103,1,10,2,San Mateo
-890,2,8103,1,10,2,San Mateo
-891,2,8104,1,11,2,San Mateo
-892,2,8103,1,10,2,San Mateo
-893,2,8103,1,10,2,San Mateo
-894,2,8103,1,10,2,San Mateo
-895,2,8103,1,10,2,San Mateo
-896,2,8103,1,10,2,San Mateo
-897,2,8104,1,11,2,San Mateo
-898,2,8104,1,11,2,San Mateo
-899,2,8105,1,12,2,San Mateo
-900,2,8105,1,12,2,San Mateo
-901,2,8105,1,12,2,San Mateo
-902,2,8105,1,12,2,San Mateo
-903,2,8106,1,13,2,San Mateo
-904,2,8105,1,12,2,San Mateo
-905,2,8105,1,12,2,San Mateo
-906,2,8106,1,13,2,San Mateo
-907,2,8105,1,12,2,San Mateo
-908,2,8105,1,12,2,San Mateo
-909,2,8105,1,12,2,San Mateo
-910,2,8106,1,13,2,San Mateo
-911,2,8106,1,13,2,San Mateo
-912,2,8106,1,13,2,San Mateo
-913,2,8105,1,12,2,San Mateo
-914,2,8105,1,12,2,San Mateo
-915,2,8105,1,12,2,San Mateo
-916,2,8105,1,12,2,San Mateo
-917,2,8105,1,12,2,San Mateo
-918,2,8105,1,12,2,San Mateo
-919,2,8106,1,13,2,San Mateo
-920,2,8105,1,12,2,San Mateo
-921,2,8105,1,12,2,San Mateo
-922,2,8105,1,12,2,San Mateo
-923,2,8106,1,13,2,San Mateo
-924,2,8106,1,13,2,San Mateo
-925,2,8106,1,13,2,San Mateo
-926,2,8106,1,13,2,San Mateo
-927,2,8104,1,11,2,San Mateo
-928,2,8106,1,13,2,San Mateo
-929,2,8106,1,13,2,San Mateo
-930,2,8106,1,13,2,San Mateo
-931,2,8106,1,13,2,San Mateo
-932,2,8106,1,13,2,San Mateo
-933,2,8106,1,13,2,San Mateo
-934,2,8106,1,13,2,San Mateo
-935,2,8106,1,13,2,San Mateo
-936,2,8105,1,12,2,San Mateo
-937,2,8105,1,12,2,San Mateo
-938,2,8105,1,12,2,San Mateo
-939,2,8106,1,13,2,San Mateo
-940,2,8106,1,13,2,San Mateo
-941,2,8106,1,13,2,San Mateo
-942,2,8106,1,13,2,San Mateo
-943,2,8106,1,13,2,San Mateo
-944,2,8106,1,13,2,San Mateo
-945,2,8106,1,13,2,San Mateo
-946,2,8106,1,13,2,San Mateo
-947,2,8105,1,12,2,San Mateo
-948,2,8105,1,12,2,San Mateo
-949,2,8106,1,13,2,San Mateo
-950,2,8106,1,13,2,San Mateo
-951,2,8106,1,13,2,San Mateo
-952,2,8105,1,12,2,San Mateo
-953,2,8105,1,12,2,San Mateo
-954,2,8105,1,12,2,San Mateo
-955,2,8106,1,13,2,San Mateo
-956,2,8105,1,12,2,San Mateo
-957,2,8105,1,12,2,San Mateo
-958,2,8105,1,12,2,San Mateo
-959,2,8106,1,13,2,San Mateo
-960,2,8106,1,13,2,San Mateo
-961,2,8106,1,13,2,San Mateo
-962,2,8105,1,12,2,San Mateo
-963,2,8105,1,12,2,San Mateo
-964,2,8106,1,13,2,San Mateo
-965,2,8106,1,13,2,San Mateo
-966,2,8106,1,13,2,San Mateo
-967,2,8106,1,13,2,San Mateo
-968,2,8106,1,13,2,San Mateo
-969,2,8106,1,13,2,San Mateo
-970,2,8105,1,12,2,San Mateo
-971,2,8105,1,12,2,San Mateo
-972,2,8106,1,13,2,San Mateo
-973,2,8106,1,13,2,San Mateo
-974,2,8105,1,12,2,San Mateo
-975,2,8105,1,12,2,San Mateo
-976,2,8105,1,12,2,San Mateo
-977,2,8105,1,12,2,San Mateo
-978,2,8105,1,12,2,San Mateo
-979,2,8105,1,12,2,San Mateo
-980,2,8105,1,12,2,San Mateo
-981,2,8105,1,12,2,San Mateo
-982,2,8105,1,12,2,San Mateo
-983,2,8105,1,12,2,San Mateo
-984,2,8106,1,13,2,San Mateo
-985,2,8105,1,12,2,San Mateo
-986,2,8105,1,12,2,San Mateo
-987,2,8106,1,13,2,San Mateo
-988,2,8106,1,13,2,San Mateo
-989,2,8105,1,12,2,San Mateo
-990,2,8105,1,12,2,San Mateo
-991,2,8105,1,12,2,San Mateo
-992,2,8105,1,12,2,San Mateo
-993,5,8501,1,33,5,Santa Clara
-994,5,8501,1,33,5,Santa Clara
-995,5,8501,1,33,5,Santa Clara
-996,5,8501,1,33,5,Santa Clara
-997,5,8501,1,33,5,Santa Clara
-998,5,8501,1,33,5,Santa Clara
-999,5,8501,1,33,5,Santa Clara
-1000,5,8501,1,33,5,Santa Clara
-1001,5,8501,1,33,5,Santa Clara
-1002,5,8501,1,33,5,Santa Clara
-1003,5,8501,1,33,5,Santa Clara
-1004,5,8501,1,33,5,Santa Clara
-1005,5,8501,1,33,5,Santa Clara
-1006,5,8501,1,33,5,Santa Clara
-1007,5,8501,1,33,5,Santa Clara
-1008,5,8501,1,33,5,Santa Clara
-1009,5,8501,1,33,5,Santa Clara
-1010,5,8501,1,33,5,Santa Clara
-1011,5,8501,1,33,5,Santa Clara
-1012,5,8501,1,33,5,Santa Clara
-1013,5,8501,1,33,5,Santa Clara
-1014,5,8501,1,33,5,Santa Clara
-1015,5,8501,1,33,5,Santa Clara
-1016,5,8501,1,33,5,Santa Clara
-1017,5,8501,1,33,5,Santa Clara
-1018,5,8501,1,33,5,Santa Clara
-1019,5,8501,1,33,5,Santa Clara
-1020,5,8501,1,33,5,Santa Clara
-1021,5,8501,1,33,5,Santa Clara
-1022,5,8501,1,33,5,Santa Clara
-1023,5,8501,1,33,5,Santa Clara
-1024,5,8501,1,33,5,Santa Clara
-1025,5,8501,1,33,5,Santa Clara
-1026,5,8501,1,33,5,Santa Clara
-1027,5,8501,1,33,5,Santa Clara
-1028,5,8501,1,33,5,Santa Clara
-1029,5,8501,1,33,5,Santa Clara
-1030,5,8501,1,33,5,Santa Clara
-1031,5,8501,1,33,5,Santa Clara
-1032,5,8501,1,33,5,Santa Clara
-1033,5,8501,1,33,5,Santa Clara
-1034,5,8501,1,33,5,Santa Clara
-1035,5,8501,1,33,5,Santa Clara
-1036,5,8501,1,33,5,Santa Clara
-1037,5,8501,1,33,5,Santa Clara
-1038,5,8501,1,33,5,Santa Clara
-1039,5,8501,1,33,5,Santa Clara
-1040,5,8501,1,33,5,Santa Clara
-1041,5,8501,1,33,5,Santa Clara
-1042,5,8501,1,33,5,Santa Clara
-1043,5,8501,1,33,5,Santa Clara
-1044,5,8501,1,33,5,Santa Clara
-1045,5,8501,1,33,5,Santa Clara
-1046,5,8501,1,33,5,Santa Clara
-1047,5,8501,1,33,5,Santa Clara
-1048,5,8501,1,33,5,Santa Clara
-1049,5,8501,1,33,5,Santa Clara
-1050,5,8501,1,33,5,Santa Clara
-1051,5,8501,1,33,5,Santa Clara
-1052,5,8501,1,33,5,Santa Clara
-1053,5,8501,1,33,5,Santa Clara
-1054,5,8501,1,33,5,Santa Clara
-1055,5,8501,1,33,5,Santa Clara
-1056,5,8501,1,33,5,Santa Clara
-1057,5,8501,1,33,5,Santa Clara
-1058,5,8501,1,33,5,Santa Clara
-1059,5,8501,1,33,5,Santa Clara
-1060,5,8501,1,33,5,Santa Clara
-1061,5,8501,1,33,5,Santa Clara
-1062,5,8501,1,33,5,Santa Clara
-1063,5,8501,1,33,5,Santa Clara
-1064,5,8501,1,33,5,Santa Clara
-1065,5,8501,1,33,5,Santa Clara
-1066,5,8501,1,33,5,Santa Clara
-1067,5,8501,1,33,5,Santa Clara
-1068,5,8501,1,33,5,Santa Clara
-1069,5,8501,1,33,5,Santa Clara
-1070,5,8501,1,33,5,Santa Clara
-1071,5,8501,1,33,5,Santa Clara
-1072,5,8501,1,33,5,Santa Clara
-1073,5,8501,1,33,5,Santa Clara
-1074,5,8501,1,33,5,Santa Clara
-1075,5,8501,1,33,5,Santa Clara
-1076,5,8501,1,33,5,Santa Clara
-1077,5,8501,1,33,5,Santa Clara
-1078,5,8501,1,33,5,Santa Clara
-1079,5,8501,1,33,5,Santa Clara
-1080,5,8501,1,33,5,Santa Clara
-1081,5,8501,1,33,5,Santa Clara
-1082,5,8501,1,33,5,Santa Clara
-1083,5,8501,1,33,5,Santa Clara
-1084,5,8501,1,33,5,Santa Clara
-1085,5,8501,1,33,5,Santa Clara
-1086,5,8501,1,33,5,Santa Clara
-1087,5,8501,1,33,5,Santa Clara
-1088,5,8501,1,33,5,Santa Clara
-1089,5,8501,1,33,5,Santa Clara
-1090,5,8501,1,33,5,Santa Clara
-1091,5,8501,1,33,5,Santa Clara
-1092,5,8501,1,33,5,Santa Clara
-1093,5,8501,1,33,5,Santa Clara
-1094,5,8501,1,33,5,Santa Clara
-1095,5,8501,1,33,5,Santa Clara
-1096,6,4101,1,47,6,Marin
-1097,5,8502,1,34,5,Santa Clara
-1098,5,8502,1,34,5,Santa Clara
-1099,5,8502,1,34,5,Santa Clara
-1100,5,8502,1,34,5,Santa Clara
-1101,5,8502,1,34,5,Santa Clara
-1102,5,8502,1,34,5,Santa Clara
-1103,5,8502,1,34,5,Santa Clara
-1104,5,8502,1,34,5,Santa Clara
-1105,5,8501,1,33,5,Santa Clara
-1106,5,8501,1,33,5,Santa Clara
-1107,5,8502,1,34,5,Santa Clara
-1108,5,8502,1,34,5,Santa Clara
-1109,5,8503,1,35,5,Santa Clara
-1110,5,8503,1,35,5,Santa Clara
-1111,5,8503,1,35,5,Santa Clara
-1112,5,8503,1,35,5,Santa Clara
-1113,5,8503,1,35,5,Santa Clara
-1114,5,8503,1,35,5,Santa Clara
-1115,5,8502,1,34,5,Santa Clara
-1116,5,8502,1,34,5,Santa Clara
-1117,5,8501,1,33,5,Santa Clara
-1118,5,8501,1,33,5,Santa Clara
-1119,5,8502,1,34,5,Santa Clara
-1120,5,8502,1,34,5,Santa Clara
-1121,5,8502,1,34,5,Santa Clara
-1122,5,8502,1,34,5,Santa Clara
-1123,5,8502,1,34,5,Santa Clara
-1124,5,8502,1,34,5,Santa Clara
-1125,5,8502,1,34,5,Santa Clara
-1126,5,8502,1,34,5,Santa Clara
-1127,5,8502,1,34,5,Santa Clara
-1128,5,8503,1,35,5,Santa Clara
-1129,5,8503,1,35,5,Santa Clara
-1130,5,8509,1,41,5,Santa Clara
-1131,5,8502,1,34,5,Santa Clara
-1132,5,8501,1,33,5,Santa Clara
-1133,5,8501,1,33,5,Santa Clara
-1134,5,8502,1,34,5,Santa Clara
-1135,5,8502,1,34,5,Santa Clara
-1136,5,8502,1,34,5,Santa Clara
-1137,5,8503,1,35,5,Santa Clara
-1138,5,8503,1,35,5,Santa Clara
-1139,5,8503,1,35,5,Santa Clara
-1140,5,8503,1,35,5,Santa Clara
-1141,5,8503,1,35,5,Santa Clara
-1142,5,8503,1,35,5,Santa Clara
-1143,5,8502,1,34,5,Santa Clara
-1144,5,8502,1,34,5,Santa Clara
-1145,5,8503,1,35,5,Santa Clara
-1146,5,8503,1,35,5,Santa Clara
-1147,5,8501,1,33,5,Santa Clara
-1148,5,8501,1,33,5,Santa Clara
-1149,5,8501,1,33,5,Santa Clara
-1150,5,8503,1,35,5,Santa Clara
-1151,5,8503,1,35,5,Santa Clara
-1152,5,8503,1,35,5,Santa Clara
-1153,5,8502,1,34,5,Santa Clara
-1154,5,8502,1,34,5,Santa Clara
-1155,5,8502,1,34,5,Santa Clara
-1156,5,8509,1,41,5,Santa Clara
-1157,5,8501,1,33,5,Santa Clara
-1158,5,8502,1,34,5,Santa Clara
-1159,5,8503,1,35,5,Santa Clara
-1160,5,8503,1,35,5,Santa Clara
-1161,5,8503,1,35,5,Santa Clara
-1162,5,8503,1,35,5,Santa Clara
-1163,5,8503,1,35,5,Santa Clara
-1164,5,8503,1,35,5,Santa Clara
-1165,5,8502,1,34,5,Santa Clara
-1166,5,8502,1,34,5,Santa Clara
-1167,5,8501,1,33,5,Santa Clara
-1168,5,8502,1,34,5,Santa Clara
-1169,5,8503,1,35,5,Santa Clara
-1170,5,8503,1,35,5,Santa Clara
-1171,5,8502,1,34,5,Santa Clara
-1172,5,8503,1,35,5,Santa Clara
-1173,5,8503,1,35,5,Santa Clara
-1174,5,8503,1,35,5,Santa Clara
-1175,5,8502,1,34,5,Santa Clara
-1176,5,8503,1,35,5,Santa Clara
-1177,5,8503,1,35,5,Santa Clara
-1178,5,8503,1,35,5,Santa Clara
-1179,5,8502,1,34,5,Santa Clara
-1180,5,8502,1,34,5,Santa Clara
-1181,5,8503,1,35,5,Santa Clara
-1182,5,8502,1,34,5,Santa Clara
-1183,5,8501,1,33,5,Santa Clara
-1184,5,8503,1,35,5,Santa Clara
-1185,5,8503,1,35,5,Santa Clara
-1186,5,8502,1,34,5,Santa Clara
-1187,5,8502,1,34,5,Santa Clara
-1188,5,8502,1,34,5,Santa Clara
-1189,5,8502,1,34,5,Santa Clara
-1190,5,8502,1,34,5,Santa Clara
-1191,5,8502,1,34,5,Santa Clara
-1192,5,8502,1,34,5,Santa Clara
-1193,5,8502,1,34,5,Santa Clara
-1194,5,8502,1,34,5,Santa Clara
-1195,5,8503,1,35,5,Santa Clara
-1196,5,8503,1,35,5,Santa Clara
-1197,5,8503,1,35,5,Santa Clara
-1198,5,8502,1,34,5,Santa Clara
-1199,5,8502,1,34,5,Santa Clara
-1200,5,8502,1,34,5,Santa Clara
-1201,5,8502,1,34,5,Santa Clara
-1202,5,8502,1,34,5,Santa Clara
-1203,5,8502,1,34,5,Santa Clara
-1204,5,8502,1,34,5,Santa Clara
-1205,5,8502,1,34,5,Santa Clara
-1206,5,8502,1,34,5,Santa Clara
-1207,5,8503,1,35,5,Santa Clara
-1208,5,8501,1,33,5,Santa Clara
-1209,5,8501,1,33,5,Santa Clara
-1210,5,8502,1,34,5,Santa Clara
-1211,5,8502,1,34,5,Santa Clara
-1212,5,8502,1,34,5,Santa Clara
-1213,5,8502,1,34,5,Santa Clara
-1214,5,8509,1,41,5,Santa Clara
-1215,5,8503,1,35,5,Santa Clara
-1216,5,8503,1,35,5,Santa Clara
-1217,5,8502,1,34,5,Santa Clara
-1218,5,8503,1,35,5,Santa Clara
-1219,5,8502,1,34,5,Santa Clara
-1220,5,8502,1,34,5,Santa Clara
-1221,5,8507,1,39,5,Santa Clara
-1222,5,8507,1,39,5,Santa Clara
-1223,5,8508,1,40,5,Santa Clara
-1224,5,8508,1,40,5,Santa Clara
-1225,5,8507,1,39,5,Santa Clara
-1226,5,8508,1,40,5,Santa Clara
-1227,5,8508,1,40,5,Santa Clara
-1228,5,8508,1,40,5,Santa Clara
-1229,5,8508,1,40,5,Santa Clara
-1230,5,8508,1,40,5,Santa Clara
-1231,5,8508,1,40,5,Santa Clara
-1232,5,8508,1,40,5,Santa Clara
-1233,5,8508,1,40,5,Santa Clara
-1234,5,8508,1,40,5,Santa Clara
-1235,5,8508,1,40,5,Santa Clara
-1236,5,8507,1,39,5,Santa Clara
-1237,5,8511,1,43,5,Santa Clara
-1238,5,8507,1,39,5,Santa Clara
-1239,5,8507,1,39,5,Santa Clara
-1240,5,8507,1,39,5,Santa Clara
-1241,5,8507,1,39,5,Santa Clara
-1242,5,8507,1,39,5,Santa Clara
-1243,5,8507,1,39,5,Santa Clara
-1244,5,8507,1,39,5,Santa Clara
-1245,5,8507,1,39,5,Santa Clara
-1246,5,8507,1,39,5,Santa Clara
-1247,5,8507,1,39,5,Santa Clara
-1248,5,8507,1,39,5,Santa Clara
-1249,5,8507,1,39,5,Santa Clara
-1250,5,8507,1,39,5,Santa Clara
-1251,5,8507,1,39,5,Santa Clara
-1252,5,8507,1,39,5,Santa Clara
-1253,5,8508,1,40,5,Santa Clara
-1254,5,8508,1,40,5,Santa Clara
-1255,5,8507,1,39,5,Santa Clara
-1256,5,8507,1,39,5,Santa Clara
-1257,5,8507,1,39,5,Santa Clara
-1258,5,8503,1,35,5,Santa Clara
-1259,5,8503,1,35,5,Santa Clara
-1260,5,8503,1,35,5,Santa Clara
-1261,5,8508,1,40,5,Santa Clara
-1262,5,8508,1,40,5,Santa Clara
-1263,5,8508,1,40,5,Santa Clara
-1264,5,8508,1,40,5,Santa Clara
-1265,5,8508,1,40,5,Santa Clara
-1266,5,8508,1,40,5,Santa Clara
-1267,5,8508,1,40,5,Santa Clara
-1268,5,8508,1,40,5,Santa Clara
-1269,5,8508,1,40,5,Santa Clara
-1270,5,8511,1,43,5,Santa Clara
-1271,5,8507,1,39,5,Santa Clara
-1272,5,8507,1,39,5,Santa Clara
-1273,5,8507,1,39,5,Santa Clara
-1274,5,8507,1,39,5,Santa Clara
-1275,5,8507,1,39,5,Santa Clara
-1276,5,8510,1,42,5,Santa Clara
-1277,5,8511,1,43,5,Santa Clara
-1278,5,8503,1,35,5,Santa Clara
-1279,5,8503,1,35,5,Santa Clara
-1280,5,8503,1,35,5,Santa Clara
-1281,5,8508,1,40,5,Santa Clara
-1282,5,8511,1,43,5,Santa Clara
-1283,5,8510,1,42,5,Santa Clara
-1284,5,8510,1,42,5,Santa Clara
-1285,5,8513,1,45,5,Santa Clara
-1286,5,8513,1,45,5,Santa Clara
-1287,5,8510,1,42,5,Santa Clara
-1288,5,8510,1,42,5,Santa Clara
-1289,5,8510,1,42,5,Santa Clara
-1290,5,8513,1,45,5,Santa Clara
-1291,5,8503,1,35,5,Santa Clara
-1292,5,8503,1,35,5,Santa Clara
-1293,5,8509,1,41,5,Santa Clara
-1294,5,8503,1,35,5,Santa Clara
-1295,5,8509,1,41,5,Santa Clara
-1296,5,8509,1,41,5,Santa Clara
-1297,5,8509,1,41,5,Santa Clara
-1298,5,8509,1,41,5,Santa Clara
-1299,5,8510,1,42,5,Santa Clara
-1300,5,8510,1,42,5,Santa Clara
-1301,5,8510,1,42,5,Santa Clara
-1302,5,8510,1,42,5,Santa Clara
-1303,5,8510,1,42,5,Santa Clara
-1304,5,8510,1,42,5,Santa Clara
-1305,5,8510,1,42,5,Santa Clara
-1306,5,8513,1,45,5,Santa Clara
-1307,5,8510,1,42,5,Santa Clara
-1308,5,8513,1,45,5,Santa Clara
-1309,5,8510,1,42,5,Santa Clara
-1310,5,8509,1,41,5,Santa Clara
-1311,5,8509,1,41,5,Santa Clara
-1312,5,8509,1,41,5,Santa Clara
-1313,5,8510,1,42,5,Santa Clara
-1314,5,8510,1,42,5,Santa Clara
-1315,5,8510,1,42,5,Santa Clara
-1316,5,8510,1,42,5,Santa Clara
-1317,5,8508,1,40,5,Santa Clara
-1318,5,8509,1,41,5,Santa Clara
-1319,5,8509,1,41,5,Santa Clara
-1320,5,8509,1,41,5,Santa Clara
-1321,5,8509,1,41,5,Santa Clara
-1322,5,8510,1,42,5,Santa Clara
-1323,5,8510,1,42,5,Santa Clara
-1324,5,8510,1,42,5,Santa Clara
-1325,5,8510,1,42,5,Santa Clara
-1326,5,8510,1,42,5,Santa Clara
-1327,5,8510,1,42,5,Santa Clara
-1328,5,8510,1,42,5,Santa Clara
-1329,5,8503,1,35,5,Santa Clara
-1330,5,8510,1,42,5,Santa Clara
-1331,5,8510,1,42,5,Santa Clara
-1332,5,8510,1,42,5,Santa Clara
-1333,5,8509,1,41,5,Santa Clara
-1334,5,8510,1,42,5,Santa Clara
-1335,5,8510,1,42,5,Santa Clara
-1336,5,8509,1,41,5,Santa Clara
-1337,5,8509,1,41,5,Santa Clara
-1338,5,8510,1,42,5,Santa Clara
-1339,5,8509,1,41,5,Santa Clara
-1340,5,8509,1,41,5,Santa Clara
-1341,5,8509,1,41,5,Santa Clara
-1342,5,8509,1,41,5,Santa Clara
-1343,5,8509,1,41,5,Santa Clara
-1344,5,8510,1,42,5,Santa Clara
-1345,5,8510,1,42,5,Santa Clara
-1346,5,8509,1,41,5,Santa Clara
-1347,5,8509,1,41,5,Santa Clara
-1348,5,8509,1,41,5,Santa Clara
-1349,5,8509,1,41,5,Santa Clara
-1350,5,8509,1,41,5,Santa Clara
-1351,5,8509,1,41,5,Santa Clara
-1352,5,8509,1,41,5,Santa Clara
-1353,5,8509,1,41,5,Santa Clara
-1354,5,8509,1,41,5,Santa Clara
-1355,5,8509,1,41,5,Santa Clara
-1356,5,8510,1,42,5,Santa Clara
-1357,5,8510,1,42,5,Santa Clara
-1358,5,8503,1,35,5,Santa Clara
-1359,5,8510,1,42,5,Santa Clara
-1360,5,8510,1,42,5,Santa Clara
-1361,5,8510,1,42,5,Santa Clara
-1362,5,8503,1,35,5,Santa Clara
-1363,5,8510,1,42,5,Santa Clara
-1364,5,8513,1,45,5,Santa Clara
-1365,5,8509,1,41,5,Santa Clara
-1366,5,8509,1,41,5,Santa Clara
-1367,5,8509,1,41,5,Santa Clara
-1368,5,8509,1,41,5,Santa Clara
-1369,5,8509,1,41,5,Santa Clara
-1370,5,8513,1,45,5,Santa Clara
-1371,5,8510,1,42,5,Santa Clara
-1372,5,8513,1,45,5,Santa Clara
-1373,5,8513,1,45,5,Santa Clara
-1374,5,8509,1,41,5,Santa Clara
-1375,5,8509,1,41,5,Santa Clara
-1376,5,8509,1,41,5,Santa Clara
-1377,5,8509,1,41,5,Santa Clara
-1378,5,8509,1,41,5,Santa Clara
-1379,5,8509,1,41,5,Santa Clara
-1380,5,8509,1,41,5,Santa Clara
-1381,5,8509,1,41,5,Santa Clara
-1382,5,8510,1,42,5,Santa Clara
-1383,5,8513,1,45,5,Santa Clara
-1384,5,8510,1,42,5,Santa Clara
-1385,5,8509,1,41,5,Santa Clara
-1386,5,8509,1,41,5,Santa Clara
-1387,5,8509,1,41,5,Santa Clara
-1388,5,8509,1,41,5,Santa Clara
-1389,5,8509,1,41,5,Santa Clara
-1390,5,8509,1,41,5,Santa Clara
-1391,5,8509,1,41,5,Santa Clara
-1392,5,8509,1,41,5,Santa Clara
-1393,5,8509,1,41,5,Santa Clara
-1394,5,8509,1,41,5,Santa Clara
-1395,5,8509,1,41,5,Santa Clara
-1396,5,8510,1,42,5,Santa Clara
-1397,5,8510,1,42,5,Santa Clara
-1398,5,8510,1,42,5,Santa Clara
-1399,5,8509,1,41,5,Santa Clara
-1400,5,8509,1,41,5,Santa Clara
-1401,5,8509,1,41,5,Santa Clara
-1402,5,8509,1,41,5,Santa Clara
-1403,5,8509,1,41,5,Santa Clara
-1404,5,8509,1,41,5,Santa Clara
-1405,5,8509,1,41,5,Santa Clara
-1406,5,8509,1,41,5,Santa Clara
-1407,5,8509,1,41,5,Santa Clara
-1408,5,8509,1,41,5,Santa Clara
-1409,5,8509,1,41,5,Santa Clara
-1410,5,8509,1,41,5,Santa Clara
-1411,5,8509,1,41,5,Santa Clara
-1412,5,8509,1,41,5,Santa Clara
-1413,5,8510,1,42,5,Santa Clara
-1414,5,8503,1,35,5,Santa Clara
-1415,5,8503,1,35,5,Santa Clara
-1416,5,8503,1,35,5,Santa Clara
-1417,5,8510,1,42,5,Santa Clara
-1418,5,8513,1,45,5,Santa Clara
-1419,5,8503,1,35,5,Santa Clara
-1420,5,8503,1,35,5,Santa Clara
-1421,5,8510,1,42,5,Santa Clara
-1422,5,8510,1,42,5,Santa Clara
-1423,5,8509,1,41,5,Santa Clara
-1424,5,8514,1,46,5,Santa Clara
-1425,5,8514,1,46,5,Santa Clara
-1426,5,8505,1,37,5,Santa Clara
-1427,5,8513,1,45,5,Santa Clara
-1428,5,8514,1,46,5,Santa Clara
-1429,5,8513,1,45,5,Santa Clara
-1430,5,8505,1,37,5,Santa Clara
-1431,5,8505,1,37,5,Santa Clara
-1432,5,8505,1,37,5,Santa Clara
-1433,5,8513,1,45,5,Santa Clara
-1434,5,8514,1,46,5,Santa Clara
-1435,5,8504,1,36,5,Santa Clara
-1436,5,8504,1,36,5,Santa Clara
-1437,5,8504,1,36,5,Santa Clara
-1438,5,8504,1,36,5,Santa Clara
-1439,5,8504,1,36,5,Santa Clara
-1440,5,8504,1,36,5,Santa Clara
-1441,5,8504,1,36,5,Santa Clara
-1442,5,8504,1,36,5,Santa Clara
-1443,5,8504,1,36,5,Santa Clara
-1444,5,8503,1,35,5,Santa Clara
-1445,5,8504,1,36,5,Santa Clara
-1446,5,8509,1,41,5,Santa Clara
-1447,5,8504,1,36,5,Santa Clara
-1448,5,8504,1,36,5,Santa Clara
-1449,5,8503,1,35,5,Santa Clara
-1450,5,8504,1,36,5,Santa Clara
-1451,5,8514,1,46,5,Santa Clara
-1452,5,8505,1,37,5,Santa Clara
-1453,5,8513,1,45,5,Santa Clara
-1454,5,8505,1,37,5,Santa Clara
-1455,5,8514,1,46,5,Santa Clara
-1456,5,8514,1,46,5,Santa Clara
-1457,5,8514,1,46,5,Santa Clara
-1458,5,8514,1,46,5,Santa Clara
-1459,5,8505,1,37,5,Santa Clara
-1460,5,8505,1,37,5,Santa Clara
-1461,5,8514,1,46,5,Santa Clara
-1462,5,8514,1,46,5,Santa Clara
-1463,5,8505,1,37,5,Santa Clara
-1464,5,8514,1,46,5,Santa Clara
-1465,5,8505,1,37,5,Santa Clara
-1466,5,8504,1,36,5,Santa Clara
-1467,5,8504,1,36,5,Santa Clara
-1468,5,8504,1,36,5,Santa Clara
-1469,5,8513,1,45,5,Santa Clara
-1470,5,8513,1,45,5,Santa Clara
-1471,5,8513,1,45,5,Santa Clara
-1472,5,8514,1,46,5,Santa Clara
-1473,5,8505,1,37,5,Santa Clara
-1474,5,8505,1,37,5,Santa Clara
-1475,5,8514,1,46,5,Santa Clara
-1476,5,8514,1,46,5,Santa Clara
-1477,5,8514,1,46,5,Santa Clara
-1478,5,8514,1,46,5,Santa Clara
-1479,5,8505,1,37,5,Santa Clara
-1480,5,8505,1,37,5,Santa Clara
-1481,5,8505,1,37,5,Santa Clara
-1482,5,8505,1,37,5,Santa Clara
-1483,5,8505,1,37,5,Santa Clara
-1484,5,8505,1,37,5,Santa Clara
-1485,5,8505,1,37,5,Santa Clara
-1486,5,8505,1,37,5,Santa Clara
-1487,5,8505,1,37,5,Santa Clara
-1488,5,8504,1,36,5,Santa Clara
-1489,5,8504,1,36,5,Santa Clara
-1490,5,8504,1,36,5,Santa Clara
-1491,5,8504,1,36,5,Santa Clara
-1492,5,8504,1,36,5,Santa Clara
-1493,5,8504,1,36,5,Santa Clara
-1494,5,8504,1,36,5,Santa Clara
-1495,5,8504,1,36,5,Santa Clara
-1496,5,8504,1,36,5,Santa Clara
-1497,5,8504,1,36,5,Santa Clara
-1498,5,8504,1,36,5,Santa Clara
-1499,5,8514,1,46,5,Santa Clara
-1500,5,8514,1,46,5,Santa Clara
-1501,5,8514,1,46,5,Santa Clara
-1502,5,8504,1,36,5,Santa Clara
-1503,5,8504,1,36,5,Santa Clara
-1504,5,8504,1,36,5,Santa Clara
-1505,5,8504,1,36,5,Santa Clara
-1506,5,8504,1,36,5,Santa Clara
-1507,5,8514,1,46,5,Santa Clara
-1508,5,8514,1,46,5,Santa Clara
-1509,5,8514,1,46,5,Santa Clara
-1510,5,8514,1,46,5,Santa Clara
-1511,5,8514,1,46,5,Santa Clara
-1512,5,8514,1,46,5,Santa Clara
-1513,5,8514,1,46,5,Santa Clara
-1514,5,8514,1,46,5,Santa Clara
-1515,5,8504,1,36,5,Santa Clara
-1516,5,8504,1,36,5,Santa Clara
-1517,5,8514,1,46,5,Santa Clara
-1518,5,8514,1,46,5,Santa Clara
-1519,5,8504,1,36,5,Santa Clara
-1520,5,8504,1,36,5,Santa Clara
-1521,5,8504,1,36,5,Santa Clara
-1522,5,8504,1,36,5,Santa Clara
-1523,5,8504,1,36,5,Santa Clara
-1524,5,8504,1,36,5,Santa Clara
-1525,5,8504,1,36,5,Santa Clara
-1526,5,8504,1,36,5,Santa Clara
-1527,5,8514,1,46,5,Santa Clara
-1528,5,8504,1,36,5,Santa Clara
-1529,5,8504,1,36,5,Santa Clara
-1530,5,8504,1,36,5,Santa Clara
-1531,5,8504,1,36,5,Santa Clara
-1532,5,8512,1,44,5,Santa Clara
-1533,5,8512,1,44,5,Santa Clara
-1534,5,8512,1,44,5,Santa Clara
-1535,5,8512,1,44,5,Santa Clara
-1536,5,8512,1,44,5,Santa Clara
-1537,5,8512,1,44,5,Santa Clara
-1538,5,8513,1,45,5,Santa Clara
-1539,5,8513,1,45,5,Santa Clara
-1540,5,8512,1,44,5,Santa Clara
-1541,5,8512,1,44,5,Santa Clara
-1542,5,8512,1,44,5,Santa Clara
-1543,5,8511,1,43,5,Santa Clara
-1544,5,8512,1,44,5,Santa Clara
-1545,5,8513,1,45,5,Santa Clara
-1546,5,8511,1,43,5,Santa Clara
-1547,5,8511,1,43,5,Santa Clara
-1548,5,8511,1,43,5,Santa Clara
-1549,5,8512,1,44,5,Santa Clara
-1550,5,8512,1,44,5,Santa Clara
-1551,5,8512,1,44,5,Santa Clara
-1552,5,8512,1,44,5,Santa Clara
-1553,5,8512,1,44,5,Santa Clara
-1554,5,8512,1,44,5,Santa Clara
-1555,5,8512,1,44,5,Santa Clara
-1556,5,8513,1,45,5,Santa Clara
-1557,5,8511,1,43,5,Santa Clara
-1558,5,8511,1,43,5,Santa Clara
-1559,5,8511,1,43,5,Santa Clara
-1560,5,8511,1,43,5,Santa Clara
-1561,5,8511,1,43,5,Santa Clara
-1562,5,8511,1,43,5,Santa Clara
-1563,5,8512,1,44,5,Santa Clara
-1564,5,8512,1,44,5,Santa Clara
-1565,5,8512,1,44,5,Santa Clara
-1566,5,8511,1,43,5,Santa Clara
-1567,5,8511,1,43,5,Santa Clara
-1568,5,8510,1,42,5,Santa Clara
-1569,5,8511,1,43,5,Santa Clara
-1570,5,8511,1,43,5,Santa Clara
-1571,5,8511,1,43,5,Santa Clara
-1572,5,8511,1,43,5,Santa Clara
-1573,5,8513,1,45,5,Santa Clara
-1574,5,8513,1,45,5,Santa Clara
-1575,5,8513,1,45,5,Santa Clara
-1576,5,8511,1,43,5,Santa Clara
-1577,5,8513,1,45,5,Santa Clara
-1578,5,8512,1,44,5,Santa Clara
-1579,5,8511,1,43,5,Santa Clara
-1580,5,8511,1,43,5,Santa Clara
-1581,5,8513,1,45,5,Santa Clara
-1582,5,8512,1,44,5,Santa Clara
-1583,5,8512,1,44,5,Santa Clara
-1584,5,8512,1,44,5,Santa Clara
-1585,5,8512,1,44,5,Santa Clara
-1586,5,8512,1,44,5,Santa Clara
-1587,5,8511,1,43,5,Santa Clara
-1588,5,8513,1,45,5,Santa Clara
-1589,5,8511,1,43,5,Santa Clara
-1590,5,8511,1,43,5,Santa Clara
-1591,5,8511,1,43,5,Santa Clara
-1592,5,8511,1,43,5,Santa Clara
-1593,5,8506,1,38,5,Santa Clara
-1594,5,8506,1,38,5,Santa Clara
-1595,5,8506,1,38,5,Santa Clara
-1596,5,8506,1,38,5,Santa Clara
-1597,5,8506,1,38,5,Santa Clara
-1598,5,8506,1,38,5,Santa Clara
-1599,5,8506,1,38,5,Santa Clara
-1600,5,8506,1,38,5,Santa Clara
-1601,5,8506,1,38,5,Santa Clara
-1602,5,8506,1,38,5,Santa Clara
-1603,5,8506,1,38,5,Santa Clara
-1604,5,8506,1,38,5,Santa Clara
-1605,5,8506,1,38,5,Santa Clara
-1606,5,8506,1,38,5,Santa Clara
-1607,5,8506,1,38,5,Santa Clara
-1608,5,8506,1,38,5,Santa Clara
-1609,5,8506,1,38,5,Santa Clara
-1610,5,8506,1,38,5,Santa Clara
-1611,5,8506,1,38,5,Santa Clara
-1612,5,8506,1,38,5,Santa Clara
-1613,5,8506,1,38,5,Santa Clara
-1614,5,8506,1,38,5,Santa Clara
-1615,5,8506,1,38,5,Santa Clara
-1616,5,8506,1,38,5,Santa Clara
-1617,5,8506,1,38,5,Santa Clara
-1618,5,8506,1,38,5,Santa Clara
-1619,5,8506,1,38,5,Santa Clara
-1620,5,8506,1,38,5,Santa Clara
-1621,5,8506,1,38,5,Santa Clara
-1622,5,8506,1,38,5,Santa Clara
-1623,5,8506,1,38,5,Santa Clara
-1624,5,8506,1,38,5,Santa Clara
-1625,5,8506,1,38,5,Santa Clara
-1626,5,8506,1,38,5,Santa Clara
-1627,5,8506,1,38,5,Santa Clara
-1628,5,8506,1,38,5,Santa Clara
-1629,5,8506,1,38,5,Santa Clara
-1630,5,8506,1,38,5,Santa Clara
-1631,5,8506,1,38,5,Santa Clara
-1632,5,8506,1,38,5,Santa Clara
-1633,5,8506,1,38,5,Santa Clara
-1634,5,8506,1,38,5,Santa Clara
-1635,5,8506,1,38,5,Santa Clara
-1636,3,110,1,23,3,Alameda
-1637,3,110,1,23,3,Alameda
-1638,3,110,1,23,3,Alameda
-1639,3,110,1,23,3,Alameda
-1640,3,110,1,23,3,Alameda
-1641,3,110,1,23,3,Alameda
-1642,3,110,1,23,3,Alameda
-1643,3,110,1,23,3,Alameda
-1644,3,110,1,23,3,Alameda
-1645,3,110,1,23,3,Alameda
-1646,3,110,1,23,3,Alameda
-1647,3,110,1,23,3,Alameda
-1648,3,110,1,23,3,Alameda
-1649,3,110,1,23,3,Alameda
-1650,3,110,1,23,3,Alameda
-1651,3,110,1,23,3,Alameda
-1652,3,110,1,23,3,Alameda
-1653,3,110,1,23,3,Alameda
-1654,3,110,1,23,3,Alameda
-1655,3,110,1,23,3,Alameda
-1656,3,110,1,23,3,Alameda
-1657,3,110,1,23,3,Alameda
-1658,3,110,1,23,3,Alameda
-1659,3,110,1,23,3,Alameda
-1660,3,110,1,23,3,Alameda
-1661,3,110,1,23,3,Alameda
-1662,3,110,1,23,3,Alameda
-1663,3,110,1,23,3,Alameda
-1664,3,110,1,23,3,Alameda
-1665,3,110,1,23,3,Alameda
-1666,3,110,1,23,3,Alameda
-1667,3,110,1,23,3,Alameda
-1670,3,110,1,23,3,Alameda
-1671,3,110,1,23,3,Alameda
-1672,3,110,1,23,3,Alameda
-1673,3,110,1,23,3,Alameda
-1674,3,110,1,23,3,Alameda
-1675,3,110,1,23,3,Alameda
-1676,3,110,1,23,3,Alameda
-1677,3,110,1,23,3,Alameda
-1678,3,110,1,23,3,Alameda
-1679,3,110,1,23,3,Alameda
-1680,3,110,1,23,3,Alameda
-1681,3,110,1,23,3,Alameda
-1682,3,110,1,23,3,Alameda
-1683,3,110,1,23,3,Alameda
-1684,3,110,1,23,3,Alameda
-1685,3,110,1,23,3,Alameda
-1686,3,110,1,23,3,Alameda
-1687,3,110,1,23,3,Alameda
-1688,3,110,1,23,3,Alameda
-1689,3,110,1,23,3,Alameda
-1690,3,110,1,23,3,Alameda
-1691,3,110,1,23,3,Alameda
-1692,3,110,1,23,3,Alameda
-1693,3,110,1,23,3,Alameda
-1694,3,110,1,23,3,Alameda
-1695,3,110,1,23,3,Alameda
-1696,3,110,1,23,3,Alameda
-1697,3,110,1,23,3,Alameda
-1698,3,110,1,23,3,Alameda
-1699,3,110,1,23,3,Alameda
-1700,3,110,1,23,3,Alameda
-1701,3,110,1,23,3,Alameda
-1702,3,110,1,23,3,Alameda
-1703,3,110,1,23,3,Alameda
-1704,3,110,1,23,3,Alameda
-1705,3,110,1,23,3,Alameda
-1706,3,110,1,23,3,Alameda
-1707,3,110,1,23,3,Alameda
-1708,3,110,1,23,3,Alameda
-1709,3,110,1,23,3,Alameda
-1710,3,110,1,23,3,Alameda
-1711,3,110,1,23,3,Alameda
-1712,3,110,1,23,3,Alameda
-1713,3,110,1,23,3,Alameda
-1714,3,110,1,23,3,Alameda
-1715,3,110,1,23,3,Alameda
-1716,3,110,1,23,3,Alameda
-1717,3,110,1,23,3,Alameda
-1718,3,110,1,23,3,Alameda
-1719,3,110,1,23,3,Alameda
-1720,3,110,1,23,3,Alameda
-1721,3,110,1,23,3,Alameda
-1722,3,110,1,23,3,Alameda
-1723,3,110,1,23,3,Alameda
-1724,3,110,1,23,3,Alameda
-1725,3,108,1,21,3,Alameda
-1726,3,109,1,22,3,Alameda
-1727,3,108,1,21,3,Alameda
-1728,3,108,1,21,3,Alameda
-1729,3,108,1,21,3,Alameda
-1730,3,107,1,20,3,Alameda
-1731,3,108,1,21,3,Alameda
-1732,3,108,1,21,3,Alameda
-1733,3,109,1,22,3,Alameda
-1734,3,109,1,22,3,Alameda
-1735,3,108,1,21,3,Alameda
-1736,3,108,1,21,3,Alameda
-1737,3,109,1,22,3,Alameda
-1738,3,109,1,22,3,Alameda
-1739,3,109,1,22,3,Alameda
-1740,3,109,1,22,3,Alameda
-1741,3,109,1,22,3,Alameda
-1742,3,109,1,22,3,Alameda
-1743,3,109,1,22,3,Alameda
-1744,3,109,1,22,3,Alameda
-1745,3,109,1,22,3,Alameda
-1746,3,109,1,22,3,Alameda
-1747,3,108,1,21,3,Alameda
-1748,3,108,1,21,3,Alameda
-1749,3,108,1,21,3,Alameda
-1750,3,109,1,22,3,Alameda
-1751,3,109,1,22,3,Alameda
-1752,3,109,1,22,3,Alameda
-1753,3,109,1,22,3,Alameda
-1754,3,109,1,22,3,Alameda
-1755,3,109,1,22,3,Alameda
-1756,3,109,1,22,3,Alameda
-1757,3,109,1,22,3,Alameda
-1758,3,109,1,22,3,Alameda
-1759,3,109,1,22,3,Alameda
-1760,3,109,1,22,3,Alameda
-1761,3,109,1,22,3,Alameda
-1762,3,108,1,21,3,Alameda
-1763,3,108,1,21,3,Alameda
-1764,3,108,1,21,3,Alameda
-1765,3,108,1,21,3,Alameda
-1766,3,108,1,21,3,Alameda
-1767,3,108,1,21,3,Alameda
-1768,3,108,1,21,3,Alameda
-1769,3,109,1,22,3,Alameda
-1770,3,108,1,21,3,Alameda
-1771,3,109,1,22,3,Alameda
-1772,3,109,1,22,3,Alameda
-1773,3,109,1,22,3,Alameda
-1774,3,108,1,21,3,Alameda
-1775,3,109,1,22,3,Alameda
-1776,3,108,1,21,3,Alameda
-1780,3,108,1,21,3,Alameda
-1781,3,108,1,21,3,Alameda
-1782,3,108,1,21,3,Alameda
-1783,3,108,1,21,3,Alameda
-1784,3,109,1,22,3,Alameda
-1785,3,109,1,22,3,Alameda
-1786,3,109,1,22,3,Alameda
-1787,3,109,1,22,3,Alameda
-1788,3,108,1,21,3,Alameda
-1789,3,109,1,22,3,Alameda
-1790,3,109,1,22,3,Alameda
-1791,3,108,1,21,3,Alameda
-1792,3,109,1,22,3,Alameda
-1793,3,109,1,22,3,Alameda
-1794,3,108,1,21,3,Alameda
-1795,3,109,1,22,3,Alameda
-1796,3,109,1,22,3,Alameda
-1797,3,108,1,21,3,Alameda
-1798,3,108,1,21,3,Alameda
-1799,3,108,1,21,3,Alameda
-1800,3,108,1,21,3,Alameda
-1801,3,108,1,21,3,Alameda
-1802,3,108,1,21,3,Alameda
-1803,3,109,1,22,3,Alameda
-1804,3,109,1,22,3,Alameda
-1805,3,108,1,21,3,Alameda
-1806,3,109,1,22,3,Alameda
-1807,3,109,1,22,3,Alameda
-1808,3,108,1,21,3,Alameda
-1809,3,108,1,21,3,Alameda
-1810,3,109,1,22,3,Alameda
-1811,3,108,1,21,3,Alameda
-1812,3,108,1,21,3,Alameda
-1813,3,109,1,22,3,Alameda
-1814,3,109,1,22,3,Alameda
-1815,3,109,1,22,3,Alameda
-1816,3,109,1,22,3,Alameda
-1817,3,109,1,22,3,Alameda
-1818,3,109,1,22,3,Alameda
-1819,3,108,1,21,3,Alameda
-1820,3,108,1,21,3,Alameda
-1821,3,108,1,21,3,Alameda
-1822,3,109,1,22,3,Alameda
-1823,3,109,1,22,3,Alameda
-1824,3,109,1,22,3,Alameda
-1825,3,108,1,21,3,Alameda
-1826,3,108,1,21,3,Alameda
-1827,3,108,1,21,3,Alameda
-1828,3,109,1,22,3,Alameda
-1829,3,109,1,22,3,Alameda
-1830,3,109,1,22,3,Alameda
-1831,3,109,1,22,3,Alameda
-1832,3,109,1,22,3,Alameda
-1833,3,109,1,22,3,Alameda
-1834,3,109,1,22,3,Alameda
-1835,3,109,1,22,3,Alameda
-1836,3,108,1,21,3,Alameda
-1837,3,108,1,21,3,Alameda
-1838,3,108,1,21,3,Alameda
-1839,3,108,1,21,3,Alameda
-1840,3,108,1,21,3,Alameda
-1841,3,109,1,22,3,Alameda
-1842,3,109,1,22,3,Alameda
-1843,3,109,1,22,3,Alameda
-1844,3,109,1,22,3,Alameda
-1845,3,109,1,22,3,Alameda
-1846,3,109,1,22,3,Alameda
-1847,3,108,1,21,3,Alameda
-1848,3,108,1,21,3,Alameda
-1849,3,108,1,21,3,Alameda
-1850,3,109,1,22,3,Alameda
-1851,3,108,1,21,3,Alameda
-1852,3,108,1,21,3,Alameda
-1853,3,109,1,22,3,Alameda
-1854,3,109,1,22,3,Alameda
-1855,3,109,1,22,3,Alameda
-1856,3,109,1,22,3,Alameda
-1857,3,108,1,21,3,Alameda
-1858,3,109,1,22,3,Alameda
-1859,3,108,1,21,3,Alameda
-1860,3,109,1,22,3,Alameda
-1861,3,109,1,22,3,Alameda
-1862,3,109,1,22,3,Alameda
-1863,3,108,1,21,3,Alameda
-1864,3,108,1,21,3,Alameda
-1865,3,108,1,21,3,Alameda
-1866,3,108,1,21,3,Alameda
-1867,3,108,1,21,3,Alameda
-1868,3,109,1,22,3,Alameda
-1869,3,109,1,22,3,Alameda
-1870,3,109,1,22,3,Alameda
-1871,3,108,1,21,3,Alameda
-1872,3,109,1,22,3,Alameda
-1873,3,109,1,22,3,Alameda
-1874,3,108,1,21,3,Alameda
-1875,3,108,1,21,3,Alameda
-1876,3,108,1,21,3,Alameda
-1877,3,108,1,21,3,Alameda
-1878,3,108,1,21,3,Alameda
-1879,3,109,1,22,3,Alameda
-1880,3,109,1,22,3,Alameda
-1881,3,108,1,21,3,Alameda
-1882,3,108,1,21,3,Alameda
-1883,3,108,1,21,3,Alameda
-1884,3,108,1,21,3,Alameda
-1885,3,109,1,22,3,Alameda
-1886,3,109,1,22,3,Alameda
-1887,3,106,1,19,3,Alameda
-1888,3,106,1,19,3,Alameda
-1889,3,105,1,18,3,Alameda
-1890,3,105,1,18,3,Alameda
-1891,3,105,1,18,3,Alameda
-1892,3,106,1,19,3,Alameda
-1893,3,106,1,19,3,Alameda
-1894,3,106,1,19,3,Alameda
-1895,3,106,1,19,3,Alameda
-1896,3,106,1,19,3,Alameda
-1897,3,106,1,19,3,Alameda
-1898,3,106,1,19,3,Alameda
-1899,3,106,1,19,3,Alameda
-1900,3,106,1,19,3,Alameda
-1901,3,106,1,19,3,Alameda
-1902,3,106,1,19,3,Alameda
-1903,3,106,1,19,3,Alameda
-1904,3,106,1,19,3,Alameda
-1905,3,106,1,19,3,Alameda
-1906,3,107,1,20,3,Alameda
-1907,3,107,1,20,3,Alameda
-1908,3,106,1,19,3,Alameda
-1909,3,107,1,20,3,Alameda
-1910,3,107,1,20,3,Alameda
-1911,3,107,1,20,3,Alameda
-1912,3,107,1,20,3,Alameda
-1913,3,107,1,20,3,Alameda
-1914,3,107,1,20,3,Alameda
-1915,3,107,1,20,3,Alameda
-1916,3,107,1,20,3,Alameda
-1917,3,107,1,20,3,Alameda
-1918,3,107,1,20,3,Alameda
-1919,3,106,1,19,3,Alameda
-1920,3,106,1,19,3,Alameda
-1921,3,106,1,19,3,Alameda
-1922,3,105,1,18,3,Alameda
-1923,3,105,1,18,3,Alameda
-1924,3,105,1,18,3,Alameda
-1925,3,105,1,18,3,Alameda
-1926,3,105,1,18,3,Alameda
-1927,3,105,1,18,3,Alameda
-1928,3,105,1,18,3,Alameda
-1929,3,105,1,18,3,Alameda
-1930,3,105,1,18,3,Alameda
-1931,3,105,1,18,3,Alameda
-1932,3,106,1,19,3,Alameda
-1933,3,107,1,20,3,Alameda
-1934,3,107,1,20,3,Alameda
-1935,3,106,1,19,3,Alameda
-1936,3,106,1,19,3,Alameda
-1937,3,106,1,19,3,Alameda
-1938,3,106,1,19,3,Alameda
-1939,3,107,1,20,3,Alameda
-1940,3,107,1,20,3,Alameda
-1941,3,107,1,20,3,Alameda
-1942,3,107,1,20,3,Alameda
-1943,3,107,1,20,3,Alameda
-1944,3,107,1,20,3,Alameda
-1945,3,107,1,20,3,Alameda
-1946,3,107,1,20,3,Alameda
-1947,3,107,1,20,3,Alameda
-1948,3,107,1,20,3,Alameda
-1949,3,106,1,19,3,Alameda
-1950,3,106,1,19,3,Alameda
-1951,3,105,1,18,3,Alameda
-1952,3,105,1,18,3,Alameda
-1953,3,105,1,18,3,Alameda
-1954,3,105,1,18,3,Alameda
-1955,3,105,1,18,3,Alameda
-1956,3,107,1,20,3,Alameda
-1957,3,106,1,19,3,Alameda
-1958,3,105,1,18,3,Alameda
-1959,3,105,1,18,3,Alameda
-1960,3,105,1,18,3,Alameda
-1961,3,105,1,18,3,Alameda
-1962,3,106,1,19,3,Alameda
-1963,3,106,1,19,3,Alameda
-1964,3,105,1,18,3,Alameda
-1965,3,105,1,18,3,Alameda
-1966,3,107,1,20,3,Alameda
-1967,3,106,1,19,3,Alameda
-1968,3,105,1,18,3,Alameda
-1969,3,105,1,18,3,Alameda
-1970,3,105,1,18,3,Alameda
-1971,3,105,1,18,3,Alameda
-1972,3,105,1,18,3,Alameda
-1973,3,107,1,20,3,Alameda
-1974,3,107,1,20,3,Alameda
-1975,3,107,1,20,3,Alameda
-1976,3,107,1,20,3,Alameda
-1977,3,107,1,20,3,Alameda
-1978,3,105,1,18,3,Alameda
-1979,3,105,1,18,3,Alameda
-1980,3,105,1,18,3,Alameda
-1981,3,105,1,18,3,Alameda
-1982,3,105,1,18,3,Alameda
-1983,3,106,1,19,3,Alameda
-1984,3,107,1,20,3,Alameda
-1985,3,106,1,19,3,Alameda
-1986,3,106,1,19,3,Alameda
-1987,3,106,1,19,3,Alameda
-1988,3,106,1,19,3,Alameda
-1989,3,106,1,19,3,Alameda
-1990,3,107,1,20,3,Alameda
-1991,3,107,1,20,3,Alameda
-1992,3,107,1,20,3,Alameda
-1993,3,107,1,20,3,Alameda
-1994,3,105,1,18,3,Alameda
-1995,3,107,1,20,3,Alameda
-1996,3,107,1,20,3,Alameda
-1997,3,106,1,19,3,Alameda
-1998,3,107,1,20,3,Alameda
-1999,3,106,1,19,3,Alameda
-2000,3,106,1,19,3,Alameda
-2001,3,105,1,18,3,Alameda
-2002,3,106,1,19,3,Alameda
-2003,3,107,1,20,3,Alameda
-2004,3,107,1,20,3,Alameda
-2005,3,107,1,20,3,Alameda
-2006,3,106,1,19,3,Alameda
-2007,3,106,1,19,3,Alameda
-2008,3,107,1,20,3,Alameda
-2009,3,107,1,20,3,Alameda
-2010,3,107,1,20,3,Alameda
-2011,3,107,1,20,3,Alameda
-2012,3,106,1,19,3,Alameda
-2013,3,107,1,20,3,Alameda
-2014,3,107,1,20,3,Alameda
-2015,3,107,1,20,3,Alameda
-2016,3,107,1,20,3,Alameda
-2017,3,107,1,20,3,Alameda
-2018,3,107,1,20,3,Alameda
-2019,3,107,1,20,3,Alameda
-2020,3,105,1,18,3,Alameda
-2021,3,105,1,18,3,Alameda
-2022,3,105,1,18,3,Alameda
-2023,3,107,1,20,3,Alameda
-2024,3,107,1,20,3,Alameda
-2025,3,107,1,20,3,Alameda
-2026,3,107,1,20,3,Alameda
-2027,3,107,1,20,3,Alameda
-2028,3,107,1,20,3,Alameda
-2029,3,107,1,20,3,Alameda
-2030,3,105,1,18,3,Alameda
-2031,3,106,1,19,3,Alameda
-2032,3,106,1,19,3,Alameda
-2033,3,106,1,19,3,Alameda
-2034,3,106,1,19,3,Alameda
-2035,3,106,1,19,3,Alameda
-2036,3,107,1,20,3,Alameda
-2037,3,106,1,19,3,Alameda
-2038,3,107,1,20,3,Alameda
-2039,3,106,1,19,3,Alameda
-2040,3,107,1,20,3,Alameda
-2041,3,106,1,19,3,Alameda
-2042,3,106,1,19,3,Alameda
-2043,3,106,1,19,3,Alameda
-2044,3,106,1,19,3,Alameda
-2045,3,106,1,19,3,Alameda
-2046,3,106,1,19,3,Alameda
-2047,3,107,1,20,3,Alameda
-2048,3,106,1,19,3,Alameda
-2049,3,106,1,19,3,Alameda
-2050,3,105,1,18,3,Alameda
-2051,3,107,1,20,3,Alameda
-2052,3,107,1,20,3,Alameda
-2053,3,106,1,19,3,Alameda
-2054,3,107,1,20,3,Alameda
-2055,3,107,1,20,3,Alameda
-2056,3,107,1,20,3,Alameda
-2057,3,105,1,18,3,Alameda
-2058,3,105,1,18,3,Alameda
-2059,3,105,1,18,3,Alameda
-2060,3,105,1,18,3,Alameda
-2061,3,105,1,18,3,Alameda
-2062,3,105,1,18,3,Alameda
-2063,3,105,1,18,3,Alameda
-2064,3,105,1,18,3,Alameda
-2065,3,107,1,20,3,Alameda
-2066,3,107,1,20,3,Alameda
-2067,3,106,1,19,3,Alameda
-2068,3,106,1,19,3,Alameda
-2069,3,106,1,19,3,Alameda
-2070,3,105,1,18,3,Alameda
-2071,3,105,1,18,3,Alameda
-2072,3,105,1,18,3,Alameda
-2073,3,106,1,19,3,Alameda
-2074,3,106,1,19,3,Alameda
-2075,3,106,1,19,3,Alameda
-2076,3,106,1,19,3,Alameda
-2077,3,106,1,19,3,Alameda
-2078,3,107,1,20,3,Alameda
-2079,3,105,1,18,3,Alameda
-2080,3,105,1,18,3,Alameda
-2081,3,103,1,16,3,Alameda
-2082,3,103,1,16,3,Alameda
-2083,3,103,1,16,3,Alameda
-2084,3,103,1,16,3,Alameda
-2085,3,103,1,16,3,Alameda
-2086,3,102,1,15,3,Alameda
-2087,3,102,1,15,3,Alameda
-2088,3,103,1,16,3,Alameda
-2089,3,105,1,18,3,Alameda
-2090,3,103,1,16,3,Alameda
-2091,3,102,1,15,3,Alameda
-2092,3,102,1,15,3,Alameda
-2093,3,102,1,15,3,Alameda
-2094,3,103,1,16,3,Alameda
-2095,3,103,1,16,3,Alameda
-2096,3,103,1,16,3,Alameda
-2097,3,103,1,16,3,Alameda
-2098,3,103,1,16,3,Alameda
-2099,3,103,1,16,3,Alameda
-2100,3,103,1,16,3,Alameda
-2101,3,102,1,15,3,Alameda
-2102,3,104,1,17,3,Alameda
-2103,3,103,1,16,3,Alameda
-2104,3,103,1,16,3,Alameda
-2105,3,105,1,18,3,Alameda
-2106,3,103,1,16,3,Alameda
-2107,3,103,1,16,3,Alameda
-2108,3,105,1,18,3,Alameda
-2109,3,103,1,16,3,Alameda
-2110,3,105,1,18,3,Alameda
-2111,3,105,1,18,3,Alameda
-2112,3,105,1,18,3,Alameda
-2113,3,105,1,18,3,Alameda
-2114,3,105,1,18,3,Alameda
-2115,3,105,1,18,3,Alameda
-2116,3,105,1,18,3,Alameda
-2117,3,105,1,18,3,Alameda
-2118,3,104,1,17,3,Alameda
-2119,3,103,1,16,3,Alameda
-2120,3,105,1,18,3,Alameda
-2121,3,105,1,18,3,Alameda
-2122,3,105,1,18,3,Alameda
-2123,3,105,1,18,3,Alameda
-2124,3,105,1,18,3,Alameda
-2125,3,105,1,18,3,Alameda
-2126,3,102,1,15,3,Alameda
-2127,3,103,1,16,3,Alameda
-2128,3,104,1,17,3,Alameda
-2129,3,103,1,16,3,Alameda
-2130,3,103,1,16,3,Alameda
-2131,3,103,1,16,3,Alameda
-2132,3,104,1,17,3,Alameda
-2133,3,104,1,17,3,Alameda
-2134,3,103,1,16,3,Alameda
-2135,3,105,1,18,3,Alameda
-2136,3,102,1,15,3,Alameda
-2137,3,104,1,17,3,Alameda
-2138,3,105,1,18,3,Alameda
-2139,3,102,1,15,3,Alameda
-2140,3,102,1,15,3,Alameda
-2141,3,102,1,15,3,Alameda
-2142,3,102,1,15,3,Alameda
-2143,3,102,1,15,3,Alameda
-2144,3,102,1,15,3,Alameda
-2145,3,102,1,15,3,Alameda
-2146,3,102,1,15,3,Alameda
-2147,3,105,1,18,3,Alameda
-2148,3,102,1,15,3,Alameda
-2149,3,105,1,18,3,Alameda
-2150,3,105,1,18,3,Alameda
-2151,3,102,1,15,3,Alameda
-2152,3,105,1,18,3,Alameda
-2153,3,105,1,18,3,Alameda
-2154,3,103,1,16,3,Alameda
-2155,3,104,1,17,3,Alameda
-2156,3,104,1,17,3,Alameda
-2157,3,104,1,17,3,Alameda
-2158,3,104,1,17,3,Alameda
-2159,3,104,1,17,3,Alameda
-2160,3,103,1,16,3,Alameda
-2161,3,102,1,15,3,Alameda
-2162,3,102,1,15,3,Alameda
-2163,3,102,1,15,3,Alameda
-2164,3,102,1,15,3,Alameda
-2165,3,102,1,15,3,Alameda
-2166,3,102,1,15,3,Alameda
-2167,3,102,1,15,3,Alameda
-2168,3,102,1,15,3,Alameda
-2169,3,103,1,16,3,Alameda
-2170,3,102,1,15,3,Alameda
-2171,3,102,1,15,3,Alameda
-2172,3,102,1,15,3,Alameda
-2173,3,103,1,16,3,Alameda
-2174,3,102,1,15,3,Alameda
-2175,3,102,1,15,3,Alameda
-2176,3,105,1,18,3,Alameda
-2177,3,104,1,17,3,Alameda
-2178,3,104,1,17,3,Alameda
-2179,3,104,1,17,3,Alameda
-2180,3,104,1,17,3,Alameda
-2181,3,104,1,17,3,Alameda
-2182,3,104,1,17,3,Alameda
-2183,3,102,1,15,3,Alameda
-2184,3,102,1,15,3,Alameda
-2185,3,104,1,17,3,Alameda
-2186,3,102,1,15,3,Alameda
-2187,3,102,1,15,3,Alameda
-2188,3,105,1,18,3,Alameda
-2189,3,105,1,18,3,Alameda
-2190,3,102,1,15,3,Alameda
-2191,3,102,1,15,3,Alameda
-2192,3,102,1,15,3,Alameda
-2193,3,104,1,17,3,Alameda
-2194,3,104,1,17,3,Alameda
-2195,3,104,1,17,3,Alameda
-2196,3,104,1,17,3,Alameda
-2197,3,104,1,17,3,Alameda
-2198,3,104,1,17,3,Alameda
-2199,3,104,1,17,3,Alameda
-2200,3,104,1,17,3,Alameda
-2201,3,103,1,16,3,Alameda
-2202,3,103,1,16,3,Alameda
-2203,3,103,1,16,3,Alameda
-2204,3,102,1,15,3,Alameda
-2205,3,103,1,16,3,Alameda
-2206,3,103,1,16,3,Alameda
-2207,3,103,1,16,3,Alameda
-2208,3,104,1,17,3,Alameda
-2209,3,104,1,17,3,Alameda
-2210,3,104,1,17,3,Alameda
-2211,3,104,1,17,3,Alameda
-2212,3,104,1,17,3,Alameda
-2213,3,104,1,17,3,Alameda
-2214,3,104,1,17,3,Alameda
-2215,3,104,1,17,3,Alameda
-2216,3,104,1,17,3,Alameda
-2217,3,105,1,18,3,Alameda
-2218,3,105,1,18,3,Alameda
-2219,3,104,1,17,3,Alameda
-2220,3,104,1,17,3,Alameda
-2221,3,104,1,17,3,Alameda
-2222,3,104,1,17,3,Alameda
-2223,3,104,1,17,3,Alameda
-2224,3,104,1,17,3,Alameda
-2225,3,104,1,17,3,Alameda
-2226,3,105,1,18,3,Alameda
-2227,3,102,1,15,3,Alameda
-2228,3,102,1,15,3,Alameda
-2229,3,102,1,15,3,Alameda
-2230,3,104,1,17,3,Alameda
-2231,3,104,1,17,3,Alameda
-2232,3,104,1,17,3,Alameda
-2233,3,102,1,15,3,Alameda
-2234,3,102,1,15,3,Alameda
-2235,3,103,1,16,3,Alameda
-2236,3,104,1,17,3,Alameda
-2237,3,104,1,17,3,Alameda
-2238,3,104,1,17,3,Alameda
-2239,3,104,1,17,3,Alameda
-2240,3,104,1,17,3,Alameda
-2241,3,104,1,17,3,Alameda
-2242,3,103,1,16,3,Alameda
-2243,3,105,1,18,3,Alameda
-2244,3,102,1,15,3,Alameda
-2245,3,102,1,15,3,Alameda
-2246,3,102,1,15,3,Alameda
-2247,3,103,1,16,3,Alameda
-2248,3,104,1,17,3,Alameda
-2249,3,104,1,17,3,Alameda
-2250,3,104,1,17,3,Alameda
-2251,3,104,1,17,3,Alameda
-2252,3,104,1,17,3,Alameda
-2253,3,103,1,16,3,Alameda
-2254,3,105,1,18,3,Alameda
-2255,3,102,1,15,3,Alameda
-2256,3,102,1,15,3,Alameda
-2257,3,105,1,18,3,Alameda
-2258,3,104,1,17,3,Alameda
-2259,3,103,1,16,3,Alameda
-2260,3,104,1,17,3,Alameda
-2261,3,103,1,16,3,Alameda
-2262,3,104,1,17,3,Alameda
-2263,3,103,1,16,3,Alameda
-2264,3,102,1,15,3,Alameda
-2265,3,103,1,16,3,Alameda
-2266,3,103,1,16,3,Alameda
-2267,3,103,1,16,3,Alameda
-2268,3,102,1,15,3,Alameda
-2269,3,103,1,16,3,Alameda
-2270,3,104,1,17,3,Alameda
-2271,3,104,1,17,3,Alameda
-2272,3,102,1,15,3,Alameda
-2273,3,105,1,18,3,Alameda
-2274,3,105,1,18,3,Alameda
-2275,3,105,1,18,3,Alameda
-2276,3,104,1,17,3,Alameda
-2277,3,102,1,15,3,Alameda
-2278,3,102,1,15,3,Alameda
-2279,3,103,1,16,3,Alameda
-2280,3,103,1,16,3,Alameda
-2281,3,102,1,15,3,Alameda
-2282,3,105,1,18,3,Alameda
-2283,3,105,1,18,3,Alameda
-2284,3,105,1,18,3,Alameda
-2285,3,102,1,15,3,Alameda
-2286,3,102,1,15,3,Alameda
-2287,3,102,1,15,3,Alameda
-2288,3,102,1,15,3,Alameda
-2289,3,103,1,16,3,Alameda
-2290,3,102,1,15,3,Alameda
-2291,3,102,1,15,3,Alameda
-2292,3,102,1,15,3,Alameda
-2293,3,105,1,18,3,Alameda
-2294,3,105,1,18,3,Alameda
-2295,3,105,1,18,3,Alameda
-2296,3,105,1,18,3,Alameda
-2297,3,105,1,18,3,Alameda
-2298,3,105,1,18,3,Alameda
-2299,3,102,1,15,3,Alameda
-2300,3,105,1,18,3,Alameda
-2301,3,105,1,18,3,Alameda
-2302,3,105,1,18,3,Alameda
-2303,3,103,1,16,3,Alameda
-2304,3,103,1,16,3,Alameda
-2305,3,102,1,15,3,Alameda
-2306,3,103,1,16,3,Alameda
-2307,3,103,1,16,3,Alameda
-2308,3,103,1,16,3,Alameda
-2309,3,102,1,15,3,Alameda
-2310,3,102,1,15,3,Alameda
-2311,3,102,1,15,3,Alameda
-2312,3,102,1,15,3,Alameda
-2313,3,103,1,16,3,Alameda
-2314,3,102,1,15,3,Alameda
-2315,3,102,1,15,3,Alameda
-2316,3,104,1,17,3,Alameda
-2317,3,103,1,16,3,Alameda
-2318,3,102,1,15,3,Alameda
-2319,3,104,1,17,3,Alameda
-2320,3,102,1,15,3,Alameda
-2321,3,102,1,15,3,Alameda
-2322,3,103,1,16,3,Alameda
-2323,3,103,1,16,3,Alameda
-2324,3,103,1,16,3,Alameda
-2325,3,103,1,16,3,Alameda
-2326,3,103,1,16,3,Alameda
-2327,3,102,1,15,3,Alameda
-2328,3,102,1,15,3,Alameda
-2329,3,102,1,15,3,Alameda
-2330,3,102,1,15,3,Alameda
-2331,3,102,1,15,3,Alameda
-2332,3,102,1,15,3,Alameda
-2333,3,102,1,15,3,Alameda
-2334,3,102,1,15,3,Alameda
-2335,3,102,1,15,3,Alameda
-2336,3,102,1,15,3,Alameda
-2337,3,102,1,15,3,Alameda
-2338,3,103,1,16,3,Alameda
-2339,3,103,1,16,3,Alameda
-2340,3,104,1,17,3,Alameda
-2341,3,104,1,17,3,Alameda
-2342,3,103,1,16,3,Alameda
-2343,3,103,1,16,3,Alameda
-2344,3,103,1,16,3,Alameda
-2345,3,103,1,16,3,Alameda
-2346,3,104,1,17,3,Alameda
-2347,3,103,1,16,3,Alameda
-2348,3,102,1,15,3,Alameda
-2349,3,102,1,15,3,Alameda
-2350,3,102,1,15,3,Alameda
-2351,3,102,1,15,3,Alameda
-2352,3,102,1,15,3,Alameda
-2353,3,102,1,15,3,Alameda
-2354,3,102,1,15,3,Alameda
-2355,3,104,1,17,3,Alameda
-2356,3,105,1,18,3,Alameda
-2357,3,104,1,17,3,Alameda
-2358,3,103,1,16,3,Alameda
-2359,3,103,1,16,3,Alameda
-2360,3,103,1,16,3,Alameda
-2361,3,103,1,16,3,Alameda
-2362,3,103,1,16,3,Alameda
-2363,3,103,1,16,3,Alameda
-2364,3,105,1,18,3,Alameda
-2365,3,103,1,16,3,Alameda
-2366,3,104,1,17,3,Alameda
-2367,3,104,1,17,3,Alameda
-2368,3,104,1,17,3,Alameda
-2369,3,104,1,17,3,Alameda
-2370,3,104,1,17,3,Alameda
-2371,3,104,1,17,3,Alameda
-2372,3,104,1,17,3,Alameda
-2373,3,104,1,17,3,Alameda
-2374,3,103,1,16,3,Alameda
-2375,3,103,1,16,3,Alameda
-2376,3,104,1,17,3,Alameda
-2377,3,102,1,15,3,Alameda
-2378,3,104,1,17,3,Alameda
-2379,3,104,1,17,3,Alameda
-2380,3,103,1,16,3,Alameda
-2381,3,104,1,17,3,Alameda
-2382,3,104,1,17,3,Alameda
-2383,3,102,1,15,3,Alameda
-2384,3,104,1,17,3,Alameda
-2385,3,104,1,17,3,Alameda
-2386,3,104,1,17,3,Alameda
-2387,3,104,1,17,3,Alameda
-2388,3,104,1,17,3,Alameda
-2389,3,104,1,17,3,Alameda
-2390,3,104,1,17,3,Alameda
-2391,3,102,1,15,3,Alameda
-2392,3,102,1,15,3,Alameda
-2393,3,102,1,15,3,Alameda
-2394,3,104,1,17,3,Alameda
-2395,3,102,1,15,3,Alameda
-2396,3,103,1,16,3,Alameda
-2397,3,105,1,18,3,Alameda
-2398,3,103,1,16,3,Alameda
-2399,3,104,1,17,3,Alameda
-2400,3,103,1,16,3,Alameda
-2401,3,102,1,15,3,Alameda
-2402,3,102,1,15,3,Alameda
-2403,3,103,1,16,3,Alameda
-2404,3,104,1,17,3,Alameda
-2405,3,103,1,16,3,Alameda
-2406,3,103,1,16,3,Alameda
-2407,3,104,1,17,3,Alameda
-2408,3,105,1,18,3,Alameda
-2409,3,105,1,18,3,Alameda
-2410,3,105,1,18,3,Alameda
-2411,3,103,1,16,3,Alameda
-2412,3,102,1,15,3,Alameda
-2413,3,102,1,15,3,Alameda
-2414,3,102,1,15,3,Alameda
-2415,3,102,1,15,3,Alameda
-2416,3,102,1,15,3,Alameda
-2417,3,102,1,15,3,Alameda
-2418,3,102,1,15,3,Alameda
-2419,3,103,1,16,3,Alameda
-2420,3,103,1,16,3,Alameda
-2421,3,102,1,15,3,Alameda
-2422,3,102,1,15,3,Alameda
-2423,3,103,1,16,3,Alameda
-2424,3,103,1,16,3,Alameda
-2425,3,102,1,15,3,Alameda
-2426,3,103,1,16,3,Alameda
-2427,3,102,1,15,3,Alameda
-2428,3,102,1,15,3,Alameda
-2429,3,102,1,15,3,Alameda
-2430,3,102,1,15,3,Alameda
-2431,3,102,1,15,3,Alameda
-2432,3,104,1,17,3,Alameda
-2433,3,102,1,15,3,Alameda
-2434,3,104,1,17,3,Alameda
-2435,3,104,1,17,3,Alameda
-2436,3,104,1,17,3,Alameda
-2437,3,104,1,17,3,Alameda
-2438,3,104,1,17,3,Alameda
-2439,3,104,1,17,3,Alameda
-2440,3,104,1,17,3,Alameda
-2441,3,103,1,16,3,Alameda
-2442,3,103,1,16,3,Alameda
-2443,3,102,1,15,3,Alameda
-2444,3,102,1,15,3,Alameda
-2445,3,102,1,15,3,Alameda
-2446,3,102,1,15,3,Alameda
-2447,3,102,1,15,3,Alameda
-2448,3,103,1,16,3,Alameda
-2449,3,102,1,15,3,Alameda
-2450,3,103,1,16,3,Alameda
-2451,3,101,1,14,3,Alameda
-2452,3,101,1,14,3,Alameda
-2453,3,101,1,14,3,Alameda
-2454,3,101,1,14,3,Alameda
-2455,3,101,1,14,3,Alameda
-2456,3,101,1,14,3,Alameda
-2457,3,101,1,14,3,Alameda
-2458,3,102,1,15,3,Alameda
-2459,3,101,1,14,3,Alameda
-2460,3,101,1,14,3,Alameda
-2461,3,101,1,14,3,Alameda
-2462,3,101,1,14,3,Alameda
-2463,3,103,1,16,3,Alameda
-2464,3,101,1,14,3,Alameda
-2465,3,101,1,14,3,Alameda
-2466,3,101,1,14,3,Alameda
-2467,3,101,1,14,3,Alameda
-2468,3,101,1,14,3,Alameda
-2469,3,101,1,14,3,Alameda
-2470,3,101,1,14,3,Alameda
-2471,3,102,1,15,3,Alameda
-2472,3,101,1,14,3,Alameda
-2473,3,101,1,14,3,Alameda
-2474,3,101,1,14,3,Alameda
-2475,3,102,1,15,3,Alameda
-2476,3,102,1,15,3,Alameda
-2477,3,102,1,15,3,Alameda
-2478,3,102,1,15,3,Alameda
-2479,3,101,1,14,3,Alameda
-2480,3,101,1,14,3,Alameda
-2481,3,101,1,14,3,Alameda
-2482,3,101,1,14,3,Alameda
-2483,3,101,1,14,3,Alameda
-2484,3,101,1,14,3,Alameda
-2485,3,101,1,14,3,Alameda
-2486,3,101,1,14,3,Alameda
-2487,3,102,1,15,3,Alameda
-2488,3,102,1,15,3,Alameda
-2489,3,102,1,15,3,Alameda
-2490,3,102,1,15,3,Alameda
-2491,3,102,1,15,3,Alameda
-2492,3,102,1,15,3,Alameda
-2493,3,101,1,14,3,Alameda
-2494,3,103,1,16,3,Alameda
-2495,3,103,1,16,3,Alameda
-2496,3,103,1,16,3,Alameda
-2497,3,102,1,15,3,Alameda
-2498,3,101,1,14,3,Alameda
-2499,3,101,1,14,3,Alameda
-2500,3,101,1,14,3,Alameda
-2501,3,102,1,15,3,Alameda
-2502,3,102,1,15,3,Alameda
-2503,3,102,1,15,3,Alameda
-2504,3,102,1,15,3,Alameda
-2505,3,102,1,15,3,Alameda
-2506,3,101,1,14,3,Alameda
-2507,3,102,1,15,3,Alameda
-2508,3,102,1,15,3,Alameda
-2509,3,101,1,14,3,Alameda
-2510,3,102,1,15,3,Alameda
-2511,3,102,1,15,3,Alameda
-2512,3,101,1,14,3,Alameda
-2513,3,101,1,14,3,Alameda
-2514,3,102,1,15,3,Alameda
-2515,3,101,1,14,3,Alameda
-2516,3,101,1,14,3,Alameda
-2517,3,101,1,14,3,Alameda
-2518,3,101,1,14,3,Alameda
-2519,3,101,1,14,3,Alameda
-2520,3,101,1,14,3,Alameda
-2521,3,102,1,15,3,Alameda
-2522,3,101,1,14,3,Alameda
-2523,3,101,1,14,3,Alameda
-2524,3,101,1,14,3,Alameda
-2525,3,101,1,14,3,Alameda
-2526,3,102,1,15,3,Alameda
-2527,3,103,1,16,3,Alameda
-2528,3,101,1,14,3,Alameda
-2529,3,101,1,14,3,Alameda
-2530,3,101,1,14,3,Alameda
-2531,3,101,1,14,3,Alameda
-2532,3,101,1,14,3,Alameda
-2533,3,101,1,14,3,Alameda
-2534,3,101,1,14,3,Alameda
-2535,3,101,1,14,3,Alameda
-2536,3,101,1,14,3,Alameda
-2537,3,101,1,14,3,Alameda
-2538,3,101,1,14,3,Alameda
-2539,3,101,1,14,3,Alameda
-2540,3,101,1,14,3,Alameda
-2541,3,101,1,14,3,Alameda
-2542,3,101,1,14,3,Alameda
-2543,3,101,1,14,3,Alameda
-2544,3,101,1,14,3,Alameda
-2545,3,101,1,14,3,Alameda
-2546,3,101,1,14,3,Alameda
-2547,3,101,1,14,3,Alameda
-2548,3,101,1,14,3,Alameda
-2549,3,101,1,14,3,Alameda
-2550,3,101,1,14,3,Alameda
-2551,3,101,1,14,3,Alameda
-2552,3,101,1,14,3,Alameda
-2553,3,101,1,14,3,Alameda
-2554,3,101,1,14,3,Alameda
-2555,3,101,1,14,3,Alameda
-2556,3,101,1,14,3,Alameda
-2557,3,101,1,14,3,Alameda
-2558,3,101,1,14,3,Alameda
-2559,3,101,1,14,3,Alameda
-2560,3,101,1,14,3,Alameda
-2561,3,101,1,14,3,Alameda
-2562,3,101,1,14,3,Alameda
-2563,3,101,1,14,3,Alameda
-2564,3,101,1,14,3,Alameda
-2565,3,102,1,15,3,Alameda
-2566,3,101,1,14,3,Alameda
-2567,3,101,1,14,3,Alameda
-2568,3,101,1,14,3,Alameda
-2569,3,102,1,15,3,Alameda
-2570,3,101,1,14,3,Alameda
-2571,3,101,1,14,3,Alameda
-2572,3,101,1,14,3,Alameda
-2573,3,101,1,14,3,Alameda
-2574,3,101,1,14,3,Alameda
-2575,3,101,1,14,3,Alameda
-2576,3,101,1,14,3,Alameda
-2577,3,101,1,14,3,Alameda
-2578,3,101,1,14,3,Alameda
-2579,3,101,1,14,3,Alameda
-2580,3,101,1,14,3,Alameda
-2581,3,101,1,14,3,Alameda
-2582,3,101,1,14,3,Alameda
-2583,3,101,1,14,3,Alameda
-2584,3,101,1,14,3,Alameda
-2585,3,101,1,14,3,Alameda
-2586,3,101,1,14,3,Alameda
-2587,3,101,1,14,3,Alameda
-2588,3,101,1,14,3,Alameda
-2589,3,103,1,16,3,Alameda
-2590,3,101,1,14,3,Alameda
-2591,3,101,1,14,3,Alameda
-2592,3,101,1,14,3,Alameda
-2593,3,101,1,14,3,Alameda
-2594,3,101,1,14,3,Alameda
-2595,3,101,1,14,3,Alameda
-2596,3,101,1,14,3,Alameda
-2597,3,102,1,15,3,Alameda
-2598,3,101,1,14,3,Alameda
-2599,3,101,1,14,3,Alameda
-2600,3,101,1,14,3,Alameda
-2601,3,101,1,14,3,Alameda
-2602,3,101,1,14,3,Alameda
-2603,3,101,1,14,3,Alameda
-2604,3,101,1,14,3,Alameda
-2605,3,101,1,14,3,Alameda
-2606,3,101,1,14,3,Alameda
-2607,3,101,1,14,3,Alameda
-2608,3,101,1,14,3,Alameda
-2609,3,101,1,14,3,Alameda
-2610,3,101,1,14,3,Alameda
-2611,3,101,1,14,3,Alameda
-2612,3,102,1,15,3,Alameda
-2613,3,102,1,15,3,Alameda
-2614,3,102,1,15,3,Alameda
-2615,3,102,1,15,3,Alameda
-2616,3,103,1,16,3,Alameda
-2617,3,103,1,16,3,Alameda
-2618,3,103,1,16,3,Alameda
-2619,3,103,1,16,3,Alameda
-2620,4,1301,1,24,4,Contra Costa
-2621,4,1301,1,24,4,Contra Costa
-2622,4,1301,1,24,4,Contra Costa
-2623,4,1301,1,24,4,Contra Costa
-2624,4,1302,1,25,4,Contra Costa
-2625,4,1303,1,26,4,Contra Costa
-2626,4,1303,1,26,4,Contra Costa
-2627,4,1303,1,26,4,Contra Costa
-2628,4,1302,1,25,4,Contra Costa
-2629,4,1302,1,25,4,Contra Costa
-2630,4,1303,1,26,4,Contra Costa
-2631,4,1302,1,25,4,Contra Costa
-2632,4,1303,1,26,4,Contra Costa
-2633,4,1302,1,25,4,Contra Costa
-2634,4,1302,1,25,4,Contra Costa
-2635,4,1302,1,25,4,Contra Costa
-2636,4,1302,1,25,4,Contra Costa
-2637,4,1302,1,25,4,Contra Costa
-2638,4,1302,1,25,4,Contra Costa
-2639,4,1302,1,25,4,Contra Costa
-2640,4,1302,1,25,4,Contra Costa
-2641,4,1302,1,25,4,Contra Costa
-2642,4,1301,1,24,4,Contra Costa
-2643,4,1301,1,24,4,Contra Costa
-2644,4,1301,1,24,4,Contra Costa
-2645,4,1301,1,24,4,Contra Costa
-2646,4,1301,1,24,4,Contra Costa
-2647,4,1301,1,24,4,Contra Costa
-2648,4,1301,1,24,4,Contra Costa
-2649,4,1302,1,25,4,Contra Costa
-2650,4,1302,1,25,4,Contra Costa
-2651,4,1302,1,25,4,Contra Costa
-2652,4,1302,1,25,4,Contra Costa
-2653,4,1302,1,25,4,Contra Costa
-2654,4,1301,1,24,4,Contra Costa
-2655,4,1301,1,24,4,Contra Costa
-2656,4,1302,1,25,4,Contra Costa
-2657,4,1302,1,25,4,Contra Costa
-2658,4,1302,1,25,4,Contra Costa
-2659,4,1302,1,25,4,Contra Costa
-2660,4,1302,1,25,4,Contra Costa
-2661,4,1301,1,24,4,Contra Costa
-2662,4,1301,1,24,4,Contra Costa
-2663,4,1301,1,24,4,Contra Costa
-2664,4,1301,1,24,4,Contra Costa
-2665,4,1301,1,24,4,Contra Costa
-2666,4,1301,1,24,4,Contra Costa
-2667,4,1301,1,24,4,Contra Costa
-2668,4,1301,1,24,4,Contra Costa
-2669,4,1302,1,25,4,Contra Costa
-2670,4,1302,1,25,4,Contra Costa
-2671,4,1302,1,25,4,Contra Costa
-2672,4,1302,1,25,4,Contra Costa
-2673,4,1301,1,24,4,Contra Costa
-2674,4,1302,1,25,4,Contra Costa
-2675,4,1302,1,25,4,Contra Costa
-2676,4,1302,1,25,4,Contra Costa
-2677,4,1302,1,25,4,Contra Costa
-2678,4,1302,1,25,4,Contra Costa
-2679,4,1302,1,25,4,Contra Costa
-2680,4,1302,1,25,4,Contra Costa
-2681,4,1302,1,25,4,Contra Costa
-2682,4,1302,1,25,4,Contra Costa
-2683,4,1301,1,24,4,Contra Costa
-2684,4,1302,1,25,4,Contra Costa
-2685,4,1301,1,24,4,Contra Costa
-2686,4,1301,1,24,4,Contra Costa
-2687,4,1301,1,24,4,Contra Costa
-2688,4,1302,1,25,4,Contra Costa
-2689,4,1302,1,25,4,Contra Costa
-2690,4,1302,1,25,4,Contra Costa
-2691,4,1302,1,25,4,Contra Costa
-2692,4,1302,1,25,4,Contra Costa
-2693,4,1302,1,25,4,Contra Costa
-2694,4,1302,1,25,4,Contra Costa
-2695,4,1302,1,25,4,Contra Costa
-2696,4,1301,1,24,4,Contra Costa
-2697,4,1303,1,26,4,Contra Costa
-2698,4,1302,1,25,4,Contra Costa
-2699,4,1302,1,25,4,Contra Costa
-2700,4,1302,1,25,4,Contra Costa
-2701,4,1302,1,25,4,Contra Costa
-2702,4,1302,1,25,4,Contra Costa
-2703,4,1302,1,25,4,Contra Costa
-2704,4,1302,1,25,4,Contra Costa
-2705,4,1302,1,25,4,Contra Costa
-2706,4,1302,1,25,4,Contra Costa
-2707,4,1302,1,25,4,Contra Costa
-2708,4,1302,1,25,4,Contra Costa
-2709,4,1302,1,25,4,Contra Costa
-2710,4,1301,1,24,4,Contra Costa
-2711,4,1301,1,24,4,Contra Costa
-2712,4,1301,1,24,4,Contra Costa
-2713,4,1301,1,24,4,Contra Costa
-2714,4,1301,1,24,4,Contra Costa
-2715,4,1301,1,24,4,Contra Costa
-2716,4,1301,1,24,4,Contra Costa
-2717,4,1301,1,24,4,Contra Costa
-2718,4,1301,1,24,4,Contra Costa
-2719,4,1301,1,24,4,Contra Costa
-2720,4,1301,1,24,4,Contra Costa
-2721,4,1301,1,24,4,Contra Costa
-2722,4,1301,1,24,4,Contra Costa
-2723,4,1301,1,24,4,Contra Costa
-2724,4,1301,1,24,4,Contra Costa
-2725,4,1301,1,24,4,Contra Costa
-2726,4,1301,1,24,4,Contra Costa
-2727,4,1301,1,24,4,Contra Costa
-2728,4,1301,1,24,4,Contra Costa
-2729,4,1301,1,24,4,Contra Costa
-2730,4,1301,1,24,4,Contra Costa
-2731,4,1301,1,24,4,Contra Costa
-2732,4,1301,1,24,4,Contra Costa
-2733,4,1301,1,24,4,Contra Costa
-2734,4,1301,1,24,4,Contra Costa
-2735,4,1301,1,24,4,Contra Costa
-2736,4,1301,1,24,4,Contra Costa
-2737,4,1301,1,24,4,Contra Costa
-2738,4,1301,1,24,4,Contra Costa
-2739,4,1301,1,24,4,Contra Costa
-2740,4,1301,1,24,4,Contra Costa
-2741,4,1301,1,24,4,Contra Costa
-2742,4,1301,1,24,4,Contra Costa
-2743,4,1301,1,24,4,Contra Costa
-2744,4,1301,1,24,4,Contra Costa
-2745,4,1303,1,26,4,Contra Costa
-2746,4,1303,1,26,4,Contra Costa
-2747,4,1303,1,26,4,Contra Costa
-2748,4,1301,1,24,4,Contra Costa
-2749,4,1302,1,25,4,Contra Costa
-2750,4,1302,1,25,4,Contra Costa
-2751,4,1301,1,24,4,Contra Costa
-2752,4,1301,1,24,4,Contra Costa
-2753,4,1301,1,24,4,Contra Costa
-2754,4,1301,1,24,4,Contra Costa
-2755,4,1301,1,24,4,Contra Costa
-2756,4,1303,1,26,4,Contra Costa
-2757,4,1302,1,25,4,Contra Costa
-2758,4,1301,1,24,4,Contra Costa
-2759,4,1301,1,24,4,Contra Costa
-2760,4,1302,1,25,4,Contra Costa
-2761,4,1302,1,25,4,Contra Costa
-2762,4,1302,1,25,4,Contra Costa
-2763,4,1302,1,25,4,Contra Costa
-2764,4,1301,1,24,4,Contra Costa
-2765,4,1301,1,24,4,Contra Costa
-2766,4,1301,1,24,4,Contra Costa
-2767,4,1302,1,25,4,Contra Costa
-2768,4,1301,1,24,4,Contra Costa
-2769,4,1301,1,24,4,Contra Costa
-2770,4,1303,1,26,4,Contra Costa
-2771,4,1303,1,26,4,Contra Costa
-2772,4,1303,1,26,4,Contra Costa
-2773,4,1303,1,26,4,Contra Costa
-2774,4,1303,1,26,4,Contra Costa
-2775,4,1307,1,30,4,Contra Costa
-2776,4,1306,1,29,4,Contra Costa
-2777,4,1306,1,29,4,Contra Costa
-2778,4,1303,1,26,4,Contra Costa
-2779,4,1306,1,29,4,Contra Costa
-2780,4,1306,1,29,4,Contra Costa
-2781,4,1303,1,26,4,Contra Costa
-2782,4,1303,1,26,4,Contra Costa
-2783,4,1303,1,26,4,Contra Costa
-2784,4,1303,1,26,4,Contra Costa
-2785,4,1303,1,26,4,Contra Costa
-2786,4,1303,1,26,4,Contra Costa
-2787,4,1303,1,26,4,Contra Costa
-2788,4,1303,1,26,4,Contra Costa
-2789,4,1303,1,26,4,Contra Costa
-2790,4,1307,1,30,4,Contra Costa
-2791,4,1307,1,30,4,Contra Costa
-2792,4,1307,1,30,4,Contra Costa
-2793,4,1306,1,29,4,Contra Costa
-2794,4,1306,1,29,4,Contra Costa
-2795,4,1306,1,29,4,Contra Costa
-2796,4,1303,1,26,4,Contra Costa
-2797,4,1306,1,29,4,Contra Costa
-2798,4,1307,1,30,4,Contra Costa
-2799,4,1303,1,26,4,Contra Costa
-2800,4,1307,1,30,4,Contra Costa
-2801,4,1306,1,29,4,Contra Costa
-2802,4,1306,1,29,4,Contra Costa
-2803,4,1304,1,27,4,Contra Costa
-2804,4,1306,1,29,4,Contra Costa
-2805,4,1306,1,29,4,Contra Costa
-2806,4,1303,1,26,4,Contra Costa
-2807,4,1303,1,26,4,Contra Costa
-2808,4,1303,1,26,4,Contra Costa
-2809,4,1303,1,26,4,Contra Costa
-2810,4,1303,1,26,4,Contra Costa
-2811,4,1303,1,26,4,Contra Costa
-2812,4,1307,1,30,4,Contra Costa
-2813,4,1306,1,29,4,Contra Costa
-2814,4,1303,1,26,4,Contra Costa
-2815,4,1303,1,26,4,Contra Costa
-2816,4,1303,1,26,4,Contra Costa
-2817,4,1303,1,26,4,Contra Costa
-2818,4,1303,1,26,4,Contra Costa
-2819,4,1303,1,26,4,Contra Costa
-2820,4,1303,1,26,4,Contra Costa
-2821,4,1303,1,26,4,Contra Costa
-2822,4,1306,1,29,4,Contra Costa
-2823,4,1306,1,29,4,Contra Costa
-2824,4,1306,1,29,4,Contra Costa
-2825,4,1303,1,26,4,Contra Costa
-2826,4,1307,1,30,4,Contra Costa
-2827,4,1307,1,30,4,Contra Costa
-2828,4,1303,1,26,4,Contra Costa
-2829,4,1303,1,26,4,Contra Costa
-2830,4,1303,1,26,4,Contra Costa
-2831,4,1303,1,26,4,Contra Costa
-2832,4,1304,1,27,4,Contra Costa
-2833,4,1303,1,26,4,Contra Costa
-2834,4,1303,1,26,4,Contra Costa
-2835,4,1303,1,26,4,Contra Costa
-2836,4,1303,1,26,4,Contra Costa
-2837,4,1303,1,26,4,Contra Costa
-2838,4,1303,1,26,4,Contra Costa
-2839,4,1303,1,26,4,Contra Costa
-2840,4,1303,1,26,4,Contra Costa
-2841,4,1303,1,26,4,Contra Costa
-2842,4,1307,1,30,4,Contra Costa
-2843,4,1307,1,30,4,Contra Costa
-2844,4,1307,1,30,4,Contra Costa
-2845,4,1303,1,26,4,Contra Costa
-2846,4,1303,1,26,4,Contra Costa
-2847,4,1303,1,26,4,Contra Costa
-2848,4,1303,1,26,4,Contra Costa
-2849,4,1306,1,29,4,Contra Costa
-2850,4,1306,1,29,4,Contra Costa
-2851,4,1303,1,26,4,Contra Costa
-2852,4,1307,1,30,4,Contra Costa
-2853,4,1303,1,26,4,Contra Costa
-2854,4,1303,1,26,4,Contra Costa
-2855,4,1306,1,29,4,Contra Costa
-2856,4,1306,1,29,4,Contra Costa
-2857,4,1306,1,29,4,Contra Costa
-2858,4,1306,1,29,4,Contra Costa
-2859,4,1306,1,29,4,Contra Costa
-2860,4,1303,1,26,4,Contra Costa
-2861,4,1303,1,26,4,Contra Costa
-2862,4,1303,1,26,4,Contra Costa
-2863,4,1303,1,26,4,Contra Costa
-2864,4,1303,1,26,4,Contra Costa
-2865,4,1306,1,29,4,Contra Costa
-2866,4,1303,1,26,4,Contra Costa
-2867,4,1303,1,26,4,Contra Costa
-2868,4,1307,1,30,4,Contra Costa
-2869,4,1307,1,30,4,Contra Costa
-2870,4,1307,1,30,4,Contra Costa
-2871,4,1307,1,30,4,Contra Costa
-2872,4,1306,1,29,4,Contra Costa
-2873,4,1304,1,27,4,Contra Costa
-2874,4,1304,1,27,4,Contra Costa
-2875,4,1304,1,27,4,Contra Costa
-2876,4,1306,1,29,4,Contra Costa
-2877,4,1306,1,29,4,Contra Costa
-2878,4,1306,1,29,4,Contra Costa
-2879,4,1306,1,29,4,Contra Costa
-2880,4,1304,1,27,4,Contra Costa
-2881,4,1304,1,27,4,Contra Costa
-2882,4,1306,1,29,4,Contra Costa
-2883,4,1306,1,29,4,Contra Costa
-2884,4,1306,1,29,4,Contra Costa
-2885,4,1304,1,27,4,Contra Costa
-2886,4,1304,1,27,4,Contra Costa
-2887,4,1304,1,27,4,Contra Costa
-2888,4,1304,1,27,4,Contra Costa
-2889,4,1304,1,27,4,Contra Costa
-2890,4,1304,1,27,4,Contra Costa
-2891,4,1304,1,27,4,Contra Costa
-2892,4,1304,1,27,4,Contra Costa
-2893,4,1304,1,27,4,Contra Costa
-2894,4,1304,1,27,4,Contra Costa
-2895,4,1304,1,27,4,Contra Costa
-2896,4,1304,1,27,4,Contra Costa
-2897,4,1306,1,29,4,Contra Costa
-2898,4,1304,1,27,4,Contra Costa
-2899,4,1304,1,27,4,Contra Costa
-2900,4,1306,1,29,4,Contra Costa
-2901,4,1306,1,29,4,Contra Costa
-2902,4,1304,1,27,4,Contra Costa
-2903,4,1304,1,27,4,Contra Costa
-2904,4,1304,1,27,4,Contra Costa
-2905,4,1304,1,27,4,Contra Costa
-2906,4,1306,1,29,4,Contra Costa
-2907,4,1306,1,29,4,Contra Costa
-2908,4,1306,1,29,4,Contra Costa
-2909,4,1304,1,27,4,Contra Costa
-2910,4,1306,1,29,4,Contra Costa
-2911,4,1304,1,27,4,Contra Costa
-2912,4,1304,1,27,4,Contra Costa
-2913,4,1306,1,29,4,Contra Costa
-2914,4,1304,1,27,4,Contra Costa
-2915,4,1304,1,27,4,Contra Costa
-2916,4,1304,1,27,4,Contra Costa
-2917,4,1304,1,27,4,Contra Costa
-2918,4,1304,1,27,4,Contra Costa
-2919,4,1304,1,27,4,Contra Costa
-2920,4,1304,1,27,4,Contra Costa
-2921,4,1306,1,29,4,Contra Costa
-2922,4,1306,1,29,4,Contra Costa
-2923,4,1306,1,29,4,Contra Costa
-2924,4,1306,1,29,4,Contra Costa
-2925,4,1304,1,27,4,Contra Costa
-2926,4,1304,1,27,4,Contra Costa
-2927,4,1304,1,27,4,Contra Costa
-2928,4,1304,1,27,4,Contra Costa
-2929,4,1306,1,29,4,Contra Costa
-2930,4,1304,1,27,4,Contra Costa
-2931,4,1304,1,27,4,Contra Costa
-2932,4,1304,1,27,4,Contra Costa
-2933,4,1304,1,27,4,Contra Costa
-2934,4,1304,1,27,4,Contra Costa
-2935,4,1304,1,27,4,Contra Costa
-2936,4,1304,1,27,4,Contra Costa
-2937,4,1304,1,27,4,Contra Costa
-2938,4,1304,1,27,4,Contra Costa
-2939,4,1304,1,27,4,Contra Costa
-2940,4,1304,1,27,4,Contra Costa
-2941,4,1304,1,27,4,Contra Costa
-2942,4,1305,1,28,4,Contra Costa
-2943,4,1305,1,28,4,Contra Costa
-2944,4,1305,1,28,4,Contra Costa
-2945,4,1305,1,28,4,Contra Costa
-2946,4,1305,1,28,4,Contra Costa
-2947,4,1306,1,29,4,Contra Costa
-2948,4,1305,1,28,4,Contra Costa
-2949,4,1305,1,28,4,Contra Costa
-2950,4,1305,1,28,4,Contra Costa
-2951,4,1305,1,28,4,Contra Costa
-2952,4,1305,1,28,4,Contra Costa
-2953,4,1305,1,28,4,Contra Costa
-2954,4,1304,1,27,4,Contra Costa
-2955,4,1304,1,27,4,Contra Costa
-2956,4,1305,1,28,4,Contra Costa
-2959,4,1305,1,28,4,Contra Costa
-2960,4,1305,1,28,4,Contra Costa
-2961,4,1305,1,28,4,Contra Costa
-2962,4,1305,1,28,4,Contra Costa
-2963,4,1305,1,28,4,Contra Costa
-2964,4,1305,1,28,4,Contra Costa
-2965,4,1305,1,28,4,Contra Costa
-2966,4,1305,1,28,4,Contra Costa
-2967,4,1305,1,28,4,Contra Costa
-2968,4,1305,1,28,4,Contra Costa
-2969,4,1305,1,28,4,Contra Costa
-2970,4,1305,1,28,4,Contra Costa
-2971,4,1307,1,30,4,Contra Costa
-2972,4,1309,1,32,4,Contra Costa
-2973,4,1309,1,32,4,Contra Costa
-2974,4,1308,1,31,4,Contra Costa
-2975,4,1308,1,31,4,Contra Costa
-2976,4,1308,1,31,4,Contra Costa
-2977,4,1308,1,31,4,Contra Costa
-2978,4,1308,1,31,4,Contra Costa
-2979,4,1308,1,31,4,Contra Costa
-2980,4,1307,1,30,4,Contra Costa
-2981,4,1307,1,30,4,Contra Costa
-2982,4,1309,1,32,4,Contra Costa
-2983,4,1309,1,32,4,Contra Costa
-2984,4,1309,1,32,4,Contra Costa
-2985,4,1309,1,32,4,Contra Costa
-2986,4,1308,1,31,4,Contra Costa
-2987,4,1308,1,31,4,Contra Costa
-2988,4,1308,1,31,4,Contra Costa
-2989,4,1308,1,31,4,Contra Costa
-2990,4,1308,1,31,4,Contra Costa
-2991,4,1308,1,31,4,Contra Costa
-2992,4,1308,1,31,4,Contra Costa
-2993,4,1307,1,30,4,Contra Costa
-2994,4,1307,1,30,4,Contra Costa
-2995,4,1307,1,30,4,Contra Costa
-2996,4,1307,1,30,4,Contra Costa
-2997,4,1307,1,30,4,Contra Costa
-2998,4,1307,1,30,4,Contra Costa
-2999,4,1307,1,30,4,Contra Costa
-3000,4,1308,1,31,4,Contra Costa
-3001,4,1308,1,31,4,Contra Costa
-3006,4,1309,1,32,4,Contra Costa
-3007,4,1309,1,32,4,Contra Costa
-3010,4,1307,1,30,4,Contra Costa
-3011,4,1309,1,32,4,Contra Costa
-3012,4,1307,1,30,4,Contra Costa
-3013,4,1307,1,30,4,Contra Costa
-3014,4,1309,1,32,4,Contra Costa
-3015,4,1307,1,30,4,Contra Costa
-3016,4,1309,1,32,4,Contra Costa
-3017,4,1309,1,32,4,Contra Costa
-3018,4,1309,1,32,4,Contra Costa
-3019,4,1309,1,32,4,Contra Costa
-3020,4,1309,1,32,4,Contra Costa
-3021,4,1309,1,32,4,Contra Costa
-3022,4,1309,1,32,4,Contra Costa
-3023,4,1309,1,32,4,Contra Costa
-3024,4,1307,1,30,4,Contra Costa
-3025,4,1308,1,31,4,Contra Costa
-3026,4,1308,1,31,4,Contra Costa
-3027,4,1308,1,31,4,Contra Costa
-3028,4,1307,1,30,4,Contra Costa
-3029,4,1309,1,32,4,Contra Costa
-3030,4,1309,1,32,4,Contra Costa
-3031,4,1308,1,31,4,Contra Costa
-3032,4,1308,1,31,4,Contra Costa
-3033,4,1308,1,31,4,Contra Costa
-3034,4,1307,1,30,4,Contra Costa
-3035,4,1307,1,30,4,Contra Costa
-3036,4,1307,1,30,4,Contra Costa
-3037,4,1307,1,30,4,Contra Costa
-3038,4,1308,1,31,4,Contra Costa
-3039,4,1308,1,31,4,Contra Costa
-3040,4,1308,1,31,4,Contra Costa
-3041,4,1308,1,31,4,Contra Costa
-3042,4,1308,1,31,4,Contra Costa
-3043,4,1308,1,31,4,Contra Costa
-3044,4,1308,1,31,4,Contra Costa
-3045,4,1308,1,31,4,Contra Costa
-3046,4,1308,1,31,4,Contra Costa
-3047,4,1308,1,31,4,Contra Costa
-3048,4,1308,1,31,4,Contra Costa
-3049,4,1307,1,30,4,Contra Costa
-3050,4,1307,1,30,4,Contra Costa
-3051,4,1307,1,30,4,Contra Costa
-3052,4,1307,1,30,4,Contra Costa
-3053,4,1307,1,30,4,Contra Costa
-3054,4,1307,1,30,4,Contra Costa
-3055,4,1307,1,30,4,Contra Costa
-3056,4,1307,1,30,4,Contra Costa
-3057,4,1307,1,30,4,Contra Costa
-3058,4,1307,1,30,4,Contra Costa
-3059,4,1307,1,30,4,Contra Costa
-3060,4,1307,1,30,4,Contra Costa
-3061,4,1308,1,31,4,Contra Costa
-3062,4,1309,1,32,4,Contra Costa
-3063,4,1307,1,30,4,Contra Costa
-3064,4,1307,1,30,4,Contra Costa
-3065,4,1307,1,30,4,Contra Costa
-3066,4,1307,1,30,4,Contra Costa
-3067,4,1308,1,31,4,Contra Costa
-3068,4,1308,1,31,4,Contra Costa
-3069,4,1307,1,30,4,Contra Costa
-3070,4,1307,1,30,4,Contra Costa
-3071,4,1307,1,30,4,Contra Costa
-3072,4,1307,1,30,4,Contra Costa
-3073,7,9501,1,49,7,Solano
-3074,7,9501,1,49,7,Solano
-3075,7,9501,1,49,7,Solano
-3076,7,9501,1,49,7,Solano
-3077,7,9501,1,49,7,Solano
-3078,7,9501,1,49,7,Solano
-3079,7,9501,1,49,7,Solano
-3080,7,9501,1,49,7,Solano
-3081,7,9501,1,49,7,Solano
-3082,7,9501,1,49,7,Solano
-3083,7,9501,1,49,7,Solano
-3084,7,9501,1,49,7,Solano
-3085,7,9501,1,49,7,Solano
-3086,7,9501,1,49,7,Solano
-3087,7,9501,1,49,7,Solano
-3088,7,9501,1,49,7,Solano
-3089,7,9501,1,49,7,Solano
-3090,7,9501,1,49,7,Solano
-3091,7,9501,1,49,7,Solano
-3092,7,9501,1,49,7,Solano
-3093,7,9501,1,49,7,Solano
-3094,7,9501,1,49,7,Solano
-3095,7,9501,1,49,7,Solano
-3096,7,9501,1,49,7,Solano
-3097,7,9501,1,49,7,Solano
-3098,7,9501,1,49,7,Solano
-3099,7,9501,1,49,7,Solano
-3100,7,9501,1,49,7,Solano
-3101,7,9501,1,49,7,Solano
-3102,7,9501,1,49,7,Solano
-3103,7,9501,1,49,7,Solano
-3104,7,9501,1,49,7,Solano
-3105,7,9501,1,49,7,Solano
-3106,7,9501,1,49,7,Solano
-3107,7,9501,1,49,7,Solano
-3108,7,9501,1,49,7,Solano
-3109,7,9501,1,49,7,Solano
-3110,7,9501,1,49,7,Solano
-3111,7,9501,1,49,7,Solano
-3112,7,9501,1,49,7,Solano
-3113,7,9501,1,49,7,Solano
-3114,7,9501,1,49,7,Solano
-3115,7,9501,1,49,7,Solano
-3116,7,9501,1,49,7,Solano
-3117,7,9501,1,49,7,Solano
-3118,7,9501,1,49,7,Solano
-3119,7,9501,1,49,7,Solano
-3120,7,9501,1,49,7,Solano
-3121,7,9501,1,49,7,Solano
-3122,7,9501,1,49,7,Solano
-3123,7,9501,1,49,7,Solano
-3124,7,9501,1,49,7,Solano
-3125,7,9501,1,49,7,Solano
-3126,7,9501,1,49,7,Solano
-3127,7,9501,1,49,7,Solano
-3128,7,9501,1,49,7,Solano
-3129,7,9501,1,49,7,Solano
-3130,7,9501,1,49,7,Solano
-3131,7,9501,1,49,7,Solano
-3132,7,9501,1,49,7,Solano
-3133,7,9501,1,49,7,Solano
-3134,7,9501,1,49,7,Solano
-3135,7,9501,1,49,7,Solano
-3136,7,9501,1,49,7,Solano
-3137,7,9501,1,49,7,Solano
-3138,7,9501,1,49,7,Solano
-3139,7,9501,1,49,7,Solano
-3140,7,9501,1,49,7,Solano
-3141,7,9501,1,49,7,Solano
-3142,7,9501,1,49,7,Solano
-3143,7,9502,1,50,7,Solano
-3144,7,9502,1,50,7,Solano
-3145,7,9502,1,50,7,Solano
-3146,7,9502,1,50,7,Solano
-3147,7,9502,1,50,7,Solano
-3148,7,9503,1,51,7,Solano
-3149,7,9503,1,51,7,Solano
-3150,7,9503,1,51,7,Solano
-3151,7,9503,1,51,7,Solano
-3152,7,9503,1,51,7,Solano
-3153,7,9503,1,51,7,Solano
-3154,7,9503,1,51,7,Solano
-3155,7,9503,1,51,7,Solano
-3156,7,9502,1,50,7,Solano
-3157,7,9502,1,50,7,Solano
-3158,7,9502,1,50,7,Solano
-3159,7,9502,1,50,7,Solano
-3160,7,9502,1,50,7,Solano
-3161,7,9502,1,50,7,Solano
-3162,7,9502,1,50,7,Solano
-3163,7,9502,1,50,7,Solano
-3164,7,9502,1,50,7,Solano
-3165,7,9502,1,50,7,Solano
-3166,7,9502,1,50,7,Solano
-3167,7,9502,1,50,7,Solano
-3168,7,9502,1,50,7,Solano
-3169,7,9502,1,50,7,Solano
-3170,7,9502,1,50,7,Solano
-3171,7,9502,1,50,7,Solano
-3172,7,9502,1,50,7,Solano
-3173,7,9503,1,51,7,Solano
-3174,7,9503,1,51,7,Solano
-3175,7,9503,1,51,7,Solano
-3176,7,9503,1,51,7,Solano
-3177,7,9503,1,51,7,Solano
-3178,7,9503,1,51,7,Solano
-3179,7,9503,1,51,7,Solano
-3180,7,9503,1,51,7,Solano
-3181,7,9503,1,51,7,Solano
-3182,7,9503,1,51,7,Solano
-3183,7,9503,1,51,7,Solano
-3184,7,9503,1,51,7,Solano
-3201,7,9502,1,50,7,Solano
-3202,7,9502,1,50,7,Solano
-3203,7,9503,1,51,7,Solano
-3204,7,9503,1,51,7,Solano
-3205,7,9503,1,51,7,Solano
-3206,7,9503,1,51,7,Solano
-3207,7,9503,1,51,7,Solano
-3208,7,9502,1,50,7,Solano
-3209,7,9502,1,50,7,Solano
-3210,7,9503,1,51,7,Solano
-3211,7,9503,1,51,7,Solano
-3212,7,9503,1,51,7,Solano
-3213,7,9503,1,51,7,Solano
-3214,7,9503,1,51,7,Solano
-3215,7,9502,1,50,7,Solano
-3216,7,9502,1,50,7,Solano
-3217,7,9502,1,50,7,Solano
-3218,7,9502,1,50,7,Solano
-3219,7,9502,1,50,7,Solano
-3220,7,9502,1,50,7,Solano
-3221,7,9503,1,51,7,Solano
-3222,7,9502,1,50,7,Solano
-3223,7,9502,1,50,7,Solano
-3224,7,9502,1,50,7,Solano
-3225,7,9502,1,50,7,Solano
-3226,7,9502,1,50,7,Solano
-3227,7,9502,1,50,7,Solano
-3228,7,9502,1,50,7,Solano
-3229,8,5500,1,52,8,Napa
-3230,8,5500,1,52,8,Napa
-3231,8,5500,1,52,8,Napa
-3232,8,5500,1,52,8,Napa
-3233,8,5500,1,52,8,Napa
-3234,8,5500,1,52,8,Napa
-3235,8,5500,1,52,8,Napa
-3236,8,5500,1,52,8,Napa
-3237,8,5500,1,52,8,Napa
-3238,8,5500,1,52,8,Napa
-3239,8,5500,1,52,8,Napa
-3240,8,5500,1,52,8,Napa
-3241,8,5500,1,52,8,Napa
-3242,8,5500,1,52,8,Napa
-3243,8,5500,1,52,8,Napa
-3244,8,5500,1,52,8,Napa
-3245,8,5500,1,52,8,Napa
-3246,8,5500,1,52,8,Napa
-3255,8,5500,1,52,8,Napa
-3256,8,5500,1,52,8,Napa
-3257,8,5500,1,52,8,Napa
-3258,8,5500,1,52,8,Napa
-3259,8,5500,1,52,8,Napa
-3260,8,5500,1,52,8,Napa
-3261,8,5500,1,52,8,Napa
-3262,8,5500,1,52,8,Napa
-3263,8,5500,1,52,8,Napa
-3264,8,5500,1,52,8,Napa
-3265,8,5500,1,52,8,Napa
-3266,8,5500,1,52,8,Napa
-3267,8,5500,1,52,8,Napa
-3268,8,5500,1,52,8,Napa
-3269,8,5500,1,52,8,Napa
-3270,8,5500,1,52,8,Napa
-3271,8,5500,1,52,8,Napa
-3272,8,5500,1,52,8,Napa
-3273,8,5500,1,52,8,Napa
-3274,8,5500,1,52,8,Napa
-3275,8,5500,1,52,8,Napa
-3276,8,5500,1,52,8,Napa
-3277,8,5500,1,52,8,Napa
-3278,8,5500,1,52,8,Napa
-3279,8,5500,1,52,8,Napa
-3280,8,5500,1,52,8,Napa
-3281,8,5500,1,52,8,Napa
-3282,8,5500,1,52,8,Napa
-3283,8,5500,1,52,8,Napa
-3284,8,5500,1,52,8,Napa
-3285,8,5500,1,52,8,Napa
-3286,8,5500,1,52,8,Napa
-3287,8,5500,1,52,8,Napa
-3302,9,9701,1,53,9,Sonoma
-3303,9,9701,1,53,9,Sonoma
-3304,9,9701,1,53,9,Sonoma
-3305,9,9701,1,53,9,Sonoma
-3306,9,9702,1,54,9,Sonoma
-3307,9,9702,1,54,9,Sonoma
-3308,9,9702,1,54,9,Sonoma
-3309,9,9702,1,54,9,Sonoma
-3310,9,9702,1,54,9,Sonoma
-3311,9,9702,1,54,9,Sonoma
-3312,9,9702,1,54,9,Sonoma
-3313,9,9702,1,54,9,Sonoma
-3314,9,9702,1,54,9,Sonoma
-3315,9,9702,1,54,9,Sonoma
-3316,9,9702,1,54,9,Sonoma
-3317,9,9702,1,54,9,Sonoma
-3318,9,9702,1,54,9,Sonoma
-3319,9,9702,1,54,9,Sonoma
-3320,9,9702,1,54,9,Sonoma
-3321,9,9702,1,54,9,Sonoma
-3322,9,9701,1,53,9,Sonoma
-3323,9,9702,1,54,9,Sonoma
-3324,9,9702,1,54,9,Sonoma
-3325,9,9702,1,54,9,Sonoma
-3326,9,9702,1,54,9,Sonoma
-3327,9,9702,1,54,9,Sonoma
-3328,9,9701,1,53,9,Sonoma
-3329,9,9701,1,53,9,Sonoma
-3330,9,9701,1,53,9,Sonoma
-3331,9,9702,1,54,9,Sonoma
-3344,9,9703,1,55,9,Sonoma
-3345,9,9701,1,53,9,Sonoma
-3346,9,9703,1,55,9,Sonoma
-3347,9,9703,1,55,9,Sonoma
-3348,9,9703,1,55,9,Sonoma
-3349,9,9701,1,53,9,Sonoma
-3350,9,9702,1,54,9,Sonoma
-3351,9,9701,1,53,9,Sonoma
-3352,9,9703,1,55,9,Sonoma
-3353,9,9703,1,55,9,Sonoma
-3354,9,9703,1,55,9,Sonoma
-3355,9,9703,1,55,9,Sonoma
-3356,9,9703,1,55,9,Sonoma
-3357,9,9703,1,55,9,Sonoma
-3358,9,9703,1,55,9,Sonoma
-3359,9,9703,1,55,9,Sonoma
-3360,9,9701,1,53,9,Sonoma
-3361,9,9703,1,55,9,Sonoma
-3362,9,9703,1,55,9,Sonoma
-3363,9,9703,1,55,9,Sonoma
-3364,9,9703,1,55,9,Sonoma
-3365,9,9703,1,55,9,Sonoma
-3366,9,9703,1,55,9,Sonoma
-3367,9,9703,1,55,9,Sonoma
-3368,9,9703,1,55,9,Sonoma
-3369,9,9703,1,55,9,Sonoma
-3370,9,9701,1,53,9,Sonoma
-3371,9,9701,1,53,9,Sonoma
-3372,9,9701,1,53,9,Sonoma
-3373,9,9701,1,53,9,Sonoma
-3374,9,9701,1,53,9,Sonoma
-3375,9,9703,1,55,9,Sonoma
-3376,9,9703,1,55,9,Sonoma
-3377,9,9703,1,55,9,Sonoma
-3378,9,9703,1,55,9,Sonoma
-3379,9,9703,1,55,9,Sonoma
-3380,9,9703,1,55,9,Sonoma
-3381,9,9703,1,55,9,Sonoma
-3382,9,9703,1,55,9,Sonoma
-3383,9,9703,1,55,9,Sonoma
-3384,9,9703,1,55,9,Sonoma
-3395,9,9701,1,53,9,Sonoma
-3396,9,9701,1,53,9,Sonoma
-3397,9,9701,1,53,9,Sonoma
-3398,9,9701,1,53,9,Sonoma
-3399,9,9701,1,53,9,Sonoma
-3400,9,9701,1,53,9,Sonoma
-3401,9,9701,1,53,9,Sonoma
-3402,9,9701,1,53,9,Sonoma
-3403,9,9701,1,53,9,Sonoma
-3404,9,9701,1,53,9,Sonoma
-3405,9,9701,1,53,9,Sonoma
-3406,9,9701,1,53,9,Sonoma
-3407,9,9701,1,53,9,Sonoma
-3408,9,9701,1,53,9,Sonoma
-3409,9,9701,1,53,9,Sonoma
-3414,6,4101,1,47,6,Marin
-3415,6,4101,1,47,6,Marin
-3416,6,4101,1,47,6,Marin
-3417,6,4101,1,47,6,Marin
-3418,6,4101,1,47,6,Marin
-3419,6,4101,1,47,6,Marin
-3420,6,4101,1,47,6,Marin
-3421,6,4101,1,47,6,Marin
-3422,6,4101,1,47,6,Marin
-3423,6,4101,1,47,6,Marin
-3424,6,4101,1,47,6,Marin
-3425,6,4101,1,47,6,Marin
-3426,6,4101,1,47,6,Marin
-3427,6,4101,1,47,6,Marin
-3428,6,4101,1,47,6,Marin
-3429,6,4101,1,47,6,Marin
-3430,6,4102,1,48,6,Marin
-3431,6,4102,1,48,6,Marin
-3432,6,4101,1,47,6,Marin
-3433,6,4101,1,47,6,Marin
-3434,6,4101,1,47,6,Marin
-3435,6,4101,1,47,6,Marin
-3436,6,4101,1,47,6,Marin
-3437,6,4102,1,48,6,Marin
-3438,6,4102,1,48,6,Marin
-3439,6,4102,1,48,6,Marin
-3440,6,4102,1,48,6,Marin
-3441,6,4102,1,48,6,Marin
-3442,6,4102,1,48,6,Marin
-3443,6,4102,1,48,6,Marin
-3444,6,4102,1,48,6,Marin
-3445,6,4102,1,48,6,Marin
-3454,6,4102,1,48,6,Marin
-3455,6,4102,1,48,6,Marin
-3456,6,4102,1,48,6,Marin
-3457,6,4102,1,48,6,Marin
-3458,6,4102,1,48,6,Marin
-3459,6,4101,1,47,6,Marin
-3460,6,4102,1,48,6,Marin
-3461,6,4102,1,48,6,Marin
-3462,6,4102,1,48,6,Marin
-3463,6,4102,1,48,6,Marin
-3464,6,4102,1,48,6,Marin
-3465,6,4102,1,48,6,Marin
-3466,6,4102,1,48,6,Marin
-3467,6,4102,1,48,6,Marin
-3468,6,4102,1,48,6,Marin
-3469,6,4102,1,48,6,Marin
-3470,6,4102,1,48,6,Marin
-3471,6,4102,1,48,6,Marin
-3472,4,1309,1,32,4,Contra Costa
-3473,4,1309,1,32,4,Contra Costa
-3474,4,1309,1,32,4,Contra Costa
-3475,4,1309,1,32,4,Contra Costa
-3476,4,1309,1,32,4,Contra Costa
-3477,4,1309,1,32,4,Contra Costa
-3478,4,1309,1,32,4,Contra Costa
-3479,4,1309,1,32,4,Contra Costa
-3480,4,1309,1,32,4,Contra Costa
-3481,4,1309,1,32,4,Contra Costa
-3482,4,1309,1,32,4,Contra Costa
-3483,4,1309,1,32,4,Contra Costa
-3484,4,1309,1,32,4,Contra Costa
-3485,4,1309,1,32,4,Contra Costa
-3486,4,1309,1,32,4,Contra Costa
-3487,4,1309,1,32,4,Contra Costa
-3488,4,1308,1,31,4,Contra Costa
-3489,4,1309,1,32,4,Contra Costa
-3490,4,1308,1,31,4,Contra Costa
-3491,4,1309,1,32,4,Contra Costa
-3492,4,1308,1,31,4,Contra Costa
-3493,8,5500,1,52,8,Napa
-3494,8,5500,1,52,8,Napa
-3495,8,5500,1,52,8,Napa
-3496,8,5500,1,52,8,Napa
-3497,8,5500,1,52,8,Napa
-3498,8,5500,1,52,8,Napa
-3499,8,5500,1,52,8,Napa
-3500,8,5500,1,52,8,Napa
-3501,8,5500,1,52,8,Napa
-3502,8,5500,1,52,8,Napa
-3503,8,5500,1,52,8,Napa
-3504,7,9502,1,50,7,Solano
-3505,7,9502,1,50,7,Solano
-3506,7,9502,1,50,7,Solano
-3507,7,9502,1,50,7,Solano
-3508,9,9701,1,53,9,Sonoma
-3509,9,9701,1,53,9,Sonoma
-3510,9,9702,1,54,9,Sonoma
-3511,9,9701,1,53,9,Sonoma
-3512,9,9701,1,53,9,Sonoma
-3513,9,9701,1,53,9,Sonoma
-3514,9,9701,1,53,9,Sonoma
-3515,9,9701,1,53,9,Sonoma
-3516,9,9701,1,53,9,Sonoma
-3517,9,9701,1,53,9,Sonoma
-3518,9,9701,1,53,9,Sonoma
-3519,9,9701,1,53,9,Sonoma
-3520,9,9701,1,53,9,Sonoma
-3521,9,9701,1,53,9,Sonoma
-3522,9,9701,1,53,9,Sonoma
-3523,9,9701,1,53,9,Sonoma
-3524,9,9701,1,53,9,Sonoma
-3525,9,9701,1,53,9,Sonoma
-3526,9,9701,1,53,9,Sonoma
-3527,9,9701,1,53,9,Sonoma
-3528,9,9701,1,53,9,Sonoma
-3529,9,9701,1,53,9,Sonoma
-3530,9,9703,1,55,9,Sonoma
-3531,9,9701,1,53,9,Sonoma
-3532,9,9701,1,53,9,Sonoma
-3533,9,9703,1,55,9,Sonoma
-3534,9,9703,1,55,9,Sonoma
-3535,9,9703,1,55,9,Sonoma
-3536,9,9703,1,55,9,Sonoma
-3537,9,9703,1,55,9,Sonoma
-3538,9,9703,1,55,9,Sonoma
-3539,9,9703,1,55,9,Sonoma
-3540,9,9703,1,55,9,Sonoma
-3541,9,9703,1,55,9,Sonoma
-3542,9,9703,1,55,9,Sonoma
-3543,9,9703,1,55,9,Sonoma
-3544,9,9703,1,55,9,Sonoma
-3545,9,9703,1,55,9,Sonoma
-3546,9,9703,1,55,9,Sonoma
-3547,9,9702,1,54,9,Sonoma
-3548,9,9702,1,54,9,Sonoma
-3549,9,9702,1,54,9,Sonoma
-3550,9,9702,1,54,9,Sonoma
-3551,9,9702,1,54,9,Sonoma
-3552,9,9702,1,54,9,Sonoma
-3553,9,9702,1,54,9,Sonoma
-3554,9,9702,1,54,9,Sonoma
-3555,9,9702,1,54,9,Sonoma
-3556,9,9702,1,54,9,Sonoma
-3557,9,9702,1,54,9,Sonoma
-3558,9,9702,1,54,9,Sonoma
-3559,9,9702,1,54,9,Sonoma
-3560,9,9702,1,54,9,Sonoma
-3561,9,9702,1,54,9,Sonoma
-3562,9,9702,1,54,9,Sonoma
-3563,9,9702,1,54,9,Sonoma
-3564,9,9702,1,54,9,Sonoma
-3565,9,9702,1,54,9,Sonoma
-3566,9,9702,1,54,9,Sonoma
-3567,9,9702,1,54,9,Sonoma
-3568,9,9702,1,54,9,Sonoma
-3569,6,4101,1,47,6,Marin
-3570,6,4101,1,47,6,Marin
-3571,6,4101,1,47,6,Marin
-3572,6,4101,1,47,6,Marin
-3573,6,4101,1,47,6,Marin
-3574,6,4101,1,47,6,Marin
-3575,6,4101,1,47,6,Marin
-3576,6,4101,1,47,6,Marin
-3577,6,4101,1,47,6,Marin
-3578,6,4101,1,47,6,Marin
-3579,6,4101,1,47,6,Marin
-3580,6,4101,1,47,6,Marin
-3581,6,4101,1,47,6,Marin
-3582,6,4101,1,47,6,Marin
-3583,6,4101,1,47,6,Marin
-3585,6,4102,1,48,6,Marin
-3586,6,4102,1,48,6,Marin
-3587,6,4102,1,48,6,Marin
-3588,6,4102,1,48,6,Marin
-3589,6,4102,1,48,6,Marin
-3590,6,4102,1,48,6,Marin
-3591,6,4102,1,48,6,Marin
-3592,6,4102,1,48,6,Marin
-3593,6,4102,1,48,6,Marin
-3594,6,4102,1,48,6,Marin
-3595,6,4102,1,48,6,Marin
-3596,6,4102,1,48,6,Marin
-3597,6,4102,1,48,6,Marin
-3598,6,4102,1,48,6,Marin
-3599,6,4102,1,48,6,Marin
-3600,9,9702,1,54,9,Sonoma
-3601,7,9503,1,51,7,Solano
-3602,7,9503,1,51,7,Solano
-3603,7,9503,1,51,7,Solano
-3604,7,9503,1,51,7,Solano
-3605,7,9503,1,51,7,Solano
-3606,7,9503,1,51,7,Solano
-3607,7,9503,1,51,7,Solano
-3608,7,9503,1,51,7,Solano
-3609,7,9503,1,51,7,Solano
-3610,7,9503,1,51,7,Solano
-3611,5,8508,1,40,5,Santa Clara
-3612,5,8508,1,40,5,Santa Clara
-3613,5,8508,1,40,5,Santa Clara
-3614,5,8508,1,40,5,Santa Clara
-3615,5,8503,1,35,5,Santa Clara
-3616,5,8503,1,35,5,Santa Clara
-3617,5,8503,1,35,5,Santa Clara
-3618,5,8502,1,34,5,Santa Clara
-3619,7,9503,1,51,7,Solano
-3620,7,9503,1,51,7,Solano
-3621,7,9503,1,51,7,Solano
-3622,7,9503,1,51,7,Solano
-3623,4,1309,1,32,4,Contra Costa
-3624,8,5500,1,52,8,Napa
-3625,8,5500,1,52,8,Napa
-3626,8,5500,1,52,8,Napa
-3627,7,9502,1,50,7,Solano
-3628,4,1309,1,32,4,Contra Costa
-3629,9,9703,1,55,9,Sonoma
-3630,9,9701,1,53,9,Sonoma
-3631,5,8503,1,35,5,Santa Clara
-3632,10,11300,2,56,10,Yolo
-3633,11,10100,2,57,11,Sutter-Yuba
-3634,11,10100,2,57,11,Sutter-Yuba
-3635,11,10100,2,57,11,Sutter-Yuba
-3636,11,10100,2,57,11,Sutter-Yuba
-3637,11,10100,2,57,11,Sutter-Yuba
-3638,11,10100,2,57,11,Sutter-Yuba
-3639,11,10100,2,57,11,Sutter-Yuba
-3640,11,10100,2,57,11,Sutter-Yuba
-3641,11,10100,2,57,11,Sutter-Yuba
-3642,11,10100,2,57,11,Sutter-Yuba
-3643,10,11300,2,56,10,Yolo
-3644,10,11300,2,56,10,Yolo
-3645,12,6705,2,62,12,Sacramento
-3646,10,11300,2,56,10,Yolo
-3647,10,11300,2,56,10,Yolo
-3648,10,11300,2,56,10,Yolo
-3649,10,11300,2,56,10,Yolo
-3650,10,11300,2,56,10,Yolo
-3651,10,11300,2,56,10,Yolo
-3652,10,11300,2,56,10,Yolo
-3653,10,11300,2,56,10,Yolo
-3654,10,11300,2,56,10,Yolo
-3655,10,11300,2,56,10,Yolo
-3656,10,11300,2,56,10,Yolo
-3657,10,11300,2,56,10,Yolo
-3658,10,11300,2,56,10,Yolo
-3659,10,11300,2,56,10,Yolo
-3660,10,11300,2,56,10,Yolo
-3661,10,11300,2,56,10,Yolo
-3662,10,11300,2,56,10,Yolo
-3663,10,11300,2,56,10,Yolo
-3664,10,11300,2,56,10,Yolo
-3665,10,11300,2,56,10,Yolo
-3666,10,11300,2,56,10,Yolo
-3667,10,11300,2,56,10,Yolo
-3668,10,11300,2,56,10,Yolo
-3669,13,10100,2,70,11,Sutter-Yuba
-3670,13,10100,2,70,11,Sutter-Yuba
-3671,13,10100,2,70,11,Sutter-Yuba
-3672,13,10100,2,70,11,Sutter-Yuba
-3673,13,10100,2,70,11,Sutter-Yuba
-3674,13,10100,2,70,11,Sutter-Yuba
-3675,13,10100,2,70,11,Sutter-Yuba
-3676,13,10100,2,70,11,Sutter-Yuba
-3677,13,10100,2,70,11,Sutter-Yuba
-3678,13,10100,2,70,11,Sutter-Yuba
-3679,13,10100,2,70,11,Sutter-Yuba
-3680,10,11300,2,56,10,Yolo
-3681,14,1700,2,71,13,El Dorado
-3682,14,1700,2,71,13,El Dorado
-3683,14,1700,2,71,13,El Dorado
-3684,14,1700,2,71,13,El Dorado
-3685,14,1700,2,71,13,El Dorado
-3686,14,1700,2,71,13,El Dorado
-3687,14,1700,2,71,13,El Dorado
-3688,14,1700,2,71,13,El Dorado
-3689,14,1700,2,71,13,El Dorado
-3690,14,1700,2,71,13,El Dorado
-3691,14,1700,2,71,13,El Dorado
-3692,14,1700,2,71,13,El Dorado
-3693,14,1700,2,71,13,El Dorado
-3694,14,1700,2,71,13,El Dorado
-3695,14,1700,2,71,13,El Dorado
-3696,14,1700,2,71,13,El Dorado
-3697,14,1700,2,71,13,El Dorado
-3698,14,1700,2,71,13,El Dorado
-3699,14,1700,2,71,13,El Dorado
-3700,14,1700,2,71,13,El Dorado
-3701,14,1700,2,71,13,El Dorado
-3702,14,1700,2,71,13,El Dorado
-3703,15,6101,2,72,14,Placer
-3704,15,6101,2,72,14,Placer
-3705,15,6102,2,73,14,Placer
-3706,15,6102,2,73,14,Placer
-3707,15,6101,2,72,14,Placer
-3708,15,6101,2,72,14,Placer
-3709,15,6102,2,73,14,Placer
-3710,15,6103,2,74,14,Placer
-3711,15,6103,2,74,14,Placer
-3712,15,6102,2,73,14,Placer
-3713,15,6102,2,73,14,Placer
-3714,15,6102,2,73,14,Placer
-3715,15,6101,2,72,14,Placer
-3716,15,6101,2,72,14,Placer
-3717,15,6101,2,72,14,Placer
-3718,15,6101,2,72,14,Placer
-3719,15,6101,2,72,14,Placer
-3720,15,6101,2,72,14,Placer
-3721,15,6103,2,74,14,Placer
-3722,15,6102,2,73,14,Placer
-3723,15,6103,2,74,14,Placer
-3724,15,6103,2,74,14,Placer
-3725,15,6103,2,74,14,Placer
-3726,15,6101,2,72,14,Placer
-3727,15,6101,2,72,14,Placer
-3728,15,6101,2,72,14,Placer
-3729,15,6101,2,72,14,Placer
-3730,15,6103,2,74,14,Placer
-3731,15,6103,2,74,14,Placer
-3732,15,6103,2,74,14,Placer
-3733,15,6103,2,74,14,Placer
-3734,15,6103,2,74,14,Placer
-3735,15,6102,2,73,14,Placer
-3736,15,6103,2,74,14,Placer
-3737,15,6103,2,74,14,Placer
-3738,15,6102,2,73,14,Placer
-3739,15,6102,2,73,14,Placer
-3740,15,6101,2,72,14,Placer
-3741,15,6101,2,72,14,Placer
-3742,15,6101,2,72,14,Placer
-3743,14,1700,2,71,13,El Dorado
-3744,15,6103,2,74,14,Placer
-3745,12,6707,2,64,12,Sacramento
-3746,12,6707,2,64,12,Sacramento
-3747,12,6707,2,64,12,Sacramento
-3748,12,6707,2,64,12,Sacramento
-3749,12,6707,2,64,12,Sacramento
-3750,12,6707,2,64,12,Sacramento
-3751,12,6707,2,64,12,Sacramento
-3752,12,6707,2,64,12,Sacramento
-3753,12,6707,2,64,12,Sacramento
-3754,12,6707,2,64,12,Sacramento
-3755,12,6707,2,64,12,Sacramento
-3756,12,6705,2,62,12,Sacramento
-3757,12,6705,2,62,12,Sacramento
-3758,12,6707,2,64,12,Sacramento
-3759,12,6707,2,64,12,Sacramento
-3760,12,6708,2,65,12,Sacramento
-3761,12,6707,2,64,12,Sacramento
-3762,12,6708,2,65,12,Sacramento
-3763,12,6707,2,64,12,Sacramento
-3764,12,6707,2,64,12,Sacramento
-3765,12,6705,2,62,12,Sacramento
-3766,12,6706,2,63,12,Sacramento
-3767,12,6706,2,63,12,Sacramento
-3768,12,6705,2,62,12,Sacramento
-3769,12,6705,2,62,12,Sacramento
-3770,12,6705,2,62,12,Sacramento
-3771,12,6705,2,62,12,Sacramento
-3772,12,6705,2,62,12,Sacramento
-3773,12,6707,2,64,12,Sacramento
-3774,12,6707,2,64,12,Sacramento
-3775,12,6707,2,64,12,Sacramento
-3776,12,6707,2,64,12,Sacramento
-3777,12,6707,2,64,12,Sacramento
-3778,12,6707,2,64,12,Sacramento
-3779,12,6707,2,64,12,Sacramento
-3780,12,6707,2,64,12,Sacramento
-3781,12,6708,2,65,12,Sacramento
-3782,12,6708,2,65,12,Sacramento
-3783,12,6707,2,64,12,Sacramento
-3784,12,6707,2,64,12,Sacramento
-3785,12,6708,2,65,12,Sacramento
-3786,12,6707,2,64,12,Sacramento
-3787,12,6708,2,65,12,Sacramento
-3788,12,6707,2,64,12,Sacramento
-3789,12,6707,2,64,12,Sacramento
-3790,12,6705,2,62,12,Sacramento
-3791,12,6705,2,62,12,Sacramento
-3792,12,6705,2,62,12,Sacramento
-3793,12,6712,2,69,12,Sacramento
-3794,12,6712,2,69,12,Sacramento
-3795,12,6712,2,69,12,Sacramento
-3796,12,6712,2,69,12,Sacramento
-3797,12,6702,2,59,12,Sacramento
-3798,12,6702,2,59,12,Sacramento
-3799,12,6702,2,59,12,Sacramento
-3800,12,6702,2,59,12,Sacramento
-3801,12,6703,2,60,12,Sacramento
-3802,12,6701,2,58,12,Sacramento
-3803,12,6701,2,58,12,Sacramento
-3804,12,6701,2,58,12,Sacramento
-3805,12,6701,2,58,12,Sacramento
-3806,12,6701,2,58,12,Sacramento
-3807,12,6701,2,58,12,Sacramento
-3808,12,6703,2,60,12,Sacramento
-3809,12,6703,2,60,12,Sacramento
-3810,12,6703,2,60,12,Sacramento
-3811,12,6703,2,60,12,Sacramento
-3812,12,6704,2,61,12,Sacramento
-3813,12,6704,2,61,12,Sacramento
-3814,12,6703,2,60,12,Sacramento
-3815,12,6704,2,61,12,Sacramento
-3816,12,6704,2,61,12,Sacramento
-3817,12,6704,2,61,12,Sacramento
-3818,12,6704,2,61,12,Sacramento
-3819,12,6706,2,63,12,Sacramento
-3820,12,6704,2,61,12,Sacramento
-3821,12,6704,2,61,12,Sacramento
-3822,12,6704,2,61,12,Sacramento
-3823,12,6704,2,61,12,Sacramento
-3824,12,6706,2,63,12,Sacramento
-3825,12,6706,2,63,12,Sacramento
-3826,12,6706,2,63,12,Sacramento
-3827,12,6706,2,63,12,Sacramento
-3828,12,6706,2,63,12,Sacramento
-3829,12,6706,2,63,12,Sacramento
-3830,12,6707,2,64,12,Sacramento
-3831,12,6712,2,69,12,Sacramento
-3832,12,6701,2,58,12,Sacramento
-3833,12,6704,2,61,12,Sacramento
-3834,12,6701,2,58,12,Sacramento
-3835,12,6701,2,58,12,Sacramento
-3836,12,6704,2,61,12,Sacramento
-3837,12,6706,2,63,12,Sacramento
-3838,12,6706,2,63,12,Sacramento
-3839,12,6703,2,60,12,Sacramento
-3840,12,6703,2,60,12,Sacramento
-3841,12,6703,2,60,12,Sacramento
-3842,12,6703,2,60,12,Sacramento
-3843,12,6703,2,60,12,Sacramento
-3844,12,6703,2,60,12,Sacramento
-3845,12,6706,2,63,12,Sacramento
-3846,12,6706,2,63,12,Sacramento
-3847,12,6704,2,61,12,Sacramento
-3848,12,6704,2,61,12,Sacramento
-3849,12,6706,2,63,12,Sacramento
-3850,12,6704,2,61,12,Sacramento
-3851,12,6704,2,61,12,Sacramento
-3852,12,6712,2,69,12,Sacramento
-3853,12,6712,2,69,12,Sacramento
-3854,12,6703,2,60,12,Sacramento
-3855,12,6703,2,60,12,Sacramento
-3856,12,6701,2,58,12,Sacramento
-3857,12,6701,2,58,12,Sacramento
-3858,12,6701,2,58,12,Sacramento
-3859,12,6701,2,58,12,Sacramento
-3860,12,6712,2,69,12,Sacramento
-3861,12,6712,2,69,12,Sacramento
-3862,12,6712,2,69,12,Sacramento
-3863,12,6712,2,69,12,Sacramento
-3864,12,6712,2,69,12,Sacramento
-3865,12,6712,2,69,12,Sacramento
-3866,12,6703,2,60,12,Sacramento
-3867,12,6705,2,62,12,Sacramento
-3868,12,6705,2,62,12,Sacramento
-3869,12,6704,2,61,12,Sacramento
-3870,12,6708,2,65,12,Sacramento
-3871,12,6708,2,65,12,Sacramento
-3872,12,6708,2,65,12,Sacramento
-3873,12,6708,2,65,12,Sacramento
-3874,12,6711,2,68,12,Sacramento
-3875,12,6702,2,59,12,Sacramento
-3876,12,6702,2,59,12,Sacramento
-3877,12,6702,2,59,12,Sacramento
-3878,12,6708,2,65,12,Sacramento
-3879,12,6708,2,65,12,Sacramento
-3880,12,6711,2,68,12,Sacramento
-3881,12,6711,2,68,12,Sacramento
-3882,12,6711,2,68,12,Sacramento
-3883,12,6711,2,68,12,Sacramento
-3884,12,6711,2,68,12,Sacramento
-3885,12,6711,2,68,12,Sacramento
-3886,12,6709,2,66,12,Sacramento
-3887,12,6709,2,66,12,Sacramento
-3888,12,6710,2,67,12,Sacramento
-3889,12,6710,2,67,12,Sacramento
-3890,12,6710,2,67,12,Sacramento
-3891,12,6710,2,67,12,Sacramento
-3892,12,6710,2,67,12,Sacramento
-3893,12,6709,2,66,12,Sacramento
-3894,12,6709,2,66,12,Sacramento
-3895,12,6709,2,66,12,Sacramento
-3896,12,6709,2,66,12,Sacramento
-3897,12,6709,2,66,12,Sacramento
-3898,12,6709,2,66,12,Sacramento
-3899,12,6709,2,66,12,Sacramento
-3900,12,6708,2,65,12,Sacramento
-3901,12,6708,2,65,12,Sacramento
-3902,12,6708,2,65,12,Sacramento
-3903,12,6708,2,65,12,Sacramento
-3904,12,6708,2,65,12,Sacramento
-3905,12,6711,2,68,12,Sacramento
-3906,12,6711,2,68,12,Sacramento
-3907,12,6710,2,67,12,Sacramento
-3908,12,6711,2,68,12,Sacramento
-3909,12,6710,2,67,12,Sacramento
-3910,12,6711,2,68,12,Sacramento
-3911,12,6711,2,68,12,Sacramento
-3912,12,6711,2,68,12,Sacramento
-3913,12,6711,2,68,12,Sacramento
-3914,12,6711,2,68,12,Sacramento
-3915,12,6711,2,68,12,Sacramento
-3916,12,6712,2,69,12,Sacramento
-3917,12,6712,2,69,12,Sacramento
-3918,12,6712,2,69,12,Sacramento
-3919,12,6702,2,59,12,Sacramento
-3920,12,6702,2,59,12,Sacramento
-3921,12,6702,2,59,12,Sacramento
-3922,12,6702,2,59,12,Sacramento
-3923,12,6702,2,59,12,Sacramento
-3924,12,6702,2,59,12,Sacramento
-3925,12,6709,2,66,12,Sacramento
-3926,12,6709,2,66,12,Sacramento
-3927,12,6708,2,65,12,Sacramento
-3928,12,6708,2,65,12,Sacramento
-3929,12,6708,2,65,12,Sacramento
-3930,12,6708,2,65,12,Sacramento
-3931,12,6708,2,65,12,Sacramento
-3932,12,6708,2,65,12,Sacramento
-3933,12,6709,2,66,12,Sacramento
-3934,12,6707,2,64,12,Sacramento
-3935,12,6707,2,64,12,Sacramento
-3936,12,6708,2,65,12,Sacramento
-3937,12,6710,2,67,12,Sacramento
-3938,12,6710,2,67,12,Sacramento
-3939,12,6711,2,68,12,Sacramento
-3940,12,6710,2,67,12,Sacramento
-3941,12,6710,2,67,12,Sacramento
-3942,12,6709,2,66,12,Sacramento
-3943,12,6709,2,66,12,Sacramento
-3944,12,6708,2,65,12,Sacramento
-3945,12,6702,2,59,12,Sacramento
-3946,12,6702,2,59,12,Sacramento
-3947,12,6702,2,59,12,Sacramento
-3948,12,6702,2,59,12,Sacramento
-3949,12,6712,2,69,12,Sacramento
-3950,12,6711,2,68,12,Sacramento
-3951,12,6711,2,68,12,Sacramento
-3952,12,6711,2,68,12,Sacramento
-3953,13,10100,2,70,11,Sutter-Yuba
-3954,15,6103,2,74,14,Placer
-3955,15,6103,2,74,14,Placer
-3956,15,6103,2,74,14,Placer
-3957,15,6103,2,74,14,Placer
-3958,15,6103,2,74,14,Placer
-3959,15,6103,2,74,14,Placer
-3960,15,6103,2,74,14,Placer
-3961,15,6103,2,74,14,Placer
-3962,15,6103,2,74,14,Placer
-3963,15,6103,2,74,14,Placer
-3964,15,6103,2,74,14,Placer
-3965,15,6101,2,72,14,Placer
-3966,15,6101,2,72,14,Placer
-3967,15,6101,2,72,14,Placer
-3968,15,6101,2,72,14,Placer
-3969,15,6101,2,72,14,Placer
-3970,15,6101,2,72,14,Placer
-3971,15,6101,2,72,14,Placer
-3972,15,6101,2,72,14,Placer
-3973,15,6101,2,72,14,Placer
-3974,15,6101,2,72,14,Placer
-3975,15,6101,2,72,14,Placer
-3976,15,6101,2,72,14,Placer
-3977,15,6101,2,72,14,Placer
-3978,15,6101,2,72,14,Placer
-3979,15,6101,2,72,14,Placer
-3980,12,6705,2,62,12,Sacramento
-3981,12,6705,2,62,12,Sacramento
-3982,12,6705,2,62,12,Sacramento
-3983,12,6705,2,62,12,Sacramento
-3984,12,6705,2,62,12,Sacramento
-3985,12,6705,2,62,12,Sacramento
-3986,12,6705,2,62,12,Sacramento
-3987,10,11300,2,56,10,Yolo
-3988,10,11300,2,56,10,Yolo
-3989,10,11300,2,56,10,Yolo
-3990,10,11300,2,56,10,Yolo
-3991,10,11300,2,56,10,Yolo
-3992,10,11300,2,56,10,Yolo
-3993,10,11300,2,56,10,Yolo
-3994,10,11300,2,56,10,Yolo
-3995,12,6707,2,64,12,Sacramento
-3996,10,11300,2,56,10,Yolo
-3997,10,11300,2,56,10,Yolo
-3998,10,11300,2,56,10,Yolo
-3999,12,6707,2,64,12,Sacramento
-4000,12,6707,2,64,12,Sacramento
-4001,12,6707,2,64,12,Sacramento
-4002,12,6707,2,64,12,Sacramento
-4003,12,6707,2,64,12,Sacramento
-4004,12,6707,2,64,12,Sacramento
-4005,12,6707,2,64,12,Sacramento
-4006,12,6707,2,64,12,Sacramento
-4007,12,6707,2,64,12,Sacramento
-4008,12,6707,2,64,12,Sacramento
-4009,12,6707,2,64,12,Sacramento
-4010,12,6707,2,64,12,Sacramento
-4011,12,6707,2,64,12,Sacramento
-4012,12,6707,2,64,12,Sacramento
-4013,12,6707,2,64,12,Sacramento
-4014,12,6707,2,64,12,Sacramento
-4015,12,6707,2,64,12,Sacramento
-4016,10,11300,2,56,10,Yolo
-4017,15,6103,2,74,14,Placer
-4018,15,6103,2,74,14,Placer
-4019,15,6103,2,74,14,Placer
-4020,15,6103,2,74,14,Placer
-4021,15,6103,2,74,14,Placer
-4022,15,6103,2,74,14,Placer
-4023,15,6103,2,74,14,Placer
-4024,10,11300,2,56,10,Yolo
-4025,10,11300,2,56,10,Yolo
-4026,10,11300,2,56,10,Yolo
-4027,16,7701,3,75,15,San Joaquin
-4028,16,7701,3,75,15,San Joaquin
-4029,16,7701,3,75,15,San Joaquin
-4030,16,7704,3,78,15,San Joaquin
-4031,16,7704,3,78,15,San Joaquin
-4032,16,7704,3,78,15,San Joaquin
-4033,16,7701,3,75,15,San Joaquin
-4034,16,7701,3,75,15,San Joaquin
-4035,16,7701,3,75,15,San Joaquin
-4036,16,7701,3,75,15,San Joaquin
-4037,16,7701,3,75,15,San Joaquin
-4038,16,7701,3,75,15,San Joaquin
-4039,16,7701,3,75,15,San Joaquin
-4040,16,7701,3,75,15,San Joaquin
-4041,16,7701,3,75,15,San Joaquin
-4042,16,7701,3,75,15,San Joaquin
-4043,16,7702,3,76,15,San Joaquin
-4044,16,7704,3,78,15,San Joaquin
-4045,16,7702,3,76,15,San Joaquin
-4046,16,7702,3,76,15,San Joaquin
-4047,16,7702,3,76,15,San Joaquin
-4048,16,7702,3,76,15,San Joaquin
-4049,16,7702,3,76,15,San Joaquin
-4050,16,7702,3,76,15,San Joaquin
-4051,16,7702,3,76,15,San Joaquin
-4052,16,7702,3,76,15,San Joaquin
-4053,16,7702,3,76,15,San Joaquin
-4054,16,7702,3,76,15,San Joaquin
-4055,16,7702,3,76,15,San Joaquin
-4056,16,7702,3,76,15,San Joaquin
-4057,16,7704,3,78,15,San Joaquin
-4058,16,7704,3,78,15,San Joaquin
-4059,16,7701,3,75,15,San Joaquin
-4060,16,7701,3,75,15,San Joaquin
-4061,16,7702,3,76,15,San Joaquin
-4062,16,7702,3,76,15,San Joaquin
-4063,16,7702,3,76,15,San Joaquin
-4064,16,7702,3,76,15,San Joaquin
-4065,16,7702,3,76,15,San Joaquin
-4066,16,7701,3,75,15,San Joaquin
-4067,16,7702,3,76,15,San Joaquin
-4068,16,7702,3,76,15,San Joaquin
-4069,16,7701,3,75,15,San Joaquin
-4070,16,7701,3,75,15,San Joaquin
-4071,16,7701,3,75,15,San Joaquin
-4072,16,7701,3,75,15,San Joaquin
-4073,16,7704,3,78,15,San Joaquin
-4074,16,7701,3,75,15,San Joaquin
-4075,16,7704,3,78,15,San Joaquin
-4076,16,7703,3,77,15,San Joaquin
-4077,16,7703,3,77,15,San Joaquin
-4078,16,7703,3,77,15,San Joaquin
-4079,16,7703,3,77,15,San Joaquin
-4080,16,7703,3,77,15,San Joaquin
-4081,16,7703,3,77,15,San Joaquin
-4082,16,7703,3,77,15,San Joaquin
-4083,16,7703,3,77,15,San Joaquin
-4084,16,7703,3,77,15,San Joaquin
-4085,16,7703,3,77,15,San Joaquin
-4086,16,7703,3,77,15,San Joaquin
-4087,16,7703,3,77,15,San Joaquin
-4088,16,7703,3,77,15,San Joaquin
-4089,16,7704,3,78,15,San Joaquin
-4090,16,7704,3,78,15,San Joaquin
-4091,16,7704,3,78,15,San Joaquin
-4092,16,7704,3,78,15,San Joaquin
-4093,16,7704,3,78,15,San Joaquin
-4094,16,7704,3,78,15,San Joaquin
-4095,16,7704,3,78,15,San Joaquin
-4096,16,7704,3,78,15,San Joaquin
-4097,16,7704,3,78,15,San Joaquin
-4098,16,7704,3,78,15,San Joaquin
-4099,16,7704,3,78,15,San Joaquin
-4100,16,7704,3,78,15,San Joaquin
-4101,16,7704,3,78,15,San Joaquin
-4102,16,7703,3,77,15,San Joaquin
-4103,16,7703,3,77,15,San Joaquin
-4104,16,7704,3,78,15,San Joaquin
-4105,16,7703,3,77,15,San Joaquin
-4106,16,7703,3,77,15,San Joaquin
-4107,16,7704,3,78,15,San Joaquin
-4108,16,7703,3,77,15,San Joaquin
-4109,16,7703,3,77,15,San Joaquin
-4110,16,7703,3,77,15,San Joaquin
-4111,16,7703,3,77,15,San Joaquin
-4112,16,7703,3,77,15,San Joaquin
-4113,16,7703,3,77,15,San Joaquin
-4114,16,7704,3,78,15,San Joaquin
-4115,16,7704,3,78,15,San Joaquin
-4116,16,7704,3,78,15,San Joaquin
-4117,16,7704,3,78,15,San Joaquin
-4118,16,7704,3,78,15,San Joaquin
-4119,16,7704,3,78,15,San Joaquin
-4120,16,7704,3,78,15,San Joaquin
-4121,16,7701,3,75,15,San Joaquin
-4122,16,7701,3,75,15,San Joaquin
-4123,16,7704,3,78,15,San Joaquin
-4124,16,7704,3,78,15,San Joaquin
-4125,16,7704,3,78,15,San Joaquin
-4126,16,7704,3,78,15,San Joaquin
-4127,16,7704,3,78,15,San Joaquin
-4128,16,7704,3,78,15,San Joaquin
-4129,16,7703,3,77,15,San Joaquin
-4130,16,7703,3,77,15,San Joaquin
-4131,16,7703,3,77,15,San Joaquin
-4132,16,7703,3,77,15,San Joaquin
-4133,16,7703,3,77,15,San Joaquin
-4134,16,7703,3,77,15,San Joaquin
-4135,16,7703,3,77,15,San Joaquin
-4136,16,7703,3,77,15,San Joaquin
-4137,16,7701,3,75,15,San Joaquin
-4138,16,7701,3,75,15,San Joaquin
-4139,16,7703,3,77,15,San Joaquin
-4140,16,7703,3,77,15,San Joaquin
-4141,17,9903,3,81,16,Stanislaus
-4142,17,9902,3,80,16,Stanislaus
-4143,17,9904,3,82,16,Stanislaus
-4144,17,9903,3,81,16,Stanislaus
-4145,17,9901,3,79,16,Stanislaus
-4146,17,9901,3,79,16,Stanislaus
-4147,17,9901,3,79,16,Stanislaus
-4148,17,9901,3,79,16,Stanislaus
-4149,17,9901,3,79,16,Stanislaus
-4150,17,9901,3,79,16,Stanislaus
-4151,17,9901,3,79,16,Stanislaus
-4152,17,9901,3,79,16,Stanislaus
-4153,17,9901,3,79,16,Stanislaus
-4154,17,9903,3,81,16,Stanislaus
-4155,17,9903,3,81,16,Stanislaus
-4156,17,9903,3,81,16,Stanislaus
-4157,17,9903,3,81,16,Stanislaus
-4158,17,9903,3,81,16,Stanislaus
-4159,17,9903,3,81,16,Stanislaus
-4160,17,9903,3,81,16,Stanislaus
-4161,17,9903,3,81,16,Stanislaus
-4162,17,9903,3,81,16,Stanislaus
-4163,17,9903,3,81,16,Stanislaus
-4164,17,9903,3,81,16,Stanislaus
-4165,17,9903,3,81,16,Stanislaus
-4166,17,9903,3,81,16,Stanislaus
-4167,17,9903,3,81,16,Stanislaus
-4168,17,9903,3,81,16,Stanislaus
-4169,17,9903,3,81,16,Stanislaus
-4170,17,9903,3,81,16,Stanislaus
-4171,17,9903,3,81,16,Stanislaus
-4172,17,9903,3,81,16,Stanislaus
-4173,17,9903,3,81,16,Stanislaus
-4174,17,9904,3,82,16,Stanislaus
-4175,17,9903,3,81,16,Stanislaus
-4176,17,9903,3,81,16,Stanislaus
-4177,17,9904,3,82,16,Stanislaus
-4178,17,9904,3,82,16,Stanislaus
-4179,17,9904,3,82,16,Stanislaus
-4180,17,9904,3,82,16,Stanislaus
-4181,17,9904,3,82,16,Stanislaus
-4182,17,9904,3,82,16,Stanislaus
-4183,17,9904,3,82,16,Stanislaus
-4184,17,9904,3,82,16,Stanislaus
-4185,17,9904,3,82,16,Stanislaus
-4186,17,9902,3,80,16,Stanislaus
-4187,17,9902,3,80,16,Stanislaus
-4188,17,9902,3,80,16,Stanislaus
-4189,17,9902,3,80,16,Stanislaus
-4190,17,9902,3,80,16,Stanislaus
-4191,17,9902,3,80,16,Stanislaus
-4192,17,9902,3,80,16,Stanislaus
-4193,17,9902,3,80,16,Stanislaus
-4194,17,9902,3,80,16,Stanislaus
-4195,17,9902,3,80,16,Stanislaus
-4196,17,9902,3,80,16,Stanislaus
-4197,17,9901,3,79,16,Stanislaus
-4198,17,9902,3,80,16,Stanislaus
-4199,17,9904,3,82,16,Stanislaus
-4200,17,9904,3,82,16,Stanislaus
-4201,17,9901,3,79,16,Stanislaus
-4202,17,9901,3,79,16,Stanislaus
-4203,17,9904,3,82,16,Stanislaus
-4204,17,9903,3,81,16,Stanislaus
-4205,17,9903,3,81,16,Stanislaus
-4206,17,9902,3,80,16,Stanislaus
-4207,17,9902,3,80,16,Stanislaus
-4208,17,9902,3,80,16,Stanislaus
-4209,17,9902,3,80,16,Stanislaus
-4210,17,9902,3,80,16,Stanislaus
-4211,17,9901,3,79,16,Stanislaus
-4212,17,9901,3,79,16,Stanislaus
-4213,17,9901,3,79,16,Stanislaus
-4214,17,9901,3,79,16,Stanislaus
-4215,17,9901,3,79,16,Stanislaus
-4216,17,9901,3,79,16,Stanislaus
-4217,17,9901,3,79,16,Stanislaus
-4218,17,9903,3,81,16,Stanislaus
-4219,17,9901,3,79,16,Stanislaus
-4220,17,9903,3,81,16,Stanislaus
-4221,17,9904,3,82,16,Stanislaus
-4222,18,4702,3,84,17,Merced
-4223,18,4702,3,84,17,Merced
-4224,18,4702,3,84,17,Merced
-4225,18,4702,3,84,17,Merced
-4226,18,4702,3,84,17,Merced
-4227,18,4701,3,83,17,Merced
-4228,18,4701,3,83,17,Merced
-4229,18,4702,3,84,17,Merced
-4230,18,4701,3,83,17,Merced
-4231,18,4701,3,83,17,Merced
-4232,18,4701,3,83,17,Merced
-4233,18,4701,3,83,17,Merced
-4234,18,4701,3,83,17,Merced
-4235,18,4701,3,83,17,Merced
-4236,18,4701,3,83,17,Merced
-4237,18,4701,3,83,17,Merced
-4238,18,4701,3,83,17,Merced
-4239,18,4701,3,83,17,Merced
-4240,18,4701,3,83,17,Merced
-4241,18,4701,3,83,17,Merced
-4242,18,4701,3,83,17,Merced
-4243,18,4701,3,83,17,Merced
-4244,18,4701,3,83,17,Merced
-4245,18,4701,3,83,17,Merced
-4246,18,4702,3,84,17,Merced
-4247,18,4702,3,84,17,Merced
-4248,18,4702,3,84,17,Merced
-4249,18,4702,3,84,17,Merced
-4250,18,4702,3,84,17,Merced
-4251,18,4702,3,84,17,Merced
-4252,18,4702,3,84,17,Merced
-4253,18,4702,3,84,17,Merced
-4254,18,4702,3,84,17,Merced
-4255,18,4702,3,84,17,Merced
-4256,18,4702,3,84,17,Merced
-4257,18,4702,3,84,17,Merced
-4258,18,4702,3,84,17,Merced
-4259,18,4702,3,84,17,Merced
-4260,18,4702,3,84,17,Merced
-4261,18,4702,3,84,17,Merced
-4262,18,4702,3,84,17,Merced
-4263,18,4701,3,83,17,Merced
-4264,18,4702,3,84,17,Merced
-4265,18,4702,3,84,17,Merced
-4266,16,7703,3,77,15,San Joaquin
-4267,16,7703,3,77,15,San Joaquin
-4268,16,7703,3,77,15,San Joaquin
-4269,16,7703,3,77,15,San Joaquin
-4270,16,7703,3,77,15,San Joaquin
-4271,16,7703,3,77,15,San Joaquin
-4272,16,7703,3,77,15,San Joaquin
-4273,16,7703,3,77,15,San Joaquin
-4274,16,7703,3,77,15,San Joaquin
-4275,19,5303,4,85,18,San Benito-Monterey
-4276,19,5303,4,85,18,San Benito-Monterey
-4277,19,5303,4,85,18,San Benito-Monterey
-4278,19,5303,4,85,18,San Benito-Monterey
-4279,19,5303,4,85,18,San Benito-Monterey
-4280,19,5303,4,85,18,San Benito-Monterey
-4281,19,5303,4,85,18,San Benito-Monterey
-4282,19,5303,4,85,18,San Benito-Monterey
-4283,20,8701,4,86,19,Santa Cruz
-4284,20,8701,4,86,19,Santa Cruz
-4285,20,8701,4,86,19,Santa Cruz
-4286,20,8701,4,86,19,Santa Cruz
-4287,20,8701,4,86,19,Santa Cruz
-4288,20,8701,4,86,19,Santa Cruz
-4289,20,8701,4,86,19,Santa Cruz
-4290,20,8701,4,86,19,Santa Cruz
-4291,20,8702,4,87,19,Santa Cruz
-4292,20,8702,4,87,19,Santa Cruz
-4293,20,8702,4,87,19,Santa Cruz
-4294,20,8702,4,87,19,Santa Cruz
-4295,20,8701,4,86,19,Santa Cruz
-4296,20,8702,4,87,19,Santa Cruz
-4297,20,8701,4,86,19,Santa Cruz
-4298,20,8701,4,86,19,Santa Cruz
-4299,20,8702,4,87,19,Santa Cruz
-4300,20,8702,4,87,19,Santa Cruz
-4301,20,8701,4,86,19,Santa Cruz
-4302,20,8701,4,86,19,Santa Cruz
-4303,20,8702,4,87,19,Santa Cruz
-4304,20,8702,4,87,19,Santa Cruz
-4305,20,8701,4,86,19,Santa Cruz
-4306,20,8701,4,86,19,Santa Cruz
-4307,20,8701,4,86,19,Santa Cruz
-4308,20,8701,4,86,19,Santa Cruz
-4309,20,8701,4,86,19,Santa Cruz
-4310,20,8701,4,86,19,Santa Cruz
-4311,20,8701,4,86,19,Santa Cruz
-4312,20,8701,4,86,19,Santa Cruz
-4313,20,8701,4,86,19,Santa Cruz
-4314,20,8702,4,87,19,Santa Cruz
-4315,20,8702,4,87,19,Santa Cruz
-4316,20,8702,4,87,19,Santa Cruz
-4317,20,8702,4,87,19,Santa Cruz
-4318,21,5302,4,89,18,San Benito-Monterey
-4319,21,5302,4,89,18,San Benito-Monterey
-4320,21,5302,4,89,18,San Benito-Monterey
-4321,21,5302,4,89,18,San Benito-Monterey
-4322,21,5301,4,88,18,San Benito-Monterey
-4323,21,5301,4,88,18,San Benito-Monterey
-4324,21,5301,4,88,18,San Benito-Monterey
-4325,21,5301,4,88,18,San Benito-Monterey
-4326,21,5303,4,90,18,San Benito-Monterey
-4327,21,5301,4,88,18,San Benito-Monterey
-4328,21,5303,4,90,18,San Benito-Monterey
-4329,21,5303,4,90,18,San Benito-Monterey
-4330,21,5303,4,90,18,San Benito-Monterey
-4331,21,5303,4,90,18,San Benito-Monterey
-4332,21,5303,4,90,18,San Benito-Monterey
-4333,21,5303,4,90,18,San Benito-Monterey
-4334,21,5301,4,88,18,San Benito-Monterey
-4335,21,5301,4,88,18,San Benito-Monterey
-4336,21,5302,4,89,18,San Benito-Monterey
-4337,21,5302,4,89,18,San Benito-Monterey
-4338,21,5302,4,89,18,San Benito-Monterey
-4339,21,5302,4,89,18,San Benito-Monterey
-4340,21,5302,4,89,18,San Benito-Monterey
-4341,21,5302,4,89,18,San Benito-Monterey
-4342,21,5302,4,89,18,San Benito-Monterey
-4343,21,5302,4,89,18,San Benito-Monterey
-4344,21,5302,4,89,18,San Benito-Monterey
-4345,21,5302,4,89,18,San Benito-Monterey
-4346,21,5302,4,89,18,San Benito-Monterey
-4347,21,5302,4,89,18,San Benito-Monterey
-4348,21,5302,4,89,18,San Benito-Monterey
-4349,21,5302,4,89,18,San Benito-Monterey
-4350,21,5302,4,89,18,San Benito-Monterey
-4351,21,5302,4,89,18,San Benito-Monterey
-4352,21,5301,4,88,18,San Benito-Monterey
-4353,21,5301,4,88,18,San Benito-Monterey
-4354,21,5301,4,88,18,San Benito-Monterey
-4355,21,5301,4,88,18,San Benito-Monterey
-4356,21,5301,4,88,18,San Benito-Monterey
-4357,21,5301,4,88,18,San Benito-Monterey
-4358,21,5301,4,88,18,San Benito-Monterey
-4359,21,5301,4,88,18,San Benito-Monterey
-4360,21,5301,4,88,18,San Benito-Monterey
-4361,21,5301,4,88,18,San Benito-Monterey
-4362,21,5301,4,88,18,San Benito-Monterey
-4363,21,5302,4,89,18,San Benito-Monterey
-4364,21,5302,4,89,18,San Benito-Monterey
-4365,21,5301,4,88,18,San Benito-Monterey
-4366,21,5301,4,88,18,San Benito-Monterey
-4367,21,5302,4,89,18,San Benito-Monterey
-4368,21,5302,4,89,18,San Benito-Monterey
-4369,21,5301,4,88,18,San Benito-Monterey
-4370,21,5303,4,90,18,San Benito-Monterey
-4371,21,5301,4,88,18,San Benito-Monterey
-4372,21,5301,4,88,18,San Benito-Monterey
-4373,21,5301,4,88,18,San Benito-Monterey
-4374,21,5301,4,88,18,San Benito-Monterey
-4375,21,5301,4,88,18,San Benito-Monterey
-4376,21,5301,4,88,18,San Benito-Monterey
-4377,21,5301,4,88,18,San Benito-Monterey
-4378,21,5301,4,88,18,San Benito-Monterey
-4379,21,5301,4,88,18,San Benito-Monterey
-4380,21,5301,4,88,18,San Benito-Monterey
-4381,21,5301,4,88,18,San Benito-Monterey
-4382,21,5303,4,90,18,San Benito-Monterey
-4383,21,5303,4,90,18,San Benito-Monterey
-4384,14,1700,2,71,13,El Dorado
-4385,15,6103,2,74,14,Placer
+TAZ,COUNTY,PUMA,REGION,COUNTYPUMA
+1,1,7506,1,6
+2,1,7507,1,7
+3,1,7502,1,2
+4,1,7502,1,2
+5,1,7502,1,2
+6,1,7502,1,2
+7,1,7502,1,2
+8,1,7502,1,2
+9,1,7502,1,2
+10,1,7503,1,3
+11,1,7502,1,2
+12,1,7502,1,2
+13,1,7502,1,2
+14,1,7503,1,3
+15,1,7503,1,3
+16,1,7503,1,3
+17,1,7503,1,3
+18,1,7503,1,3
+19,1,7503,1,3
+20,1,7503,1,3
+21,1,7503,1,3
+22,1,7503,1,3
+23,1,7503,1,3
+24,1,7502,1,2
+25,1,7502,1,2
+26,1,7503,1,3
+27,1,7503,1,3
+28,1,7503,1,3
+29,1,7503,1,3
+30,1,7503,1,3
+31,1,7503,1,3
+32,1,7502,1,2
+33,1,7502,1,2
+34,1,7502,1,2
+35,1,7502,1,2
+36,1,7502,1,2
+37,1,7502,1,2
+38,1,7502,1,2
+39,1,7502,1,2
+40,1,7503,1,3
+41,1,7503,1,3
+42,1,7503,1,3
+43,1,7503,1,3
+44,1,7502,1,2
+45,1,7502,1,2
+46,1,7502,1,2
+47,1,7502,1,2
+48,1,7502,1,2
+49,1,7502,1,2
+50,1,7502,1,2
+51,1,7502,1,2
+52,1,7502,1,2
+53,1,7502,1,2
+54,1,7502,1,2
+55,1,7502,1,2
+56,1,7502,1,2
+57,1,7502,1,2
+58,1,7502,1,2
+59,1,7502,1,2
+60,1,7502,1,2
+61,1,7503,1,3
+62,1,7503,1,3
+63,1,7503,1,3
+64,1,7502,1,2
+65,1,7503,1,3
+66,1,7503,1,3
+67,1,7503,1,3
+68,1,7503,1,3
+69,1,7503,1,3
+70,1,7503,1,3
+71,1,7503,1,3
+72,1,7503,1,3
+73,1,7502,1,2
+74,1,7502,1,2
+75,1,7502,1,2
+76,1,7503,1,3
+77,1,7503,1,3
+78,1,7503,1,3
+79,1,7503,1,3
+80,1,7503,1,3
+81,1,7503,1,3
+82,1,7503,1,3
+83,1,7503,1,3
+84,1,7503,1,3
+85,1,7503,1,3
+86,1,7503,1,3
+87,1,7503,1,3
+88,1,7503,1,3
+89,1,7503,1,3
+90,1,7503,1,3
+91,1,7503,1,3
+92,1,7502,1,2
+93,1,7502,1,2
+94,1,7502,1,2
+95,1,7502,1,2
+96,1,7502,1,2
+97,1,7501,1,1
+98,1,7501,1,1
+99,1,7501,1,1
+100,1,7501,1,1
+101,1,7501,1,1
+102,1,7501,1,1
+103,1,7501,1,1
+104,1,7501,1,1
+105,1,7501,1,1
+106,1,7501,1,1
+107,1,7501,1,1
+108,1,7501,1,1
+109,1,7501,1,1
+110,1,7501,1,1
+111,1,7501,1,1
+112,1,7501,1,1
+113,1,7501,1,1
+114,1,7501,1,1
+115,1,7501,1,1
+116,1,7501,1,1
+117,1,7501,1,1
+118,1,7501,1,1
+119,1,7501,1,1
+120,1,7501,1,1
+121,1,7501,1,1
+122,1,7501,1,1
+123,1,7501,1,1
+124,1,7501,1,1
+125,1,7501,1,1
+126,1,7501,1,1
+127,1,7501,1,1
+128,1,7501,1,1
+129,1,7501,1,1
+130,1,7501,1,1
+131,1,7501,1,1
+132,1,7501,1,1
+133,1,7501,1,1
+134,1,7501,1,1
+135,1,7501,1,1
+136,1,7501,1,1
+137,1,7501,1,1
+138,1,7502,1,2
+139,1,7502,1,2
+140,1,7502,1,2
+141,1,7502,1,2
+142,1,7501,1,1
+143,1,7501,1,1
+144,1,7501,1,1
+145,1,7501,1,1
+146,1,7501,1,1
+147,1,7504,1,4
+148,1,7504,1,4
+149,1,7504,1,4
+150,1,7504,1,4
+151,1,7504,1,4
+152,1,7504,1,4
+153,1,7504,1,4
+154,1,7504,1,4
+155,1,7504,1,4
+156,1,7504,1,4
+157,1,7504,1,4
+158,1,7502,1,2
+159,1,7502,1,2
+160,1,7502,1,2
+161,1,7501,1,1
+162,1,7502,1,2
+163,1,7502,1,2
+164,1,7502,1,2
+165,1,7501,1,1
+166,1,7501,1,1
+167,1,7501,1,1
+168,1,7501,1,1
+169,1,7502,1,2
+170,1,7502,1,2
+171,1,7502,1,2
+172,1,7502,1,2
+173,1,7502,1,2
+174,1,7501,1,1
+175,1,7501,1,1
+176,1,7501,1,1
+177,1,7501,1,1
+178,1,7501,1,1
+179,1,7501,1,1
+180,1,7501,1,1
+181,1,7501,1,1
+182,1,7501,1,1
+183,1,7501,1,1
+184,1,7501,1,1
+185,1,7501,1,1
+186,1,7501,1,1
+187,1,7501,1,1
+188,1,7501,1,1
+189,1,7501,1,1
+190,1,7501,1,1
+191,1,7501,1,1
+192,1,7501,1,1
+193,1,7501,1,1
+194,1,7501,1,1
+195,1,7501,1,1
+196,1,7501,1,1
+197,1,7501,1,1
+198,1,7501,1,1
+199,1,7501,1,1
+200,1,7501,1,1
+201,1,7501,1,1
+202,1,7501,1,1
+203,1,7501,1,1
+204,1,7501,1,1
+205,1,7501,1,1
+206,1,7501,1,1
+207,1,7501,1,1
+208,1,7501,1,1
+209,1,7501,1,1
+210,1,7501,1,1
+211,1,7501,1,1
+212,1,7504,1,4
+213,1,7504,1,4
+214,1,7504,1,4
+215,1,7504,1,4
+216,1,7504,1,4
+217,1,7504,1,4
+218,1,7501,1,1
+219,1,7501,1,1
+220,1,7501,1,1
+221,1,7501,1,1
+222,1,7501,1,1
+223,1,7501,1,1
+224,1,7501,1,1
+225,1,7501,1,1
+226,1,7504,1,4
+227,1,7504,1,4
+228,1,7504,1,4
+229,1,7504,1,4
+230,1,7504,1,4
+231,1,7504,1,4
+232,1,7504,1,4
+233,1,7501,1,1
+234,1,7501,1,1
+235,1,7504,1,4
+236,1,7504,1,4
+237,1,7501,1,1
+238,1,7501,1,1
+239,1,7505,1,5
+240,1,7504,1,4
+241,1,7504,1,4
+242,1,7507,1,7
+243,1,7504,1,4
+244,1,7504,1,4
+245,1,7507,1,7
+246,1,7506,1,6
+247,1,7507,1,7
+248,1,7504,1,4
+249,1,7504,1,4
+250,1,7504,1,4
+251,1,7504,1,4
+252,1,7504,1,4
+253,1,7504,1,4
+254,1,7504,1,4
+255,1,7504,1,4
+256,1,7504,1,4
+257,1,7504,1,4
+258,1,7504,1,4
+259,1,7504,1,4
+260,1,7504,1,4
+261,1,7503,1,3
+262,1,7503,1,3
+263,1,7503,1,3
+264,1,7503,1,3
+265,1,7503,1,3
+266,1,7503,1,3
+267,1,7503,1,3
+268,1,7503,1,3
+269,1,7504,1,4
+270,1,7506,1,6
+271,1,7503,1,3
+272,1,7507,1,7
+273,1,7507,1,7
+274,1,7507,1,7
+275,1,7504,1,4
+276,1,7504,1,4
+277,1,7504,1,4
+278,1,7504,1,4
+279,1,7504,1,4
+280,1,7504,1,4
+281,1,7504,1,4
+282,1,7504,1,4
+283,1,7504,1,4
+284,1,7504,1,4
+285,1,7504,1,4
+286,1,7504,1,4
+287,1,7504,1,4
+288,1,7504,1,4
+289,1,7504,1,4
+290,1,7504,1,4
+291,1,7504,1,4
+292,1,7506,1,6
+293,1,7506,1,6
+294,1,7506,1,6
+295,1,7506,1,6
+296,1,7507,1,7
+297,1,7507,1,7
+298,1,7507,1,7
+299,1,7507,1,7
+300,1,7506,1,6
+301,1,7506,1,6
+302,1,7503,1,3
+303,1,7503,1,3
+304,1,7503,1,3
+305,1,7503,1,3
+306,1,7503,1,3
+307,1,7503,1,3
+308,1,7503,1,3
+309,1,7503,1,3
+310,1,7503,1,3
+311,1,7503,1,3
+312,1,7503,1,3
+313,1,7503,1,3
+314,1,7503,1,3
+315,1,7503,1,3
+316,1,7507,1,7
+317,1,7503,1,3
+318,1,7507,1,7
+319,1,7506,1,6
+320,1,7504,1,4
+321,1,7504,1,4
+322,1,7507,1,7
+323,1,7507,1,7
+324,1,7504,1,4
+325,1,7504,1,4
+326,1,7507,1,7
+327,1,7507,1,7
+328,1,7507,1,7
+329,1,7504,1,4
+330,1,7504,1,4
+331,1,7504,1,4
+332,1,7504,1,4
+333,1,7506,1,6
+334,1,7506,1,6
+335,1,7506,1,6
+336,1,7506,1,6
+337,1,7506,1,6
+338,1,7506,1,6
+339,1,7506,1,6
+340,1,7506,1,6
+341,1,7506,1,6
+342,1,7506,1,6
+343,1,7506,1,6
+344,1,7506,1,6
+345,1,7504,1,4
+346,1,7504,1,4
+347,1,7504,1,4
+348,1,7504,1,4
+349,1,7504,1,4
+350,1,7504,1,4
+351,1,7504,1,4
+352,1,7504,1,4
+353,1,7504,1,4
+354,1,7504,1,4
+355,1,7507,1,7
+356,1,7506,1,6
+357,1,7506,1,6
+358,1,7506,1,6
+359,1,7506,1,6
+360,1,7506,1,6
+361,1,7506,1,6
+362,1,7507,1,7
+363,1,7507,1,7
+364,1,7507,1,7
+365,1,7507,1,7
+366,1,7507,1,7
+367,1,7507,1,7
+368,1,7507,1,7
+369,1,7507,1,7
+370,1,7507,1,7
+371,1,7507,1,7
+372,1,7507,1,7
+373,1,7507,1,7
+374,1,7507,1,7
+375,1,7506,1,6
+376,1,7506,1,6
+377,1,7506,1,6
+378,1,7506,1,6
+379,1,7506,1,6
+380,1,7506,1,6
+381,1,7506,1,6
+382,1,7506,1,6
+383,1,7506,1,6
+384,1,7507,1,7
+385,1,7507,1,7
+386,1,7507,1,7
+387,1,7507,1,7
+388,1,7507,1,7
+389,1,7507,1,7
+390,1,7507,1,7
+391,1,7507,1,7
+392,1,7507,1,7
+393,1,7505,1,5
+394,1,7505,1,5
+395,1,7505,1,5
+396,1,7505,1,5
+397,1,7505,1,5
+398,1,7505,1,5
+399,1,7503,1,3
+400,1,7503,1,3
+401,1,7503,1,3
+402,1,7505,1,5
+403,1,7507,1,7
+404,1,7507,1,7
+405,1,7505,1,5
+406,1,7505,1,5
+407,1,7505,1,5
+408,1,7503,1,3
+409,1,7503,1,3
+410,1,7503,1,3
+411,1,7503,1,3
+412,1,7507,1,7
+413,1,7507,1,7
+414,1,7504,1,4
+415,1,7507,1,7
+416,1,7507,1,7
+417,1,7507,1,7
+418,1,7507,1,7
+419,1,7507,1,7
+420,1,7507,1,7
+421,1,7507,1,7
+422,1,7507,1,7
+423,1,7505,1,5
+424,1,7505,1,5
+425,1,7505,1,5
+426,1,7503,1,3
+427,1,7503,1,3
+428,1,7507,1,7
+429,1,7507,1,7
+430,1,7507,1,7
+431,1,7507,1,7
+432,1,7506,1,6
+433,1,7506,1,6
+434,1,7506,1,6
+435,1,7506,1,6
+436,1,7506,1,6
+437,1,7506,1,6
+438,1,7507,1,7
+439,1,7503,1,3
+440,1,7504,1,4
+441,1,7504,1,4
+442,1,7503,1,3
+443,1,7504,1,4
+444,1,7504,1,4
+445,1,7503,1,3
+446,1,7503,1,3
+447,1,7503,1,3
+448,1,7507,1,7
+449,1,7507,1,7
+450,1,7507,1,7
+451,1,7507,1,7
+452,1,7503,1,3
+453,1,7503,1,3
+454,1,7503,1,3
+455,1,7503,1,3
+456,1,7503,1,3
+457,1,7503,1,3
+458,1,7503,1,3
+459,1,7503,1,3
+460,1,7503,1,3
+461,1,7503,1,3
+462,1,7503,1,3
+463,1,7503,1,3
+464,1,7503,1,3
+465,1,7503,1,3
+466,1,7503,1,3
+467,1,7507,1,7
+468,1,7507,1,7
+469,1,7507,1,7
+470,1,7507,1,7
+471,1,7507,1,7
+472,1,7507,1,7
+473,1,7507,1,7
+474,1,7507,1,7
+475,1,7507,1,7
+476,1,7502,1,2
+477,1,7507,1,7
+478,1,7507,1,7
+479,1,7507,1,7
+480,1,7507,1,7
+481,1,7507,1,7
+482,1,7507,1,7
+483,1,7507,1,7
+484,1,7507,1,7
+485,1,7506,1,6
+486,1,7506,1,6
+487,1,7506,1,6
+488,1,7506,1,6
+489,1,7506,1,6
+490,1,7503,1,3
+491,1,7506,1,6
+492,1,7506,1,6
+493,1,7506,1,6
+494,1,7506,1,6
+495,1,7506,1,6
+496,1,7506,1,6
+497,1,7506,1,6
+498,1,7506,1,6
+499,1,7506,1,6
+500,1,7506,1,6
+501,1,7506,1,6
+502,1,7506,1,6
+503,1,7506,1,6
+504,1,7505,1,5
+505,1,7505,1,5
+506,1,7505,1,5
+507,1,7505,1,5
+508,1,7505,1,5
+509,1,7505,1,5
+510,1,7505,1,5
+511,1,7506,1,6
+512,1,7506,1,6
+513,1,7506,1,6
+514,1,7506,1,6
+515,1,7506,1,6
+516,1,7506,1,6
+517,1,7506,1,6
+518,1,7506,1,6
+519,1,7506,1,6
+520,1,7506,1,6
+521,1,7505,1,5
+522,1,7505,1,5
+523,1,7505,1,5
+524,1,7505,1,5
+525,1,7505,1,5
+526,1,7505,1,5
+527,1,7505,1,5
+528,1,7505,1,5
+529,1,7505,1,5
+530,1,7505,1,5
+531,1,7505,1,5
+532,1,7505,1,5
+533,1,7505,1,5
+534,1,7505,1,5
+535,1,7505,1,5
+536,1,7505,1,5
+537,1,7505,1,5
+538,1,7505,1,5
+539,1,7505,1,5
+540,1,7505,1,5
+541,1,7505,1,5
+542,1,7505,1,5
+543,1,7505,1,5
+544,1,7505,1,5
+545,1,7505,1,5
+546,1,7505,1,5
+547,1,7505,1,5
+548,1,7505,1,5
+549,1,7505,1,5
+550,1,7505,1,5
+551,1,7505,1,5
+552,1,7506,1,6
+553,1,7505,1,5
+554,1,7505,1,5
+555,1,7505,1,5
+556,1,7505,1,5
+557,1,7505,1,5
+558,1,7505,1,5
+559,1,7505,1,5
+560,1,7505,1,5
+561,1,7506,1,6
+562,1,7506,1,6
+563,1,7505,1,5
+564,1,7505,1,5
+565,1,7506,1,6
+566,1,7506,1,6
+567,1,7506,1,6
+568,1,7506,1,6
+569,1,7506,1,6
+570,1,7506,1,6
+571,1,7505,1,5
+572,1,7505,1,5
+573,1,7505,1,5
+574,1,7505,1,5
+575,1,7505,1,5
+576,1,7505,1,5
+577,1,7505,1,5
+578,1,7505,1,5
+579,1,7505,1,5
+580,1,7505,1,5
+581,1,7505,1,5
+582,1,7505,1,5
+583,1,7505,1,5
+584,1,7505,1,5
+585,1,7505,1,5
+586,1,7505,1,5
+587,1,7505,1,5
+588,1,7505,1,5
+589,1,7505,1,5
+590,1,7506,1,6
+591,1,7506,1,6
+592,1,7506,1,6
+593,1,7506,1,6
+594,1,7505,1,5
+595,1,7505,1,5
+596,1,7506,1,6
+597,1,7506,1,6
+598,1,7506,1,6
+599,1,7506,1,6
+600,1,7506,1,6
+601,1,7506,1,6
+602,1,7505,1,5
+603,1,7503,1,3
+604,1,7503,1,3
+605,1,7503,1,3
+606,1,7503,1,3
+607,1,7503,1,3
+608,1,7503,1,3
+609,1,7503,1,3
+610,1,7503,1,3
+611,1,7503,1,3
+612,1,7503,1,3
+613,1,7503,1,3
+614,1,7503,1,3
+615,1,7503,1,3
+616,2,8101,1,8
+617,2,8102,1,9
+618,2,8102,1,9
+619,2,8101,1,8
+620,2,8101,1,8
+621,2,8102,1,9
+622,2,8102,1,9
+623,2,8102,1,9
+624,2,8101,1,8
+625,2,8101,1,8
+626,2,8101,1,8
+627,2,8101,1,8
+628,2,8101,1,8
+629,2,8102,1,9
+630,2,8102,1,9
+631,2,8101,1,8
+632,2,8101,1,8
+633,2,8101,1,8
+634,2,8101,1,8
+635,2,8101,1,8
+636,2,8101,1,8
+637,2,8102,1,9
+638,2,8102,1,9
+639,2,8103,1,10
+640,2,8103,1,10
+641,2,8103,1,10
+642,2,8103,1,10
+643,2,8103,1,10
+644,2,8101,1,8
+645,2,8102,1,9
+646,2,8102,1,9
+647,2,8102,1,9
+648,2,8102,1,9
+649,2,8102,1,9
+650,2,8102,1,9
+651,2,8102,1,9
+652,2,8102,1,9
+653,2,8102,1,9
+654,2,8102,1,9
+655,2,8102,1,9
+656,2,8103,1,10
+657,2,8102,1,9
+658,2,8103,1,10
+659,2,8102,1,9
+660,2,8102,1,9
+661,2,8102,1,9
+662,2,8102,1,9
+663,2,8102,1,9
+664,2,8102,1,9
+665,2,8103,1,10
+666,2,8101,1,8
+667,2,8103,1,10
+668,2,8103,1,10
+669,2,8102,1,9
+670,2,8102,1,9
+671,2,8102,1,9
+672,2,8103,1,10
+673,2,8103,1,10
+674,2,8103,1,10
+675,2,8103,1,10
+676,2,8103,1,10
+677,2,8103,1,10
+678,2,8101,1,8
+679,2,8101,1,8
+680,2,8102,1,9
+681,2,8102,1,9
+682,2,8103,1,10
+683,2,8102,1,9
+684,2,8102,1,9
+685,2,8101,1,8
+686,2,8101,1,8
+687,2,8101,1,8
+688,2,8101,1,8
+689,2,8101,1,8
+690,2,8101,1,8
+691,2,8101,1,8
+692,2,8101,1,8
+693,2,8101,1,8
+694,2,8101,1,8
+695,2,8102,1,9
+696,2,8102,1,9
+697,2,8102,1,9
+698,2,8102,1,9
+699,2,8102,1,9
+700,2,8101,1,8
+701,2,8101,1,8
+702,2,8101,1,8
+703,2,8101,1,8
+704,2,8101,1,8
+705,2,8101,1,8
+706,2,8101,1,8
+707,2,8102,1,9
+708,2,8103,1,10
+709,2,8103,1,10
+710,2,8103,1,10
+711,2,8103,1,10
+712,2,8103,1,10
+713,2,8101,1,8
+714,2,8101,1,8
+715,2,8101,1,8
+716,2,8101,1,8
+717,2,8103,1,10
+718,2,8103,1,10
+719,2,8103,1,10
+720,2,8101,1,8
+721,2,8101,1,8
+722,2,8101,1,8
+723,2,8101,1,8
+724,2,8102,1,9
+725,2,8102,1,9
+726,2,8101,1,8
+727,2,8101,1,8
+728,2,8102,1,9
+729,2,8102,1,9
+730,2,8102,1,9
+731,2,8102,1,9
+732,2,8102,1,9
+733,2,8102,1,9
+734,2,8102,1,9
+735,2,8102,1,9
+736,2,8102,1,9
+737,2,8102,1,9
+738,2,8104,1,11
+739,2,8104,1,11
+740,2,8104,1,11
+741,2,8104,1,11
+742,2,8103,1,10
+743,2,8104,1,11
+744,2,8104,1,11
+745,2,8104,1,11
+746,2,8104,1,11
+747,2,8104,1,11
+748,2,8104,1,11
+749,2,8104,1,11
+750,2,8105,1,12
+751,2,8105,1,12
+752,2,8103,1,10
+753,2,8103,1,10
+754,2,8103,1,10
+755,2,8104,1,11
+756,2,8104,1,11
+757,2,8104,1,11
+758,2,8104,1,11
+759,2,8104,1,11
+760,2,8104,1,11
+761,2,8104,1,11
+762,2,8104,1,11
+763,2,8104,1,11
+764,2,8105,1,12
+765,2,8103,1,10
+766,2,8103,1,10
+767,2,8103,1,10
+768,2,8103,1,10
+769,2,8103,1,10
+770,2,8103,1,10
+771,2,8105,1,12
+772,2,8105,1,12
+773,2,8105,1,12
+774,2,8103,1,10
+775,2,8103,1,10
+776,2,8103,1,10
+777,2,8103,1,10
+778,2,8103,1,10
+779,2,8103,1,10
+780,2,8103,1,10
+781,2,8103,1,10
+782,2,8105,1,12
+783,2,8103,1,10
+784,2,8103,1,10
+785,2,8103,1,10
+786,2,8104,1,11
+787,2,8103,1,10
+788,2,8104,1,11
+789,2,8104,1,11
+790,2,8105,1,12
+791,2,8105,1,12
+792,2,8103,1,10
+793,2,8103,1,10
+794,2,8104,1,11
+795,2,8104,1,11
+796,2,8104,1,11
+797,2,8104,1,11
+798,2,8103,1,10
+799,2,8103,1,10
+800,2,8103,1,10
+801,2,8103,1,10
+802,2,8103,1,10
+803,2,8103,1,10
+804,2,8103,1,10
+805,2,8103,1,10
+806,2,8104,1,11
+807,2,8104,1,11
+808,2,8104,1,11
+809,2,8104,1,11
+810,2,8104,1,11
+811,2,8103,1,10
+812,2,8103,1,10
+813,2,8103,1,10
+814,2,8104,1,11
+815,2,8103,1,10
+816,2,8104,1,11
+817,2,8104,1,11
+818,2,8104,1,11
+819,2,8104,1,11
+820,2,8104,1,11
+821,2,8104,1,11
+822,2,8104,1,11
+823,2,8104,1,11
+824,2,8103,1,10
+825,2,8103,1,10
+826,2,8103,1,10
+827,2,8103,1,10
+828,2,8104,1,11
+829,2,8103,1,10
+830,2,8103,1,10
+831,2,8103,1,10
+832,2,8103,1,10
+833,2,8103,1,10
+834,2,8104,1,11
+835,2,8104,1,11
+836,2,8105,1,12
+837,2,8105,1,12
+838,2,8106,1,13
+839,2,8105,1,12
+840,2,8106,1,13
+841,2,8106,1,13
+842,2,8105,1,12
+843,2,8105,1,12
+844,2,8105,1,12
+845,2,8105,1,12
+846,2,8106,1,13
+847,2,8105,1,12
+848,2,8105,1,12
+849,2,8106,1,13
+850,2,8106,1,13
+851,2,8106,1,13
+852,2,8104,1,11
+853,2,8106,1,13
+854,2,8106,1,13
+855,2,8106,1,13
+856,2,8106,1,13
+857,2,8106,1,13
+858,2,8106,1,13
+859,2,8106,1,13
+860,2,8105,1,12
+861,2,8105,1,12
+862,2,8105,1,12
+863,2,8106,1,13
+864,2,8106,1,13
+865,2,8106,1,13
+866,2,8106,1,13
+867,2,8106,1,13
+868,2,8106,1,13
+869,2,8106,1,13
+870,2,8106,1,13
+871,2,8105,1,12
+872,2,8105,1,12
+873,2,8106,1,13
+874,2,8106,1,13
+875,2,8106,1,13
+876,2,8105,1,12
+877,2,8105,1,12
+878,2,8105,1,12
+879,2,8106,1,13
+880,2,8105,1,12
+881,2,8105,1,12
+882,2,8105,1,12
+883,2,8106,1,13
+884,2,8106,1,13
+885,2,8106,1,13
+886,2,8105,1,12
+887,2,8105,1,12
+888,2,8106,1,13
+889,2,8106,1,13
+890,2,8106,1,13
+891,2,8106,1,13
+892,2,8106,1,13
+893,2,8105,1,12
+894,2,8105,1,12
+895,2,8105,1,12
+896,2,8106,1,13
+897,2,8106,1,13
+898,2,8105,1,12
+899,2,8105,1,12
+900,2,8105,1,12
+901,2,8105,1,12
+902,2,8105,1,12
+903,2,8105,1,12
+904,2,8105,1,12
+905,2,8105,1,12
+906,2,8105,1,12
+907,2,8105,1,12
+908,2,8105,1,12
+909,2,8106,1,13
+910,2,8105,1,12
+911,2,8105,1,12
+912,2,8106,1,13
+913,2,8106,1,13
+914,2,8105,1,12
+915,2,8105,1,12
+916,2,8105,1,12
+917,2,8105,1,12
+918,3,8501,1,14
+919,3,8501,1,14
+920,3,8501,1,14
+921,3,8501,1,14
+922,3,8501,1,14
+923,3,8501,1,14
+924,3,8501,1,14
+925,3,8501,1,14
+926,3,8501,1,14
+927,3,8501,1,14
+928,3,8501,1,14
+929,3,8501,1,14
+930,3,8501,1,14
+931,3,8501,1,14
+932,3,8501,1,14
+933,3,8501,1,14
+934,3,8501,1,14
+935,3,8501,1,14
+936,3,8501,1,14
+937,3,8501,1,14
+938,3,8501,1,14
+939,3,8501,1,14
+940,3,8501,1,14
+941,3,8501,1,14
+942,3,8501,1,14
+943,3,8501,1,14
+944,3,8501,1,14
+945,3,8501,1,14
+946,3,8501,1,14
+947,3,8501,1,14
+948,3,8501,1,14
+949,3,8501,1,14
+950,3,8501,1,14
+951,3,8501,1,14
+952,3,8501,1,14
+953,3,8501,1,14
+954,3,8501,1,14
+955,3,8501,1,14
+956,3,8501,1,14
+957,3,8501,1,14
+958,3,8501,1,14
+959,3,8501,1,14
+960,3,8501,1,14
+961,3,8501,1,14
+962,3,8501,1,14
+963,3,8501,1,14
+964,3,8501,1,14
+965,3,8501,1,14
+966,3,8501,1,14
+967,3,8501,1,14
+968,3,8501,1,14
+969,3,8501,1,14
+970,3,8501,1,14
+971,3,8501,1,14
+972,3,8501,1,14
+973,3,8501,1,14
+974,3,8501,1,14
+975,3,8501,1,14
+976,3,8501,1,14
+977,3,8501,1,14
+978,3,8501,1,14
+979,3,8501,1,14
+980,3,8501,1,14
+981,3,8501,1,14
+982,3,8501,1,14
+983,3,8501,1,14
+984,3,8501,1,14
+985,3,8501,1,14
+986,3,8501,1,14
+987,3,8501,1,14
+988,3,8501,1,14
+989,3,8501,1,14
+990,3,8501,1,14
+991,3,8501,1,14
+992,3,8501,1,14
+993,3,8501,1,14
+994,3,8501,1,14
+995,3,8501,1,14
+996,3,8501,1,14
+997,3,8501,1,14
+998,3,8501,1,14
+999,3,8501,1,14
+1000,3,8501,1,14
+1001,3,8501,1,14
+1002,3,8501,1,14
+1003,3,8501,1,14
+1004,3,8501,1,14
+1005,3,8501,1,14
+1006,3,8501,1,14
+1007,3,8501,1,14
+1008,3,8501,1,14
+1009,3,8501,1,14
+1010,3,8501,1,14
+1011,3,8501,1,14
+1012,3,8501,1,14
+1013,3,8502,1,15
+1014,3,8502,1,15
+1015,3,8502,1,15
+1016,3,8502,1,15
+1017,3,8502,1,15
+1018,3,8502,1,15
+1019,3,8502,1,15
+1020,3,8502,1,15
+1021,3,8501,1,14
+1022,3,8501,1,14
+1023,3,8502,1,15
+1024,3,8502,1,15
+1025,3,8503,1,16
+1026,3,8503,1,16
+1027,3,8503,1,16
+1028,3,8503,1,16
+1029,3,8502,1,15
+1030,3,8502,1,15
+1031,3,8502,1,15
+1032,3,8502,1,15
+1033,3,8502,1,15
+1034,3,8502,1,15
+1035,3,8502,1,15
+1036,3,8502,1,15
+1037,3,8502,1,15
+1038,3,8502,1,15
+1039,3,8503,1,16
+1040,3,8503,1,16
+1041,3,8509,1,22
+1042,3,8501,1,14
+1043,3,8502,1,15
+1044,3,8503,1,16
+1045,3,8503,1,16
+1046,3,8503,1,16
+1047,3,8503,1,16
+1048,3,8503,1,16
+1049,3,8502,1,15
+1050,3,8503,1,16
+1051,3,8501,1,14
+1052,3,8503,1,16
+1053,3,8503,1,16
+1054,3,8503,1,16
+1055,3,8502,1,15
+1056,3,8501,1,14
+1057,3,8502,1,15
+1058,3,8503,1,16
+1059,3,8503,1,16
+1060,3,8503,1,16
+1061,3,8503,1,16
+1062,3,8503,1,16
+1063,3,8503,1,16
+1064,3,8502,1,15
+1065,3,8502,1,15
+1066,3,8501,1,14
+1067,3,8503,1,16
+1068,3,8503,1,16
+1069,3,8502,1,15
+1070,3,8503,1,16
+1071,3,8503,1,16
+1072,3,8503,1,16
+1073,3,8502,1,15
+1074,3,8503,1,16
+1075,3,8503,1,16
+1076,3,8503,1,16
+1077,3,8502,1,15
+1078,3,8502,1,15
+1079,3,8503,1,16
+1080,3,8502,1,15
+1081,3,8501,1,14
+1082,3,8503,1,16
+1083,3,8503,1,16
+1084,3,8502,1,15
+1085,3,8502,1,15
+1086,3,8502,1,15
+1087,3,8502,1,15
+1088,3,8502,1,15
+1089,3,8502,1,15
+1090,3,8502,1,15
+1091,3,8502,1,15
+1092,3,8502,1,15
+1093,3,8503,1,16
+1094,3,8503,1,16
+1095,3,8503,1,16
+1096,3,8502,1,15
+1097,3,8502,1,15
+1098,3,8502,1,15
+1099,3,8502,1,15
+1100,3,8502,1,15
+1101,3,8502,1,15
+1102,3,8502,1,15
+1103,3,8502,1,15
+1104,3,8502,1,15
+1105,3,8503,1,16
+1106,3,8501,1,14
+1107,3,8501,1,14
+1108,3,8502,1,15
+1109,3,8502,1,15
+1110,3,8502,1,15
+1111,3,8502,1,15
+1112,3,8509,1,22
+1113,3,8503,1,16
+1114,3,8503,1,16
+1115,3,8502,1,15
+1116,3,8503,1,16
+1117,3,8502,1,15
+1118,3,8502,1,15
+1119,3,8507,1,20
+1120,3,8507,1,20
+1121,3,8508,1,21
+1122,3,8508,1,21
+1123,3,8507,1,20
+1124,3,8508,1,21
+1125,3,8508,1,21
+1126,3,8508,1,21
+1127,3,8508,1,21
+1128,3,8508,1,21
+1129,3,8508,1,21
+1130,3,8508,1,21
+1131,3,8508,1,21
+1132,3,8508,1,21
+1133,3,8508,1,21
+1134,3,8507,1,20
+1135,3,8511,1,24
+1136,3,8507,1,20
+1137,3,8507,1,20
+1138,3,8507,1,20
+1139,3,8507,1,20
+1140,3,8507,1,20
+1141,3,8507,1,20
+1142,3,8507,1,20
+1143,3,8507,1,20
+1144,3,8507,1,20
+1145,3,8507,1,20
+1146,3,8507,1,20
+1147,3,8507,1,20
+1148,3,8507,1,20
+1149,3,8507,1,20
+1150,3,8507,1,20
+1151,3,8508,1,21
+1152,3,8508,1,21
+1153,3,8507,1,20
+1154,3,8507,1,20
+1155,3,8507,1,20
+1156,3,8503,1,16
+1157,3,8503,1,16
+1158,3,8503,1,16
+1159,3,8508,1,21
+1160,3,8508,1,21
+1161,3,8508,1,21
+1162,3,8508,1,21
+1163,3,8508,1,21
+1164,3,8508,1,21
+1165,3,8508,1,21
+1166,3,8508,1,21
+1167,3,8508,1,21
+1168,3,8511,1,24
+1169,3,8507,1,20
+1170,3,8507,1,20
+1171,3,8507,1,20
+1172,3,8507,1,20
+1173,3,8507,1,20
+1174,3,8510,1,23
+1175,3,8511,1,24
+1176,3,8503,1,16
+1177,3,8503,1,16
+1178,3,8503,1,16
+1179,3,8508,1,21
+1180,3,8511,1,24
+1181,3,8510,1,23
+1182,3,8513,1,26
+1183,3,8513,1,26
+1184,3,8510,1,23
+1185,3,8510,1,23
+1186,3,8510,1,23
+1187,3,8509,1,22
+1188,3,8509,1,22
+1189,3,8509,1,22
+1190,3,8509,1,22
+1191,3,8510,1,23
+1192,3,8510,1,23
+1193,3,8510,1,23
+1194,3,8510,1,23
+1195,3,8510,1,23
+1196,3,8513,1,26
+1197,3,8510,1,23
+1198,3,8509,1,22
+1199,3,8509,1,22
+1200,3,8510,1,23
+1201,3,8510,1,23
+1202,3,8510,1,23
+1203,3,8510,1,23
+1204,3,8508,1,21
+1205,3,8509,1,22
+1206,3,8509,1,22
+1207,3,8509,1,22
+1208,3,8510,1,23
+1209,3,8510,1,23
+1210,3,8510,1,23
+1211,3,8510,1,23
+1212,3,8510,1,23
+1213,3,8510,1,23
+1214,3,8503,1,16
+1215,3,8510,1,23
+1216,3,8510,1,23
+1217,3,8510,1,23
+1218,3,8509,1,22
+1219,3,8510,1,23
+1220,3,8510,1,23
+1221,3,8509,1,22
+1222,3,8509,1,22
+1223,3,8510,1,23
+1224,3,8509,1,22
+1225,3,8509,1,22
+1226,3,8509,1,22
+1227,3,8509,1,22
+1228,3,8509,1,22
+1229,3,8510,1,23
+1230,3,8510,1,23
+1231,3,8509,1,22
+1232,3,8509,1,22
+1233,3,8509,1,22
+1234,3,8509,1,22
+1235,3,8509,1,22
+1236,3,8509,1,22
+1237,3,8509,1,22
+1238,3,8509,1,22
+1239,3,8509,1,22
+1240,3,8509,1,22
+1241,3,8510,1,23
+1242,3,8510,1,23
+1243,3,8503,1,16
+1244,3,8510,1,23
+1245,3,8510,1,23
+1246,3,8510,1,23
+1247,3,8503,1,16
+1248,3,8510,1,23
+1249,3,8513,1,26
+1250,3,8509,1,22
+1251,3,8509,1,22
+1252,3,8509,1,22
+1253,3,8509,1,22
+1254,3,8509,1,22
+1255,3,8513,1,26
+1256,3,8510,1,23
+1257,3,8513,1,26
+1258,3,8513,1,26
+1259,3,8509,1,22
+1260,3,8509,1,22
+1261,3,8509,1,22
+1262,3,8509,1,22
+1263,3,8509,1,22
+1264,3,8509,1,22
+1265,3,8509,1,22
+1266,3,8509,1,22
+1267,3,8510,1,23
+1268,3,8513,1,26
+1269,3,8510,1,23
+1270,3,8509,1,22
+1271,3,8509,1,22
+1272,3,8509,1,22
+1273,3,8509,1,22
+1274,3,8509,1,22
+1275,3,8509,1,22
+1276,3,8509,1,22
+1277,3,8509,1,22
+1278,3,8509,1,22
+1279,3,8509,1,22
+1280,3,8509,1,22
+1281,3,8510,1,23
+1282,3,8510,1,23
+1283,3,8510,1,23
+1284,3,8509,1,22
+1285,3,8509,1,22
+1286,3,8509,1,22
+1287,3,8509,1,22
+1288,3,8509,1,22
+1289,3,8509,1,22
+1290,3,8509,1,22
+1291,3,8509,1,22
+1292,3,8509,1,22
+1293,3,8509,1,22
+1294,3,8509,1,22
+1295,3,8509,1,22
+1296,3,8509,1,22
+1297,3,8509,1,22
+1298,3,8510,1,23
+1299,3,8503,1,16
+1300,3,8503,1,16
+1301,3,8503,1,16
+1302,3,8510,1,23
+1303,3,8513,1,26
+1304,3,8503,1,16
+1305,3,8503,1,16
+1306,3,8510,1,23
+1307,3,8510,1,23
+1308,3,8509,1,22
+1309,3,8514,1,27
+1310,3,8514,1,27
+1311,3,8505,1,18
+1312,3,8513,1,26
+1313,3,8514,1,27
+1314,3,8513,1,26
+1315,3,8505,1,18
+1316,3,8505,1,18
+1317,3,8505,1,18
+1318,3,8513,1,26
+1319,3,8504,1,17
+1320,3,8504,1,17
+1321,3,8504,1,17
+1322,3,8504,1,17
+1323,3,8504,1,17
+1324,3,8504,1,17
+1325,3,8504,1,17
+1326,3,8504,1,17
+1327,3,8504,1,17
+1328,3,8504,1,17
+1329,3,8504,1,17
+1330,3,8504,1,17
+1331,3,8514,1,27
+1332,3,8505,1,18
+1333,3,8513,1,26
+1334,3,8505,1,18
+1335,3,8514,1,27
+1336,3,8514,1,27
+1337,3,8514,1,27
+1338,3,8514,1,27
+1339,3,8505,1,18
+1340,3,8505,1,18
+1341,3,8514,1,27
+1342,3,8514,1,27
+1343,3,8505,1,18
+1344,3,8514,1,27
+1345,3,8505,1,18
+1346,3,8504,1,17
+1347,3,8504,1,17
+1348,3,8504,1,17
+1349,3,8513,1,26
+1350,3,8513,1,26
+1351,3,8513,1,26
+1352,3,8514,1,27
+1353,3,8505,1,18
+1354,3,8505,1,18
+1355,3,8514,1,27
+1356,3,8514,1,27
+1357,3,8514,1,27
+1358,3,8514,1,27
+1359,3,8505,1,18
+1360,3,8505,1,18
+1361,3,8505,1,18
+1362,3,8505,1,18
+1363,3,8505,1,18
+1364,3,8505,1,18
+1365,3,8505,1,18
+1366,3,8505,1,18
+1367,3,8505,1,18
+1368,3,8504,1,17
+1369,3,8504,1,17
+1370,3,8504,1,17
+1371,3,8504,1,17
+1372,3,8504,1,17
+1373,3,8504,1,17
+1374,3,8504,1,17
+1375,3,8504,1,17
+1376,3,8504,1,17
+1377,3,8504,1,17
+1378,3,8514,1,27
+1379,3,8514,1,27
+1380,3,8514,1,27
+1381,3,8504,1,17
+1382,3,8504,1,17
+1383,3,8504,1,17
+1384,3,8504,1,17
+1385,3,8504,1,17
+1386,3,8514,1,27
+1387,3,8514,1,27
+1388,3,8514,1,27
+1389,3,8514,1,27
+1390,3,8514,1,27
+1391,3,8514,1,27
+1392,3,8514,1,27
+1393,3,8514,1,27
+1394,3,8504,1,17
+1395,3,8504,1,17
+1396,3,8514,1,27
+1397,3,8514,1,27
+1398,3,8504,1,17
+1399,3,8504,1,17
+1400,3,8504,1,17
+1401,3,8504,1,17
+1402,3,8504,1,17
+1403,3,8504,1,17
+1404,3,8504,1,17
+1405,3,8504,1,17
+1406,3,8514,1,27
+1407,3,8504,1,17
+1408,3,8504,1,17
+1409,3,8504,1,17
+1410,3,8504,1,17
+1411,3,8512,1,25
+1412,3,8512,1,25
+1413,3,8512,1,25
+1414,3,8512,1,25
+1415,3,8512,1,25
+1416,3,8512,1,25
+1417,3,8513,1,26
+1418,3,8512,1,25
+1419,3,8512,1,25
+1420,3,8512,1,25
+1421,3,8511,1,24
+1422,3,8512,1,25
+1423,3,8513,1,26
+1424,3,8511,1,24
+1425,3,8511,1,24
+1426,3,8511,1,24
+1427,3,8512,1,25
+1428,3,8512,1,25
+1429,3,8512,1,25
+1430,3,8512,1,25
+1431,3,8512,1,25
+1432,3,8512,1,25
+1433,3,8512,1,25
+1434,3,8513,1,26
+1435,3,8511,1,24
+1436,3,8511,1,24
+1437,3,8511,1,24
+1438,3,8511,1,24
+1439,3,8512,1,25
+1440,3,8512,1,25
+1441,3,8512,1,25
+1442,3,8511,1,24
+1443,3,8511,1,24
+1444,3,8510,1,23
+1445,3,8511,1,24
+1446,3,8511,1,24
+1447,3,8511,1,24
+1448,3,8511,1,24
+1449,3,8513,1,26
+1450,3,8513,1,26
+1451,3,8513,1,26
+1452,3,8511,1,24
+1453,3,8513,1,26
+1454,3,8512,1,25
+1455,3,8511,1,24
+1456,3,8511,1,24
+1457,3,8513,1,26
+1458,3,8512,1,25
+1459,3,8512,1,25
+1460,3,8512,1,25
+1461,3,8512,1,25
+1462,3,8512,1,25
+1463,3,8511,1,24
+1464,3,8513,1,26
+1465,3,8511,1,24
+1466,3,8511,1,24
+1467,3,8511,1,24
+1468,3,8511,1,24
+1469,3,8506,1,19
+1470,3,8506,1,19
+1471,3,8506,1,19
+1472,3,8506,1,19
+1473,3,8506,1,19
+1474,3,8506,1,19
+1475,3,8506,1,19
+1476,3,8506,1,19
+1477,3,8506,1,19
+1478,3,8506,1,19
+1479,3,8506,1,19
+1480,3,8506,1,19
+1481,3,8506,1,19
+1482,3,8506,1,19
+1483,3,8506,1,19
+1484,3,8506,1,19
+1485,3,8506,1,19
+1486,3,8506,1,19
+1487,3,8506,1,19
+1488,3,8506,1,19
+1489,3,8506,1,19
+1490,3,8506,1,19
+1491,3,8506,1,19
+1492,3,8506,1,19
+1493,3,8506,1,19
+1494,3,8506,1,19
+1495,3,8506,1,19
+1496,3,8506,1,19
+1497,3,8506,1,19
+1498,3,8506,1,19
+1499,3,8506,1,19
+1500,3,8506,1,19
+1501,3,8506,1,19
+1502,3,8506,1,19
+1503,3,8506,1,19
+1504,3,8506,1,19
+1505,3,8506,1,19
+1506,3,8506,1,19
+1507,3,8506,1,19
+1508,3,8506,1,19
+1509,3,8508,1,21
+1510,3,8508,1,21
+1511,3,8508,1,21
+1512,3,8508,1,21
+1513,3,8503,1,16
+1514,3,8503,1,16
+1515,3,8503,1,16
+1516,3,8502,1,15
+1517,3,8503,1,16
+1518,3,8509,1,22
+1519,3,8509,1,22
+1520,3,8509,1,22
+1521,3,8509,1,22
+1522,3,8509,1,22
+1523,3,8509,1,22
+1524,3,8509,1,22
+1525,3,8504,1,17
+1526,3,8509,1,22
+1527,3,8504,1,17
+1528,3,8504,1,17
+1529,3,8504,1,17
+1530,4,102,1,29
+1531,4,110,1,37
+1532,4,110,1,37
+1533,4,110,1,37
+1534,4,110,1,37
+1535,4,110,1,37
+1536,4,110,1,37
+1537,4,110,1,37
+1538,4,110,1,37
+1539,4,110,1,37
+1540,4,110,1,37
+1541,4,110,1,37
+1542,4,110,1,37
+1543,4,110,1,37
+1544,4,110,1,37
+1545,4,110,1,37
+1546,4,110,1,37
+1547,4,110,1,37
+1548,4,110,1,37
+1549,4,110,1,37
+1550,4,110,1,37
+1551,4,110,1,37
+1552,4,110,1,37
+1553,4,110,1,37
+1554,4,110,1,37
+1555,4,110,1,37
+1556,4,110,1,37
+1557,4,110,1,37
+1558,4,110,1,37
+1559,4,110,1,37
+1560,4,110,1,37
+1561,4,110,1,37
+1562,4,110,1,37
+1563,4,110,1,37
+1564,4,110,1,37
+1565,4,110,1,37
+1566,4,110,1,37
+1567,4,110,1,37
+1568,4,110,1,37
+1569,4,110,1,37
+1570,4,110,1,37
+1571,4,110,1,37
+1572,4,110,1,37
+1573,4,110,1,37
+1574,4,110,1,37
+1575,4,110,1,37
+1576,4,110,1,37
+1577,4,110,1,37
+1578,4,110,1,37
+1579,4,110,1,37
+1580,4,110,1,37
+1581,4,110,1,37
+1582,4,110,1,37
+1583,4,110,1,37
+1584,4,110,1,37
+1585,4,110,1,37
+1586,4,110,1,37
+1587,4,110,1,37
+1588,4,110,1,37
+1589,4,110,1,37
+1590,4,110,1,37
+1591,4,110,1,37
+1592,4,110,1,37
+1593,4,110,1,37
+1594,4,110,1,37
+1595,4,110,1,37
+1596,4,110,1,37
+1597,4,110,1,37
+1598,4,110,1,37
+1599,4,110,1,37
+1600,4,110,1,37
+1601,4,110,1,37
+1602,4,110,1,37
+1603,4,110,1,37
+1604,4,110,1,37
+1605,4,110,1,37
+1606,4,110,1,37
+1607,4,110,1,37
+1608,4,110,1,37
+1609,4,110,1,37
+1610,4,110,1,37
+1611,4,110,1,37
+1612,4,110,1,37
+1613,4,110,1,37
+1614,4,110,1,37
+1615,4,110,1,37
+1616,4,110,1,37
+1617,4,108,1,35
+1618,4,108,1,35
+1619,4,109,1,36
+1620,4,109,1,36
+1621,4,108,1,35
+1622,4,108,1,35
+1623,4,109,1,36
+1624,4,109,1,36
+1625,4,109,1,36
+1626,4,109,1,36
+1627,4,109,1,36
+1628,4,109,1,36
+1629,4,109,1,36
+1630,4,108,1,35
+1631,4,109,1,36
+1632,4,109,1,36
+1633,4,109,1,36
+1634,4,109,1,36
+1635,4,109,1,36
+1636,4,109,1,36
+1637,4,109,1,36
+1638,4,109,1,36
+1639,4,109,1,36
+1640,4,109,1,36
+1641,4,108,1,35
+1642,4,108,1,35
+1643,4,108,1,35
+1644,4,108,1,35
+1645,4,108,1,35
+1646,4,108,1,35
+1647,4,109,1,36
+1648,4,109,1,36
+1649,4,109,1,36
+1650,4,108,1,35
+1651,4,109,1,36
+1652,4,108,1,35
+1653,4,108,1,35
+1654,4,108,1,35
+1655,4,108,1,35
+1656,4,109,1,36
+1657,4,109,1,36
+1658,4,109,1,36
+1659,4,109,1,36
+1660,4,108,1,35
+1661,4,109,1,36
+1662,4,109,1,36
+1663,4,108,1,35
+1664,4,109,1,36
+1665,4,109,1,36
+1666,4,108,1,35
+1667,4,109,1,36
+1668,4,109,1,36
+1669,4,108,1,35
+1670,4,108,1,35
+1671,4,108,1,35
+1672,4,108,1,35
+1673,4,108,1,35
+1674,4,108,1,35
+1675,4,109,1,36
+1676,4,109,1,36
+1677,4,108,1,35
+1678,4,109,1,36
+1679,4,109,1,36
+1680,4,108,1,35
+1681,4,108,1,35
+1682,4,109,1,36
+1683,4,108,1,35
+1684,4,108,1,35
+1685,4,109,1,36
+1686,4,109,1,36
+1687,4,109,1,36
+1688,4,109,1,36
+1689,4,109,1,36
+1690,4,109,1,36
+1691,4,108,1,35
+1692,4,108,1,35
+1693,4,108,1,35
+1694,4,109,1,36
+1695,4,109,1,36
+1696,4,109,1,36
+1697,4,108,1,35
+1698,4,108,1,35
+1699,4,108,1,35
+1700,4,109,1,36
+1701,4,109,1,36
+1702,4,109,1,36
+1703,4,109,1,36
+1704,4,109,1,36
+1705,4,109,1,36
+1706,4,109,1,36
+1707,4,109,1,36
+1708,4,108,1,35
+1709,4,108,1,35
+1710,4,108,1,35
+1711,4,108,1,35
+1712,4,108,1,35
+1713,4,109,1,36
+1714,4,109,1,36
+1715,4,109,1,36
+1716,4,109,1,36
+1717,4,109,1,36
+1718,4,109,1,36
+1719,4,108,1,35
+1720,4,108,1,35
+1721,4,108,1,35
+1722,4,109,1,36
+1723,4,108,1,35
+1724,4,108,1,35
+1725,4,109,1,36
+1726,4,109,1,36
+1727,4,109,1,36
+1728,4,109,1,36
+1729,4,108,1,35
+1730,4,109,1,36
+1731,4,108,1,35
+1732,4,109,1,36
+1733,4,109,1,36
+1734,4,109,1,36
+1735,4,108,1,35
+1736,4,108,1,35
+1737,4,108,1,35
+1738,4,108,1,35
+1739,4,108,1,35
+1740,4,109,1,36
+1741,4,109,1,36
+1742,4,109,1,36
+1743,4,108,1,35
+1744,4,109,1,36
+1745,4,109,1,36
+1746,4,108,1,35
+1747,4,108,1,35
+1748,4,108,1,35
+1749,4,108,1,35
+1750,4,108,1,35
+1751,4,109,1,36
+1752,4,109,1,36
+1753,4,108,1,35
+1754,4,108,1,35
+1755,4,108,1,35
+1756,4,108,1,35
+1757,4,109,1,36
+1758,4,105,1,32
+1759,4,105,1,32
+1760,4,106,1,33
+1761,4,106,1,33
+1762,4,106,1,33
+1763,4,106,1,33
+1764,4,106,1,33
+1765,4,106,1,33
+1766,4,106,1,33
+1767,4,106,1,33
+1768,4,106,1,33
+1769,4,106,1,33
+1770,4,106,1,33
+1771,4,106,1,33
+1772,4,107,1,34
+1773,4,106,1,33
+1774,4,107,1,34
+1775,4,107,1,34
+1776,4,107,1,34
+1777,4,107,1,34
+1778,4,107,1,34
+1779,4,107,1,34
+1780,4,107,1,34
+1781,4,107,1,34
+1782,4,106,1,33
+1783,4,105,1,32
+1784,4,105,1,32
+1785,4,105,1,32
+1786,4,105,1,32
+1787,4,105,1,32
+1788,4,105,1,32
+1789,4,105,1,32
+1790,4,106,1,33
+1791,4,107,1,34
+1792,4,107,1,34
+1793,4,106,1,33
+1794,4,106,1,33
+1795,4,106,1,33
+1796,4,107,1,34
+1797,4,107,1,34
+1798,4,107,1,34
+1799,4,107,1,34
+1800,4,107,1,34
+1801,4,107,1,34
+1802,4,107,1,34
+1803,4,107,1,34
+1804,4,106,1,33
+1805,4,106,1,33
+1806,4,105,1,32
+1807,4,105,1,32
+1808,4,105,1,32
+1809,4,105,1,32
+1810,4,105,1,32
+1811,4,107,1,34
+1812,4,106,1,33
+1813,4,105,1,32
+1814,4,105,1,32
+1815,4,105,1,32
+1816,4,105,1,32
+1817,4,106,1,33
+1818,4,106,1,33
+1819,4,105,1,32
+1820,4,105,1,32
+1821,4,107,1,34
+1822,4,106,1,33
+1823,4,105,1,32
+1824,4,105,1,32
+1825,4,105,1,32
+1826,4,105,1,32
+1827,4,105,1,32
+1828,4,107,1,34
+1829,4,107,1,34
+1830,4,107,1,34
+1831,4,107,1,34
+1832,4,107,1,34
+1833,4,105,1,32
+1834,4,105,1,32
+1835,4,105,1,32
+1836,4,105,1,32
+1837,4,105,1,32
+1838,4,106,1,33
+1839,4,107,1,34
+1840,4,106,1,33
+1841,4,106,1,33
+1842,4,106,1,33
+1843,4,106,1,33
+1844,4,106,1,33
+1845,4,107,1,34
+1846,4,107,1,34
+1847,4,107,1,34
+1848,4,107,1,34
+1849,4,105,1,32
+1850,4,107,1,34
+1851,4,107,1,34
+1852,4,106,1,33
+1853,4,107,1,34
+1854,4,106,1,33
+1855,4,106,1,33
+1856,4,105,1,32
+1857,4,106,1,33
+1858,4,107,1,34
+1859,4,107,1,34
+1860,4,107,1,34
+1861,4,106,1,33
+1862,4,106,1,33
+1863,4,107,1,34
+1864,4,107,1,34
+1865,4,107,1,34
+1866,4,107,1,34
+1867,4,106,1,33
+1868,4,107,1,34
+1869,4,107,1,34
+1870,4,107,1,34
+1871,4,107,1,34
+1872,4,107,1,34
+1873,4,107,1,34
+1874,4,107,1,34
+1875,4,105,1,32
+1876,4,105,1,32
+1877,4,105,1,32
+1878,4,107,1,34
+1879,4,107,1,34
+1880,4,107,1,34
+1881,4,107,1,34
+1882,4,107,1,34
+1883,4,107,1,34
+1884,4,107,1,34
+1885,4,105,1,32
+1886,4,106,1,33
+1887,4,106,1,33
+1888,4,106,1,33
+1889,4,106,1,33
+1890,4,106,1,33
+1891,4,107,1,34
+1892,4,106,1,33
+1893,4,107,1,34
+1894,4,106,1,33
+1895,4,107,1,34
+1896,4,106,1,33
+1897,4,106,1,33
+1898,4,106,1,33
+1899,4,106,1,33
+1900,4,106,1,33
+1901,4,106,1,33
+1902,4,107,1,34
+1903,4,106,1,33
+1904,4,106,1,33
+1905,4,105,1,32
+1906,4,107,1,34
+1907,4,107,1,34
+1908,4,106,1,33
+1909,4,107,1,34
+1910,4,107,1,34
+1911,4,107,1,34
+1912,4,105,1,32
+1913,4,105,1,32
+1914,4,105,1,32
+1915,4,105,1,32
+1916,4,105,1,32
+1917,4,105,1,32
+1918,4,105,1,32
+1919,4,105,1,32
+1920,4,107,1,34
+1921,4,107,1,34
+1922,4,106,1,33
+1923,4,106,1,33
+1924,4,106,1,33
+1925,4,105,1,32
+1926,4,105,1,32
+1927,4,105,1,32
+1928,4,106,1,33
+1929,4,106,1,33
+1930,4,106,1,33
+1931,4,106,1,33
+1932,4,106,1,33
+1933,4,107,1,34
+1934,4,105,1,32
+1935,4,105,1,32
+1936,4,103,1,30
+1937,4,103,1,30
+1938,4,103,1,30
+1939,4,103,1,30
+1940,4,103,1,30
+1941,4,103,1,30
+1942,4,103,1,30
+1943,4,103,1,30
+1944,4,103,1,30
+1945,4,103,1,30
+1946,4,104,1,31
+1947,4,103,1,30
+1948,4,103,1,30
+1949,4,103,1,30
+1950,4,103,1,30
+1951,4,105,1,32
+1952,4,103,1,30
+1953,4,105,1,32
+1954,4,105,1,32
+1955,4,105,1,32
+1956,4,105,1,32
+1957,4,105,1,32
+1958,4,105,1,32
+1959,4,105,1,32
+1960,4,103,1,30
+1961,4,105,1,32
+1962,4,105,1,32
+1963,4,103,1,30
+1964,4,103,1,30
+1965,4,103,1,30
+1966,4,104,1,31
+1967,4,104,1,31
+1968,4,103,1,30
+1969,4,105,1,32
+1970,4,102,1,29
+1971,4,104,1,31
+1972,4,105,1,32
+1973,4,102,1,29
+1974,4,102,1,29
+1975,4,102,1,29
+1976,4,102,1,29
+1977,4,102,1,29
+1978,4,102,1,29
+1979,4,102,1,29
+1980,4,102,1,29
+1981,4,105,1,32
+1982,4,102,1,29
+1983,4,105,1,32
+1984,4,105,1,32
+1985,4,102,1,29
+1986,4,105,1,32
+1987,4,105,1,32
+1988,4,103,1,30
+1989,4,104,1,31
+1990,4,104,1,31
+1991,4,104,1,31
+1992,4,104,1,31
+1993,4,104,1,31
+1994,4,103,1,30
+1995,4,102,1,29
+1996,4,102,1,29
+1997,4,102,1,29
+1998,4,102,1,29
+1999,4,102,1,29
+2000,4,102,1,29
+2001,4,102,1,29
+2002,4,102,1,29
+2003,4,103,1,30
+2004,4,102,1,29
+2005,4,102,1,29
+2006,4,102,1,29
+2007,4,103,1,30
+2008,4,102,1,29
+2009,4,102,1,29
+2010,4,105,1,32
+2011,4,104,1,31
+2012,4,104,1,31
+2013,4,104,1,31
+2014,4,104,1,31
+2015,4,104,1,31
+2016,4,104,1,31
+2017,4,102,1,29
+2018,4,102,1,29
+2019,4,104,1,31
+2020,4,102,1,29
+2021,4,102,1,29
+2022,4,105,1,32
+2023,4,105,1,32
+2024,4,102,1,29
+2025,4,102,1,29
+2026,4,102,1,29
+2027,4,104,1,31
+2028,4,104,1,31
+2029,4,104,1,31
+2030,4,104,1,31
+2031,4,104,1,31
+2032,4,104,1,31
+2033,4,104,1,31
+2034,4,104,1,31
+2035,4,103,1,30
+2036,4,103,1,30
+2037,4,103,1,30
+2038,4,102,1,29
+2039,4,103,1,30
+2040,4,103,1,30
+2041,4,103,1,30
+2042,4,104,1,31
+2043,4,104,1,31
+2044,4,104,1,31
+2045,4,104,1,31
+2046,4,104,1,31
+2047,4,104,1,31
+2048,4,104,1,31
+2049,4,104,1,31
+2050,4,104,1,31
+2051,4,105,1,32
+2052,4,105,1,32
+2053,4,104,1,31
+2054,4,104,1,31
+2055,4,104,1,31
+2056,4,104,1,31
+2057,4,104,1,31
+2058,4,104,1,31
+2059,4,104,1,31
+2060,4,105,1,32
+2061,4,102,1,29
+2062,4,102,1,29
+2063,4,102,1,29
+2064,4,104,1,31
+2065,4,104,1,31
+2066,4,104,1,31
+2067,4,102,1,29
+2068,4,102,1,29
+2069,4,103,1,30
+2070,4,104,1,31
+2071,4,104,1,31
+2072,4,104,1,31
+2073,4,104,1,31
+2074,4,104,1,31
+2075,4,104,1,31
+2076,4,103,1,30
+2077,4,105,1,32
+2078,4,102,1,29
+2079,4,102,1,29
+2080,4,102,1,29
+2081,4,103,1,30
+2082,4,104,1,31
+2083,4,104,1,31
+2084,4,104,1,31
+2085,4,104,1,31
+2086,4,104,1,31
+2087,4,103,1,30
+2088,4,105,1,32
+2089,4,102,1,29
+2090,4,102,1,29
+2091,4,105,1,32
+2092,4,104,1,31
+2093,4,103,1,30
+2094,4,104,1,31
+2095,4,103,1,30
+2096,4,104,1,31
+2097,4,103,1,30
+2098,4,102,1,29
+2099,4,103,1,30
+2100,4,103,1,30
+2101,4,103,1,30
+2102,4,102,1,29
+2103,4,103,1,30
+2104,4,104,1,31
+2105,4,104,1,31
+2106,4,102,1,29
+2107,4,105,1,32
+2108,4,105,1,32
+2109,4,105,1,32
+2110,4,104,1,31
+2111,4,102,1,29
+2112,4,102,1,29
+2113,4,103,1,30
+2114,4,103,1,30
+2115,4,102,1,29
+2116,4,105,1,32
+2117,4,105,1,32
+2118,4,105,1,32
+2119,4,102,1,29
+2120,4,102,1,29
+2121,4,102,1,29
+2122,4,102,1,29
+2123,4,103,1,30
+2124,4,102,1,29
+2125,4,102,1,29
+2126,4,102,1,29
+2127,4,105,1,32
+2128,4,105,1,32
+2129,4,105,1,32
+2130,4,105,1,32
+2131,4,105,1,32
+2132,4,105,1,32
+2133,4,102,1,29
+2134,4,105,1,32
+2135,4,105,1,32
+2136,4,105,1,32
+2137,4,103,1,30
+2138,4,103,1,30
+2139,4,102,1,29
+2140,4,103,1,30
+2141,4,103,1,30
+2142,4,103,1,30
+2143,4,102,1,29
+2144,4,102,1,29
+2145,4,102,1,29
+2146,4,102,1,29
+2147,4,103,1,30
+2148,4,102,1,29
+2149,4,102,1,29
+2150,4,104,1,31
+2151,4,102,1,29
+2152,4,104,1,31
+2153,4,102,1,29
+2154,4,102,1,29
+2155,4,103,1,30
+2156,4,103,1,30
+2157,4,103,1,30
+2158,4,103,1,30
+2159,4,103,1,30
+2160,4,102,1,29
+2161,4,102,1,29
+2162,4,102,1,29
+2163,4,102,1,29
+2164,4,102,1,29
+2165,4,102,1,29
+2166,4,102,1,29
+2167,4,102,1,29
+2168,4,102,1,29
+2169,4,102,1,29
+2170,4,102,1,29
+2171,4,103,1,30
+2172,4,103,1,30
+2173,4,104,1,31
+2174,4,104,1,31
+2175,4,103,1,30
+2176,4,103,1,30
+2177,4,103,1,30
+2178,4,103,1,30
+2179,4,104,1,31
+2180,4,103,1,30
+2181,4,102,1,29
+2182,4,102,1,29
+2183,4,102,1,29
+2184,4,102,1,29
+2185,4,102,1,29
+2186,4,102,1,29
+2187,4,102,1,29
+2188,4,104,1,31
+2189,4,105,1,32
+2190,4,104,1,31
+2191,4,103,1,30
+2192,4,103,1,30
+2193,4,103,1,30
+2194,4,103,1,30
+2195,4,103,1,30
+2196,4,103,1,30
+2197,4,105,1,32
+2198,4,103,1,30
+2199,4,104,1,31
+2200,4,104,1,31
+2201,4,104,1,31
+2202,4,104,1,31
+2203,4,104,1,31
+2204,4,104,1,31
+2205,4,104,1,31
+2206,4,104,1,31
+2207,4,103,1,30
+2208,4,103,1,30
+2209,4,104,1,31
+2210,4,102,1,29
+2211,4,104,1,31
+2212,4,104,1,31
+2213,4,103,1,30
+2214,4,104,1,31
+2215,4,104,1,31
+2216,4,102,1,29
+2217,4,104,1,31
+2218,4,104,1,31
+2219,4,104,1,31
+2220,4,104,1,31
+2221,4,104,1,31
+2222,4,104,1,31
+2223,4,104,1,31
+2224,4,102,1,29
+2225,4,102,1,29
+2226,4,102,1,29
+2227,4,104,1,31
+2228,4,102,1,29
+2229,4,103,1,30
+2230,4,105,1,32
+2231,4,103,1,30
+2232,4,104,1,31
+2233,4,103,1,30
+2234,4,102,1,29
+2235,4,102,1,29
+2236,4,103,1,30
+2237,4,104,1,31
+2238,4,103,1,30
+2239,4,103,1,30
+2240,4,104,1,31
+2241,4,105,1,32
+2242,4,105,1,32
+2243,4,105,1,32
+2244,4,103,1,30
+2245,4,102,1,29
+2246,4,102,1,29
+2247,4,102,1,29
+2248,4,102,1,29
+2249,4,102,1,29
+2250,4,102,1,29
+2251,4,102,1,29
+2252,4,103,1,30
+2253,4,103,1,30
+2254,4,102,1,29
+2255,4,102,1,29
+2256,4,103,1,30
+2257,4,103,1,30
+2258,4,102,1,29
+2259,4,103,1,30
+2260,4,102,1,29
+2261,4,102,1,29
+2262,4,102,1,29
+2263,4,102,1,29
+2264,4,102,1,29
+2265,4,104,1,31
+2266,4,102,1,29
+2267,4,104,1,31
+2268,4,104,1,31
+2269,4,104,1,31
+2270,4,104,1,31
+2271,4,104,1,31
+2272,4,104,1,31
+2273,4,104,1,31
+2274,4,103,1,30
+2275,4,103,1,30
+2276,4,102,1,29
+2277,4,102,1,29
+2278,4,102,1,29
+2279,4,102,1,29
+2280,4,102,1,29
+2281,4,103,1,30
+2282,4,102,1,29
+2283,4,103,1,30
+2284,4,101,1,28
+2285,4,101,1,28
+2286,4,101,1,28
+2287,4,101,1,28
+2288,4,101,1,28
+2289,4,101,1,28
+2290,4,101,1,28
+2291,4,101,1,28
+2292,4,101,1,28
+2293,4,101,1,28
+2294,4,101,1,28
+2295,4,101,1,28
+2296,4,102,1,29
+2297,4,101,1,28
+2298,4,101,1,28
+2299,4,101,1,28
+2300,4,102,1,29
+2301,4,102,1,29
+2302,4,102,1,29
+2303,4,102,1,29
+2304,4,101,1,28
+2305,4,101,1,28
+2306,4,101,1,28
+2307,4,101,1,28
+2308,4,101,1,28
+2309,4,101,1,28
+2310,4,101,1,28
+2311,4,101,1,28
+2312,4,102,1,29
+2313,4,102,1,29
+2314,4,102,1,29
+2315,4,102,1,29
+2316,4,102,1,29
+2317,4,102,1,29
+2318,4,101,1,28
+2319,4,103,1,30
+2320,4,103,1,30
+2321,4,103,1,30
+2322,4,102,1,29
+2323,4,101,1,28
+2324,4,101,1,28
+2325,4,101,1,28
+2326,4,102,1,29
+2327,4,102,1,29
+2328,4,102,1,29
+2329,4,102,1,29
+2330,4,102,1,29
+2331,4,101,1,28
+2332,4,102,1,29
+2333,4,102,1,29
+2334,4,101,1,28
+2335,4,102,1,29
+2336,4,102,1,29
+2337,4,101,1,28
+2338,4,101,1,28
+2339,4,102,1,29
+2340,4,101,1,28
+2341,4,101,1,28
+2342,4,101,1,28
+2343,4,101,1,28
+2344,4,101,1,28
+2345,4,101,1,28
+2346,4,102,1,29
+2347,4,101,1,28
+2348,4,101,1,28
+2349,4,101,1,28
+2350,4,101,1,28
+2351,4,102,1,29
+2352,4,103,1,30
+2353,4,101,1,28
+2354,4,101,1,28
+2355,4,101,1,28
+2356,4,101,1,28
+2357,4,101,1,28
+2358,4,101,1,28
+2359,4,101,1,28
+2360,4,101,1,28
+2361,4,101,1,28
+2362,4,101,1,28
+2363,4,101,1,28
+2364,4,101,1,28
+2365,4,101,1,28
+2366,4,101,1,28
+2367,4,101,1,28
+2368,4,101,1,28
+2369,4,101,1,28
+2370,4,101,1,28
+2371,4,101,1,28
+2372,4,101,1,28
+2373,4,101,1,28
+2374,4,101,1,28
+2375,4,101,1,28
+2376,4,101,1,28
+2377,4,101,1,28
+2378,4,101,1,28
+2379,4,101,1,28
+2380,4,101,1,28
+2381,4,101,1,28
+2382,4,101,1,28
+2383,4,101,1,28
+2384,4,101,1,28
+2385,4,101,1,28
+2386,4,101,1,28
+2387,4,101,1,28
+2388,4,101,1,28
+2389,4,101,1,28
+2390,4,102,1,29
+2391,4,101,1,28
+2392,4,101,1,28
+2393,4,101,1,28
+2394,4,102,1,29
+2395,4,101,1,28
+2396,4,101,1,28
+2397,4,101,1,28
+2398,4,101,1,28
+2399,4,101,1,28
+2400,4,101,1,28
+2401,4,101,1,28
+2402,4,101,1,28
+2403,4,101,1,28
+2404,4,101,1,28
+2405,4,101,1,28
+2406,4,101,1,28
+2407,4,101,1,28
+2408,4,101,1,28
+2409,4,101,1,28
+2410,4,101,1,28
+2411,4,101,1,28
+2412,4,101,1,28
+2413,4,101,1,28
+2414,4,103,1,30
+2415,4,101,1,28
+2416,4,101,1,28
+2417,4,101,1,28
+2418,4,101,1,28
+2419,4,101,1,28
+2420,4,101,1,28
+2421,4,101,1,28
+2422,4,102,1,29
+2423,4,101,1,28
+2424,4,101,1,28
+2425,4,101,1,28
+2426,4,101,1,28
+2427,4,101,1,28
+2428,4,101,1,28
+2429,4,101,1,28
+2430,4,101,1,28
+2431,4,101,1,28
+2432,4,101,1,28
+2433,4,101,1,28
+2434,4,101,1,28
+2435,4,101,1,28
+2436,4,101,1,28
+2437,4,102,1,29
+2438,4,102,1,29
+2439,4,102,1,29
+2440,4,102,1,29
+2441,4,103,1,30
+2442,4,103,1,30
+2443,4,103,1,30
+2444,4,103,1,30
+2445,4,105,1,32
+2446,4,105,1,32
+2447,4,105,1,32
+2448,4,105,1,32
+2449,4,105,1,32
+2450,4,105,1,32
+2451,4,105,1,32
+2452,4,105,1,32
+2453,4,102,1,29
+2454,4,102,1,29
+2455,4,102,1,29
+2456,4,102,1,29
+2457,4,102,1,29
+2458,4,102,1,29
+2459,4,102,1,29
+2460,4,102,1,29
+2461,4,102,1,29
+2462,4,101,1,28
+2463,4,101,1,28
+2464,4,101,1,28
+2465,4,101,1,28
+2466,5,1301,1,38
+2467,5,1301,1,38
+2468,5,1301,1,38
+2469,5,1302,1,39
+2470,5,1303,1,40
+2471,5,1303,1,40
+2472,5,1302,1,39
+2473,5,1302,1,39
+2474,5,1303,1,40
+2475,5,1302,1,39
+2476,5,1302,1,39
+2477,5,1302,1,39
+2478,5,1302,1,39
+2479,5,1302,1,39
+2480,5,1302,1,39
+2481,5,1302,1,39
+2482,5,1301,1,38
+2483,5,1301,1,38
+2484,5,1301,1,38
+2485,5,1301,1,38
+2486,5,1301,1,38
+2487,5,1302,1,39
+2488,5,1302,1,39
+2489,5,1302,1,39
+2490,5,1301,1,38
+2491,5,1301,1,38
+2492,5,1302,1,39
+2493,5,1302,1,39
+2494,5,1302,1,39
+2495,5,1302,1,39
+2496,5,1302,1,39
+2497,5,1301,1,38
+2498,5,1301,1,38
+2499,5,1301,1,38
+2500,5,1301,1,38
+2501,5,1301,1,38
+2502,5,1301,1,38
+2503,5,1301,1,38
+2504,5,1301,1,38
+2505,5,1302,1,39
+2506,5,1302,1,39
+2507,5,1302,1,39
+2508,5,1302,1,39
+2509,5,1301,1,38
+2510,5,1302,1,39
+2511,5,1302,1,39
+2512,5,1302,1,39
+2513,5,1302,1,39
+2514,5,1302,1,39
+2515,5,1302,1,39
+2516,5,1302,1,39
+2517,5,1302,1,39
+2518,5,1302,1,39
+2519,5,1301,1,38
+2520,5,1302,1,39
+2521,5,1301,1,38
+2522,5,1301,1,38
+2523,5,1301,1,38
+2524,5,1302,1,39
+2525,5,1302,1,39
+2526,5,1302,1,39
+2527,5,1302,1,39
+2528,5,1302,1,39
+2529,5,1302,1,39
+2530,5,1302,1,39
+2531,5,1302,1,39
+2532,5,1301,1,38
+2533,5,1303,1,40
+2534,5,1302,1,39
+2535,5,1302,1,39
+2536,5,1302,1,39
+2537,5,1302,1,39
+2538,5,1302,1,39
+2539,5,1302,1,39
+2540,5,1302,1,39
+2541,5,1302,1,39
+2542,5,1302,1,39
+2543,5,1302,1,39
+2544,5,1302,1,39
+2545,5,1302,1,39
+2546,5,1301,1,38
+2547,5,1301,1,38
+2548,5,1301,1,38
+2549,5,1301,1,38
+2550,5,1301,1,38
+2551,5,1301,1,38
+2552,5,1301,1,38
+2553,5,1301,1,38
+2554,5,1301,1,38
+2555,5,1301,1,38
+2556,5,1301,1,38
+2557,5,1301,1,38
+2558,5,1301,1,38
+2559,5,1301,1,38
+2560,5,1301,1,38
+2561,5,1301,1,38
+2562,5,1301,1,38
+2563,5,1301,1,38
+2564,5,1301,1,38
+2565,5,1301,1,38
+2566,5,1301,1,38
+2567,5,1301,1,38
+2568,5,1301,1,38
+2569,5,1301,1,38
+2570,5,1301,1,38
+2571,5,1301,1,38
+2572,5,1301,1,38
+2573,5,1301,1,38
+2574,5,1301,1,38
+2575,5,1301,1,38
+2576,5,1301,1,38
+2577,5,1301,1,38
+2578,5,1301,1,38
+2579,5,1301,1,38
+2580,5,1301,1,38
+2581,5,1303,1,40
+2582,5,1303,1,40
+2583,5,1303,1,40
+2584,5,1301,1,38
+2585,5,1302,1,39
+2586,5,1302,1,39
+2587,5,1301,1,38
+2588,5,1301,1,38
+2589,5,1301,1,38
+2590,5,1301,1,38
+2591,5,1301,1,38
+2592,5,1303,1,40
+2593,5,1302,1,39
+2594,5,1301,1,38
+2595,5,1301,1,38
+2596,5,1302,1,39
+2597,5,1302,1,39
+2598,5,1302,1,39
+2599,5,1302,1,39
+2600,5,1301,1,38
+2601,5,1301,1,38
+2602,5,1301,1,38
+2603,5,1302,1,39
+2604,5,1301,1,38
+2605,5,1301,1,38
+2606,5,1303,1,40
+2607,5,1303,1,40
+2608,5,1303,1,40
+2609,5,1303,1,40
+2610,5,1307,1,44
+2611,5,1306,1,43
+2612,5,1306,1,43
+2613,5,1306,1,43
+2614,5,1306,1,43
+2615,5,1303,1,40
+2616,5,1303,1,40
+2617,5,1303,1,40
+2618,5,1303,1,40
+2619,5,1303,1,40
+2620,5,1303,1,40
+2621,5,1303,1,40
+2622,5,1307,1,44
+2623,5,1307,1,44
+2624,5,1307,1,44
+2625,5,1307,1,44
+2626,5,1306,1,43
+2627,5,1306,1,43
+2628,5,1303,1,40
+2629,5,1306,1,43
+2630,5,1307,1,44
+2631,5,1306,1,43
+2632,5,1306,1,43
+2633,5,1304,1,41
+2634,5,1306,1,43
+2635,5,1306,1,43
+2636,5,1303,1,40
+2637,5,1303,1,40
+2638,5,1303,1,40
+2639,5,1303,1,40
+2640,5,1303,1,40
+2641,5,1303,1,40
+2642,5,1307,1,44
+2643,5,1306,1,43
+2644,5,1303,1,40
+2645,5,1303,1,40
+2646,5,1303,1,40
+2647,5,1303,1,40
+2648,5,1303,1,40
+2649,5,1303,1,40
+2650,5,1303,1,40
+2651,5,1303,1,40
+2652,5,1306,1,43
+2653,5,1306,1,43
+2654,5,1306,1,43
+2655,5,1303,1,40
+2656,5,1307,1,44
+2657,5,1307,1,44
+2658,5,1303,1,40
+2659,5,1303,1,40
+2660,5,1303,1,40
+2661,5,1303,1,40
+2662,5,1304,1,41
+2663,5,1303,1,40
+2664,5,1303,1,40
+2665,5,1303,1,40
+2666,5,1303,1,40
+2667,5,1303,1,40
+2668,5,1303,1,40
+2669,5,1303,1,40
+2670,5,1303,1,40
+2671,5,1303,1,40
+2672,5,1307,1,44
+2673,5,1307,1,44
+2674,5,1307,1,44
+2675,5,1303,1,40
+2676,5,1303,1,40
+2677,5,1303,1,40
+2678,5,1303,1,40
+2679,5,1306,1,43
+2680,5,1306,1,43
+2681,5,1303,1,40
+2682,5,1307,1,44
+2683,5,1303,1,40
+2684,5,1303,1,40
+2685,5,1306,1,43
+2686,5,1306,1,43
+2687,5,1306,1,43
+2688,5,1306,1,43
+2689,5,1306,1,43
+2690,5,1303,1,40
+2691,5,1303,1,40
+2692,5,1303,1,40
+2693,5,1303,1,40
+2694,5,1303,1,40
+2695,5,1306,1,43
+2696,5,1303,1,40
+2697,5,1303,1,40
+2698,5,1307,1,44
+2699,5,1307,1,44
+2700,5,1307,1,44
+2701,5,1307,1,44
+2702,5,1304,1,41
+2703,5,1304,1,41
+2704,5,1306,1,43
+2705,5,1306,1,43
+2706,5,1306,1,43
+2707,5,1304,1,41
+2708,5,1304,1,41
+2709,5,1306,1,43
+2710,5,1306,1,43
+2711,5,1304,1,41
+2712,5,1304,1,41
+2713,5,1304,1,41
+2714,5,1304,1,41
+2715,5,1304,1,41
+2716,5,1304,1,41
+2717,5,1304,1,41
+2718,5,1304,1,41
+2719,5,1304,1,41
+2720,5,1304,1,41
+2721,5,1306,1,43
+2722,5,1304,1,41
+2723,5,1304,1,41
+2724,5,1306,1,43
+2725,5,1306,1,43
+2726,5,1304,1,41
+2727,5,1304,1,41
+2728,5,1304,1,41
+2729,5,1304,1,41
+2730,5,1306,1,43
+2731,5,1306,1,43
+2732,5,1306,1,43
+2733,5,1304,1,41
+2734,5,1306,1,43
+2735,5,1304,1,41
+2736,5,1304,1,41
+2737,5,1306,1,43
+2738,5,1304,1,41
+2739,5,1304,1,41
+2740,5,1304,1,41
+2741,5,1304,1,41
+2742,5,1304,1,41
+2743,5,1304,1,41
+2744,5,1304,1,41
+2745,5,1306,1,43
+2746,5,1306,1,43
+2747,5,1306,1,43
+2748,5,1306,1,43
+2749,5,1304,1,41
+2750,5,1304,1,41
+2751,5,1304,1,41
+2752,5,1304,1,41
+2753,5,1306,1,43
+2754,5,1304,1,41
+2755,5,1304,1,41
+2756,5,1304,1,41
+2757,5,1304,1,41
+2758,5,1304,1,41
+2759,5,1304,1,41
+2760,5,1304,1,41
+2761,5,1304,1,41
+2762,5,1304,1,41
+2763,5,1304,1,41
+2764,5,1304,1,41
+2765,5,1304,1,41
+2766,5,1305,1,42
+2767,5,1305,1,42
+2768,5,1305,1,42
+2769,5,1305,1,42
+2770,5,1306,1,43
+2771,5,1305,1,42
+2772,5,1305,1,42
+2773,5,1305,1,42
+2774,5,1305,1,42
+2775,5,1305,1,42
+2776,5,1305,1,42
+2777,5,1304,1,41
+2778,5,1304,1,41
+2779,5,1305,1,42
+2780,5,1305,1,42
+2781,5,1305,1,42
+2782,5,1305,1,42
+2783,5,1305,1,42
+2784,5,1305,1,42
+2785,5,1305,1,42
+2786,5,1305,1,42
+2787,5,1305,1,42
+2788,5,1305,1,42
+2789,5,1305,1,42
+2790,5,1305,1,42
+2791,5,1305,1,42
+2792,5,1309,1,46
+2793,5,1308,1,45
+2794,5,1308,1,45
+2795,5,1308,1,45
+2796,5,1308,1,45
+2797,5,1307,1,44
+2798,5,1307,1,44
+2799,5,1309,1,46
+2800,5,1309,1,46
+2801,5,1309,1,46
+2802,5,1308,1,45
+2803,5,1308,1,45
+2804,5,1308,1,45
+2805,5,1308,1,45
+2806,5,1307,1,44
+2807,5,1307,1,44
+2808,5,1307,1,44
+2809,5,1307,1,44
+2810,5,1307,1,44
+2811,5,1308,1,45
+2812,5,1308,1,45
+2813,5,1308,1,45
+2814,5,1309,1,46
+2815,5,1309,1,46
+2816,5,1307,1,44
+2817,5,1309,1,46
+2818,5,1307,1,44
+2819,5,1307,1,44
+2820,5,1309,1,46
+2821,5,1307,1,44
+2822,5,1309,1,46
+2823,5,1309,1,46
+2824,5,1309,1,46
+2825,5,1309,1,46
+2826,5,1309,1,46
+2827,5,1309,1,46
+2828,5,1309,1,46
+2829,5,1309,1,46
+2830,5,1307,1,44
+2831,5,1308,1,45
+2832,5,1308,1,45
+2833,5,1308,1,45
+2834,5,1307,1,44
+2835,5,1309,1,46
+2836,5,1309,1,46
+2837,5,1308,1,45
+2838,5,1308,1,45
+2839,5,1308,1,45
+2840,5,1307,1,44
+2841,5,1307,1,44
+2842,5,1307,1,44
+2843,5,1307,1,44
+2844,5,1308,1,45
+2845,5,1308,1,45
+2846,5,1308,1,45
+2847,5,1308,1,45
+2848,5,1308,1,45
+2849,5,1308,1,45
+2850,5,1308,1,45
+2851,5,1308,1,45
+2852,5,1308,1,45
+2853,5,1308,1,45
+2854,5,1308,1,45
+2855,5,1307,1,44
+2856,5,1307,1,44
+2857,5,1307,1,44
+2858,5,1307,1,44
+2859,5,1307,1,44
+2860,5,1307,1,44
+2861,5,1307,1,44
+2862,5,1307,1,44
+2863,5,1307,1,44
+2864,5,1307,1,44
+2865,5,1307,1,44
+2866,5,1307,1,44
+2867,5,1308,1,45
+2868,5,1309,1,46
+2869,5,1307,1,44
+2870,5,1307,1,44
+2871,5,1307,1,44
+2872,5,1307,1,44
+2873,5,1308,1,45
+2874,5,1308,1,45
+2875,5,1307,1,44
+2876,5,1307,1,44
+2877,5,1307,1,44
+2878,5,1307,1,44
+2879,5,1309,1,46
+2880,5,1309,1,46
+2881,5,1309,1,46
+2882,5,1309,1,46
+2883,5,1309,1,46
+2884,5,1309,1,46
+2885,5,1309,1,46
+2886,5,1309,1,46
+2887,5,1309,1,46
+2888,5,1309,1,46
+2889,5,1309,1,46
+2890,5,1309,1,46
+2891,5,1309,1,46
+2892,5,1308,1,45
+2893,5,1309,1,46
+2894,5,1308,1,45
+2895,5,1309,1,46
+2896,5,1308,1,45
+2897,5,1309,1,46
+2898,5,1309,1,46
+2899,6,9501,1,47
+2900,6,9501,1,47
+2901,6,9501,1,47
+2902,6,9501,1,47
+2903,6,9501,1,47
+2904,6,9501,1,47
+2905,6,9501,1,47
+2906,6,9501,1,47
+2907,6,9501,1,47
+2908,6,9501,1,47
+2909,6,9501,1,47
+2910,6,9501,1,47
+2911,6,9501,1,47
+2912,6,9501,1,47
+2913,6,9501,1,47
+2914,6,9501,1,47
+2915,6,9501,1,47
+2916,6,9501,1,47
+2917,6,9501,1,47
+2918,6,9501,1,47
+2919,6,9501,1,47
+2920,6,9501,1,47
+2921,6,9501,1,47
+2922,6,9501,1,47
+2923,6,9501,1,47
+2924,6,9501,1,47
+2925,6,9501,1,47
+2926,6,9501,1,47
+2927,6,9501,1,47
+2928,6,9501,1,47
+2929,6,9501,1,47
+2930,6,9501,1,47
+2931,6,9501,1,47
+2932,6,9501,1,47
+2933,6,9501,1,47
+2934,6,9501,1,47
+2935,6,9501,1,47
+2936,6,9501,1,47
+2937,6,9501,1,47
+2938,6,9501,1,47
+2939,6,9501,1,47
+2940,6,9501,1,47
+2941,6,9501,1,47
+2942,6,9501,1,47
+2943,6,9501,1,47
+2944,6,9501,1,47
+2945,6,9501,1,47
+2946,6,9501,1,47
+2947,6,9501,1,47
+2948,6,9501,1,47
+2949,6,9501,1,47
+2950,6,9501,1,47
+2951,6,9501,1,47
+2952,6,9501,1,47
+2953,6,9501,1,47
+2954,6,9501,1,47
+2955,6,9501,1,47
+2956,6,9501,1,47
+2957,6,9501,1,47
+2958,6,9501,1,47
+2959,6,9501,1,47
+2960,6,9502,1,48
+2961,6,9502,1,48
+2962,6,9502,1,48
+2963,6,9502,1,48
+2964,6,9503,1,49
+2965,6,9503,1,49
+2966,6,9503,1,49
+2967,6,9503,1,49
+2968,6,9503,1,49
+2969,6,9503,1,49
+2970,6,9503,1,49
+2971,6,9502,1,48
+2972,6,9502,1,48
+2973,6,9502,1,48
+2974,6,9502,1,48
+2975,6,9502,1,48
+2976,6,9502,1,48
+2977,6,9502,1,48
+2978,6,9502,1,48
+2979,6,9502,1,48
+2980,6,9502,1,48
+2981,6,9502,1,48
+2982,6,9502,1,48
+2983,6,9502,1,48
+2984,6,9502,1,48
+2985,6,9502,1,48
+2986,6,9502,1,48
+2987,6,9503,1,49
+2988,6,9503,1,49
+2989,6,9503,1,49
+2990,6,9503,1,49
+2991,6,9503,1,49
+2992,6,9503,1,49
+2993,6,9503,1,49
+2994,6,9503,1,49
+2995,6,9503,1,49
+2996,6,9503,1,49
+2997,6,9503,1,49
+2998,6,9502,1,48
+2999,6,9502,1,48
+3000,6,9503,1,49
+3001,6,9503,1,49
+3002,6,9503,1,49
+3003,6,9503,1,49
+3004,6,9503,1,49
+3005,6,9502,1,48
+3006,6,9502,1,48
+3007,6,9503,1,49
+3008,6,9503,1,49
+3009,6,9503,1,49
+3010,6,9503,1,49
+3011,6,9503,1,49
+3012,6,9502,1,48
+3013,6,9502,1,48
+3014,6,9502,1,48
+3015,6,9502,1,48
+3016,6,9502,1,48
+3017,6,9502,1,48
+3018,6,9502,1,48
+3019,6,9503,1,49
+3020,6,9502,1,48
+3021,6,9502,1,48
+3022,6,9502,1,48
+3023,6,9502,1,48
+3024,6,9502,1,48
+3025,6,9502,1,48
+3026,6,9502,1,48
+3027,6,9502,1,48
+3028,6,9502,1,48
+3029,6,9502,1,48
+3030,6,9502,1,48
+3031,6,9503,1,49
+3032,6,9503,1,49
+3033,6,9503,1,49
+3034,6,9503,1,49
+3035,6,9503,1,49
+3036,6,9503,1,49
+3037,6,9503,1,49
+3038,6,9503,1,49
+3039,6,9503,1,49
+3040,6,9503,1,49
+3041,6,9503,1,49
+3042,6,9503,1,49
+3043,6,9503,1,49
+3044,6,9503,1,49
+3045,6,9503,1,49
+3046,6,9502,1,48
+3047,7,5500,1,50
+3048,7,5500,1,50
+3049,7,5500,1,50
+3050,7,5500,1,50
+3051,7,5500,1,50
+3052,7,5500,1,50
+3053,7,5500,1,50
+3054,7,5500,1,50
+3055,7,5500,1,50
+3056,7,5500,1,50
+3057,7,5500,1,50
+3058,7,5500,1,50
+3059,7,5500,1,50
+3060,7,5500,1,50
+3061,7,5500,1,50
+3062,7,5500,1,50
+3063,7,5500,1,50
+3064,7,5500,1,50
+3065,7,5500,1,50
+3066,7,5500,1,50
+3067,7,5500,1,50
+3068,7,5500,1,50
+3069,7,5500,1,50
+3070,7,5500,1,50
+3071,7,5500,1,50
+3072,7,5500,1,50
+3073,7,5500,1,50
+3074,7,5500,1,50
+3075,7,5500,1,50
+3076,7,5500,1,50
+3077,7,5500,1,50
+3078,7,5500,1,50
+3079,7,5500,1,50
+3080,7,5500,1,50
+3081,7,5500,1,50
+3082,7,5500,1,50
+3083,7,5500,1,50
+3084,7,5500,1,50
+3085,7,5500,1,50
+3086,7,5500,1,50
+3087,7,5500,1,50
+3088,7,5500,1,50
+3089,7,5500,1,50
+3090,7,5500,1,50
+3091,7,5500,1,50
+3092,7,5500,1,50
+3093,7,5500,1,50
+3094,7,5500,1,50
+3095,7,5500,1,50
+3096,7,5500,1,50
+3097,7,5500,1,50
+3098,7,5500,1,50
+3099,7,5500,1,50
+3100,7,5500,1,50
+3101,7,5500,1,50
+3102,7,5500,1,50
+3103,7,5500,1,50
+3104,8,9701,1,51
+3105,8,9701,1,51
+3106,8,9701,1,51
+3107,8,9701,1,51
+3108,8,9702,1,52
+3109,8,9702,1,52
+3110,8,9702,1,52
+3111,8,9702,1,52
+3112,8,9702,1,52
+3113,8,9702,1,52
+3114,8,9702,1,52
+3115,8,9702,1,52
+3116,8,9702,1,52
+3117,8,9702,1,52
+3118,8,9702,1,52
+3119,8,9702,1,52
+3120,8,9702,1,52
+3121,8,9702,1,52
+3122,8,9702,1,52
+3123,8,9702,1,52
+3124,8,9701,1,51
+3125,8,9702,1,52
+3126,8,9702,1,52
+3127,8,9702,1,52
+3128,8,9702,1,52
+3129,8,9702,1,52
+3130,8,9701,1,51
+3131,8,9701,1,51
+3132,8,9701,1,51
+3133,8,9702,1,52
+3134,8,9703,1,53
+3135,8,9701,1,51
+3136,8,9703,1,53
+3137,8,9703,1,53
+3138,8,9703,1,53
+3139,8,9701,1,51
+3140,8,9702,1,52
+3141,8,9701,1,51
+3142,8,9703,1,53
+3143,8,9703,1,53
+3144,8,9703,1,53
+3145,8,9703,1,53
+3146,8,9703,1,53
+3147,8,9703,1,53
+3148,8,9703,1,53
+3149,8,9703,1,53
+3150,8,9703,1,53
+3151,8,9701,1,51
+3152,8,9703,1,53
+3153,8,9703,1,53
+3154,8,9703,1,53
+3155,8,9703,1,53
+3156,8,9703,1,53
+3157,8,9703,1,53
+3158,8,9703,1,53
+3159,8,9703,1,53
+3160,8,9703,1,53
+3161,8,9701,1,51
+3162,8,9701,1,51
+3163,8,9701,1,51
+3164,8,9701,1,51
+3165,8,9701,1,51
+3166,8,9703,1,53
+3167,8,9703,1,53
+3168,8,9703,1,53
+3169,8,9703,1,53
+3170,8,9703,1,53
+3171,8,9703,1,53
+3172,8,9703,1,53
+3173,8,9703,1,53
+3174,8,9703,1,53
+3175,8,9703,1,53
+3176,8,9701,1,51
+3177,8,9701,1,51
+3178,8,9701,1,51
+3179,8,9701,1,51
+3180,8,9701,1,51
+3181,8,9701,1,51
+3182,8,9701,1,51
+3183,8,9701,1,51
+3184,8,9701,1,51
+3185,8,9701,1,51
+3186,8,9701,1,51
+3187,8,9701,1,51
+3188,8,9701,1,51
+3189,8,9701,1,51
+3190,8,9701,1,51
+3191,8,9701,1,51
+3192,8,9701,1,51
+3193,8,9702,1,52
+3194,8,9701,1,51
+3195,8,9701,1,51
+3196,8,9701,1,51
+3197,8,9701,1,51
+3198,8,9701,1,51
+3199,8,9701,1,51
+3200,8,9701,1,51
+3201,8,9701,1,51
+3202,8,9701,1,51
+3203,8,9701,1,51
+3204,8,9701,1,51
+3205,8,9701,1,51
+3206,8,9701,1,51
+3207,8,9701,1,51
+3208,8,9701,1,51
+3209,8,9701,1,51
+3210,8,9701,1,51
+3211,8,9701,1,51
+3212,8,9701,1,51
+3213,8,9701,1,51
+3214,8,9703,1,53
+3215,8,9703,1,53
+3216,8,9703,1,53
+3217,8,9703,1,53
+3218,8,9703,1,53
+3219,8,9703,1,53
+3220,8,9703,1,53
+3221,8,9703,1,53
+3222,8,9703,1,53
+3223,8,9703,1,53
+3224,8,9703,1,53
+3225,8,9703,1,53
+3226,8,9703,1,53
+3227,8,9703,1,53
+3228,8,9702,1,52
+3229,8,9702,1,52
+3230,8,9702,1,52
+3231,8,9702,1,52
+3232,8,9702,1,52
+3233,8,9702,1,52
+3234,8,9702,1,52
+3235,8,9702,1,52
+3236,8,9702,1,52
+3237,8,9702,1,52
+3238,8,9702,1,52
+3239,8,9702,1,52
+3240,8,9702,1,52
+3241,8,9702,1,52
+3242,8,9702,1,52
+3243,8,9702,1,52
+3244,8,9702,1,52
+3245,8,9702,1,52
+3246,8,9702,1,52
+3247,8,9702,1,52
+3248,8,9702,1,52
+3249,8,9702,1,52
+3250,8,9702,1,52
+3251,8,9703,1,53
+3252,8,9701,1,51
+3253,9,4101,1,54
+3254,9,4101,1,54
+3255,9,4101,1,54
+3256,9,4101,1,54
+3257,9,4101,1,54
+3258,9,4101,1,54
+3259,9,4101,1,54
+3260,9,4101,1,54
+3261,9,4101,1,54
+3262,9,4101,1,54
+3263,9,4101,1,54
+3264,9,4101,1,54
+3265,9,4101,1,54
+3266,9,4101,1,54
+3267,9,4101,1,54
+3268,9,4101,1,54
+3269,9,4101,1,54
+3270,9,4102,1,55
+3271,9,4102,1,55
+3272,9,4101,1,54
+3273,9,4101,1,54
+3274,9,4101,1,54
+3275,9,4101,1,54
+3276,9,4101,1,54
+3277,9,4102,1,55
+3278,9,4102,1,55
+3279,9,4102,1,55
+3280,9,4102,1,55
+3281,9,4102,1,55
+3282,9,4102,1,55
+3283,9,4102,1,55
+3284,9,4102,1,55
+3285,9,4102,1,55
+3286,9,4102,1,55
+3287,9,4102,1,55
+3288,9,4102,1,55
+3289,9,4102,1,55
+3290,9,4101,1,54
+3291,9,4102,1,55
+3292,9,4102,1,55
+3293,9,4102,1,55
+3294,9,4102,1,55
+3295,9,4102,1,55
+3296,9,4102,1,55
+3297,9,4102,1,55
+3298,9,4102,1,55
+3299,9,4102,1,55
+3300,9,4102,1,55
+3301,9,4102,1,55
+3302,9,4102,1,55
+3303,9,4102,1,55
+3304,9,4101,1,54
+3305,9,4101,1,54
+3306,9,4101,1,54
+3307,9,4101,1,54
+3308,9,4101,1,54
+3309,9,4101,1,54
+3310,9,4101,1,54
+3311,9,4101,1,54
+3312,9,4101,1,54
+3313,9,4101,1,54
+3314,9,4101,1,54
+3315,9,4101,1,54
+3316,9,4101,1,54
+3317,9,4101,1,54
+3318,9,4102,1,55
+3319,9,4102,1,55
+3320,9,4102,1,55
+3321,9,4102,1,55
+3322,9,4102,1,55
+3323,9,4102,1,55
+3324,9,4102,1,55
+3325,9,4102,1,55
+3326,9,4102,1,55
+3327,9,4102,1,55
+3328,9,4102,1,55
+3329,9,4102,1,55
+3330,9,4102,1,55
+3331,9,4102,1,55
+3332,9,4102,1,55

@@ -116,7 +116,7 @@ write_csv(crosswalk_df, output_crosswalk_filename)
 ```{r taz-control}
 taz_control_df <- taz_df %>%
   select(TAZ,
-         HHBASE = HH,
+         HHLESSGQ = HH,
          HHCHILDNO = `No Children`,
          HHCHILDYES = Children,
          HHINC1 = `Less than 25k`,
@@ -126,7 +126,8 @@ taz_control_df <- taz_df %>%
          HHINC5 = `100-150k`,
          HHINC6 = `150k+`,
          HHGQYES = GQ,
-         HHGQNO = `HH Pop (nonGQ)`)
+         HHGQNO = `HH Pop (nonGQ)`) %>%
+  mutate(HHBASE = HHLESSGQ + HHGQYES)
 
 write_csv(taz_control_df, output_taz_control_filename)
 ```

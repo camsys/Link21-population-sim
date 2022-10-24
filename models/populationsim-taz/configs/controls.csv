@@ -6,8 +6,7 @@ hh_inc_50_75,TAZ,households,500,HHINC3,(households.hh_income_2017 > 50000) & (ho
 hh_inc_75_100,TAZ,households,500,HHINC4,(households.hh_income_2017 > 75000) & (households.hh_income_2017 <= 100000)
 hh_inc_100_150,TAZ,households,500,HHINC5,(households.hh_income_2017 > 100000) & (households.hh_income_2017 <= 150000)
 hh_inc_150_plus,TAZ,households,500,HHINC6,(households.hh_income_2017 > 150000) & (households.hh_income_2017 <= 999999999)
-# hh_gq,TAZ,households,500,HHGQYES,(households.TYPE == 3)
-hh_gq,TAZ,households,100000,HHGQYES,(households.TYPE == 3)
+hh_gq,TAZ,households,1000000000,HHGQYES,(households.TYPE == 3)
 hh_child,TAZ,households,500,HHCHILDNO,households.hh_children == 1
 hh_no_child,TAZ,households,500,HHCHILDYES,households.hh_children == 2
 hh_size_1,COUNTY,households,1000,HHSIZE1,households.NP == 1

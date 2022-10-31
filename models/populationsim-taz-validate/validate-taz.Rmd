@@ -61,20 +61,33 @@ hh_df <- read_csv(sim_output_hh_filename, col_types = cols(.default = col_intege
                                                            hh_income_2018 = col_double(),
                                                            hh_income_2017 = col_double(),
                                                            hh_income_2010 = col_double(),
-                                                           hh_income_2000 = col_double()))
+                                                           hh_income_2000 = col_double(),
+                                                           HINCP = col_double(),
+                                                           BLD = col_double(),
+                                                           HUPAC = col_double(),
+                                                           VEH = col_double(),
+                                                           HHT = col_double()))
 
 person_df <- read_csv(sim_output_per_filename, col_types = cols(.default = col_integer(),
-                                                                PUMA = col_character()))
+                                                                PUMA = col_character(),
+                                                                OCCP = col_double(),
+                                                                COW = col_double(),
+                                                                MIL = col_double(),
+                                                                SCHG = col_double(),
+                                                                SCHL = col_double(),
+                                                                WKHP = col_double(),
+                                                                WKW = col_double(),
+                                                                ESR = col_double()))
 
 hh_renamed_df <- read_csv(sim_output_hh_renamed_filename, col_types = cols(.default = col_integer(),
-                                                                           PUMA = col_character(),
-                                                                           hh_income_2018 = col_double(),
-                                                                           hh_income_2017 = col_double(),
-                                                                           hh_income_2010 = col_double(),
-                                                                           hh_income_2000 = col_double()))
+                                                                           HINC = col_double(),
+                                                                           HHT = col_double(),
+                                                                           VEHICL = col_double()))
 
 person_renamed_df <- read_csv(sim_output_per_renamed_filename, col_types = cols(.default = col_integer(),
-                                                                                PUMA = col_character()))
+                                                                                ESR = col_double(),
+                                                                                OCCP = col_double(),
+                                                                                SOCP = col_integer()))
 
 ```
 

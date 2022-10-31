@@ -99,7 +99,6 @@ print('making copies in memory ...')
 hh_update = hh.copy()
 per_update = per.copy()
 
-
 # select puma within the region
 hh_update = hh[hh['PUMA'].isin(puma_list)]
 per_update = per_update[per_update['PUMA'].isin(puma_list)]
@@ -113,12 +112,19 @@ hh_update = hh_update[hh_update['TYPE'] != 2]
 # use person weight for group quarters (household weight is zero)
 hh_update = pd.merge(
     left = hh_update,
-    right= per_update[['SERIALNO','PWGTP']].drop_duplicates(subset=['SERIALNO']),
+    right= per_update[['SERIALNO','PWGTP','ADJINC', 'PINCP']].drop_duplicates(subset=['SERIALNO']).rename(columns = {'ADJINC': 'PADJINC'}),
     how  = "left"
 )
 
 hh_update.loc[hh_update.TYPE==3, "WGTP"] = hh_update.PWGTP
-hh_update.drop(columns=["PWGTP"], inplace=True)
+hh_update.loc[hh_update.TYPE==3, "ADJINC"] = hh_update.PADJINC
+hh_update.loc[hh_update.TYPE==3, "HINCP"] = hh_update.PINCP
+hh_update.loc[hh_update.TYPE==3, "HHT"] = 0
+hh_update.loc[hh_update.TYPE==3, "VEH"] = 0
+hh_update.drop(columns=["PWGTP", "PADJINC", "PINCP"], inplace=True)
+
+# set missing incomes (kids in GQ under 15) with zero
+hh_update["HINCP"].fillna(0, inplace=True)
 
 # add household income to hh seed table
 hh_update['hh_income_2018'] = 999
@@ -132,22 +138,17 @@ hh_update['hh_income_2017'] = hh_update['hh_income_2018'] * 0.9628
 hh_update['hh_income_2010'] = hh_update['hh_income_2018'] * 0.7966
 hh_update['hh_income_2000'] = hh_update['hh_income_2018'] * 0.6311
 
-# hh_update['hhinccat1'] = pd.cut(hh_update['hh_income_2000'], [-np.inf, 20000, 50000, 100000, np.inf], labels = [1, 2, 3, 4]).values.add_categories(999)
-# hh_update.loc[pd.isna(hh_update['HINCP']), 'hhinccat1'] = 999
-
 # add household type to hh seed table
-hh_update['household_type'] = 999
-hh_update.loc[hh_update['BLD'].isin([2]), 'household_type'] = 1 # single family
-hh_update.loc[hh_update['BLD'].isin([4,5,6,7,8,9]), 'household_type'] = 2 # multi family
-hh_update.loc[hh_update['BLD'].isin([1,10]), 'household_type'] = 3 # mobile home
-hh_update.loc[hh_update['BLD'].isin([3]), 'household_type'] = 4 # duplex
-
+hh_update['building_type'] = 999
+hh_update.loc[hh_update['BLD'].isin([2]), 'building_type'] = 1 # single family
+hh_update.loc[hh_update['BLD'].isin([4,5,6,7,8,9]), 'building_type'] = 2 # multi family
+hh_update.loc[hh_update['BLD'].isin([1,10]), 'building_type'] = 3 # mobile home
+hh_update.loc[hh_update['BLD'].isin([3]), 'building_type'] = 4 # duplex
 
 # add household presence of children to hh seed table
 hh_update['hh_children'] = 999
 hh_update.loc[hh_update['HUPAC'].isin([4]), 'hh_children'] = 1 # no children
 hh_update.loc[hh_update['HUPAC'].isin([1,2,3]), 'hh_children'] = 2 # 1 or more children
-
 
 # add employment status to per seed table
 per_update['employed'] = 0
@@ -195,14 +196,11 @@ per_update.loc[per_update['standard_occupation'].isin(['41','43']), 'occupation'
 per_update.loc[per_update['standard_occupation'].isin(['45','47','49']), 'occupation'] = 5 # Natural Resources, Construction, and Maintenance
 per_update.loc[per_update['standard_occupation'].isin(['51','53','55']), 'occupation'] = 6 # Production, Transportation, and Material Moving
 
-
 # add household workers hh seed table
 hh_workers = per_update.groupby('SERIALNO')['employed'].sum().reset_index().set_index('SERIALNO')['employed'].to_dict()
 hh_update['hh_workers_from_esr'] = hh_update['SERIALNO'].map(hh_workers)
 
-
-# add new household number
-# SERIALNO is too long to be read in popsim
+# add new household number -- SERIALNO is too long to be read in popsim
 hh_update.insert(0, 'hh_serial_id', value=np.arange(len(hh_update))+1)
 
 hhnum_dict = hh_update.set_index('SERIALNO')['hh_serial_id'].to_dict()

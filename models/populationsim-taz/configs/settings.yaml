@@ -95,14 +95,14 @@ output_synthetic_population:
       - HINCP                 # Household income in survey year dollars
       - BLD                   # Building type
       - HUPAC                 # HH presence and age category of children
+      - VEH                   # Number of automobiles
+      - HHT                   # Household type
       - hh_serial_id          # ID mapped to unique SERIALNO
       - hh_income_2018        # Adjusted household income ($2018)
       - hh_income_2017        # Adjusted household income ($2017)
       - hh_income_2010        # Adjusted household income ($2010)
       - hh_income_2000        # Adjusted household income ($2000)
-#      - hhinccat1             # TM1.5 household income categories
       - hh_workers_from_esr   # Number of workers
-      - household_type        # Household type (single-family, multi-family, mobile home, duplex)
       - hh_children           # Household children (none, one or more)
   persons:
     filename: synthetic_persons.csv

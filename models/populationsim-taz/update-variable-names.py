@@ -13,18 +13,28 @@ per_update = per_df.copy()
 # update variable names per model spec
 rename_dict = {
     'household_id': 'HHID',
-    'hh_income_2000': 'HHINC',
+    'hh_income_2000': 'HINC',
     'TYPE': 'UNITTYPE',
     'NP': 'PERSONS',
+    'hh_workers_from_esr': 'hworkers',
+    'VEH': 'VEHICL',
 }
+
+hh_columns_to_keep = ['HHID', 'TAZ', 'PERSONS', 'UNITTYPE', 'HINC', 'hworkers', 'HHT', 'VEHICL']
+
 hh_update = hh_update.rename(columns=rename_dict)
+hh_update = hh_update[hh_columns_to_keep]
 
 rename_dict = {
     'household_id': 'HHID',
     'AGEP': 'AGE',
     'SPORDER': 'PERID',
 }
+
+per_columns_to_keep = ['HHID', 'PERID', 'OCCP', 'SOCP', 'AGE', 'SEX', 'ESR', 'pemploy', 'pstudent', 'ptype']
+
 per_update = per_update.rename(columns=rename_dict)
+per_update = per_update[per_columns_to_keep]
 
 print('writing data ...')
 hh_update.to_csv('output/synthetic_households_renamed.csv', index = False)

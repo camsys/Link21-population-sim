@@ -71,6 +71,7 @@ hh_df <- read_csv(sim_output_hh_filename, col_types = cols(.default = col_intege
 person_df <- read_csv(sim_output_per_filename, col_types = cols(.default = col_integer(),
                                                                 PUMA = col_character(),
                                                                 OCCP = col_double(),
+                                                                SOCP = col_character(),
                                                                 COW = col_double(),
                                                                 MIL = col_double(),
                                                                 SCHG = col_double(),

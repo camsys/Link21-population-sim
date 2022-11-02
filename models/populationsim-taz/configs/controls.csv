@@ -25,3 +25,4 @@ per_age_35_64,COUNTY,persons,1000,POPAGE5,(persons.AGEP >= 35) & (persons.AGEP <
 per_age_65_plus,COUNTY,persons,1000,POPAGE6,persons.AGEP >= 65
 per_male,COUNTY,persons,1000,POPSEX1,persons.SEX == 1
 per_female,COUNTY,persons,1000,POPSEX2,persons.SEX == 2
+per_wrks,COUNTY,persons,1000,POPWRKR,persons.employed == 1

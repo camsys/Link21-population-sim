@@ -55,6 +55,25 @@ output_single_control_filename <- paste0(model_dir, "control_totals_single.csv")
 LAT_LNG_EPSG <- 4326
 PLANAR_EPSG <- 3857
 
+worker_controls_df <- tibble(county_name = c("Alameda", 
+                                             "Contra Costa",
+                                             "Marin",
+                                             "Napa",
+                                             "San Francisco",
+                                             "San Mateo",
+                                             "Santa Clara",
+                                             "Solano",
+                                             "Sonoma"),
+                             POPWRKR = c(827795,
+                                         536209,
+                                         130747,
+                                         71146,
+                                         505329,
+                                         405183,
+                                         967863,
+                                         200569,
+                                         250010))
+                                                
 ```
 
 # Data Reads
@@ -177,6 +196,10 @@ join_taz_df <- taz_control_df %>%
   select(-TAZ) %>%
   group_by(COUNTY) %>%
   summarise_all(sum)
+
+join_worker_control_df <- worker_controls_df %>%
+  left_join(., county_names_df, by = c("county_name")) %>%
+  select(-county_name)
   
 county_control_df <- county_df %>%
   filter(County != "Total") %>%
@@ -201,7 +224,8 @@ county_control_df <- county_df %>%
   left_join(., join_taz_df, by = c("COUNTY")) %>%
   select(-county_name) %>%
   arrange(COUNTY) %>%
-  relocate(COUNTY)
+  relocate(COUNTY) %>%
+  left_join(., join_worker_control_df, by = c("COUNTY"))
 
 write_csv(county_control_df, output_county_control_filename)
 ```

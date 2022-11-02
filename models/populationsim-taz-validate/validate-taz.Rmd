@@ -46,8 +46,7 @@ output_for_tableau_filename <- paste0(output_dir, "taz-summaries.csv")
 
 # Data Reads
 ```{r data-reads}
-crosswalk_df <- read_csv(geo_crosswalk_filename, col_types = cols(.default = col_integer(),
-                                                                  countycomb_label = col_character()))
+crosswalk_df <- read_csv(geo_crosswalk_filename, col_types = cols(.default = col_integer()))
 
 sum_taz_df <- read_csv(summarise_taz_filename, col_types = cols(.default = col_double(),
                                                                 geography = col_character(),
@@ -88,7 +87,7 @@ hh_renamed_df <- read_csv(sim_output_hh_renamed_filename, col_types = cols(.defa
 person_renamed_df <- read_csv(sim_output_per_renamed_filename, col_types = cols(.default = col_integer(),
                                                                                 ESR = col_double(),
                                                                                 OCCP = col_double(),
-                                                                                SOCP = col_integer()))
+                                                                                SOCP = col_character()))
 
 ```
 

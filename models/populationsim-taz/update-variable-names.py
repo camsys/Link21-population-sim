@@ -28,11 +28,11 @@ hh_update = hh_update[hh_columns_to_keep]
 rename_dict = {
     'household_id': 'HHID',
     'AGEP': 'AGE',
-    'SPORDER': 'PERID',
 }
 
 per_columns_to_keep = ['HHID', 'PERID', 'OCCP', 'SOCP', 'AGE', 'SEX', 'ESR', 'pemploy', 'pstudent', 'ptype']
 
+per_update['PERID'] = np.arange(start=1, stop=len(per_update) + 1)
 per_update = per_update.rename(columns=rename_dict)
 per_update = per_update[per_columns_to_keep]
 

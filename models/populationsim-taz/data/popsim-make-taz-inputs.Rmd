@@ -153,6 +153,10 @@ write_csv(taz_control_df, output_taz_control_filename)
 
 # Make County Puma Control
 ```{r county-puma-control}
+county_names_df <- select(taz_df, county_name = County) %>%
+  distinct(.) %>%
+  mutate(COUNTY = row_number())
+
 join_taz_df <- taz_control_df %>%
   left_join(., select(crosswalk_df, TAZ, COUNTYPUMA, COUNTY), by = c("TAZ")) %>%
   select(-TAZ) %>%

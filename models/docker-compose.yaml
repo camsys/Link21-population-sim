@@ -8,3 +8,4 @@ services:
       - 80:80
     volumes: 
       - ./populationsim-taz:/ps_taz
+      - ./populationsim-taz-2050:/ps_taz_2050

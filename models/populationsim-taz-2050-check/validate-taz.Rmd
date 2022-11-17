@@ -1,0 +1,174 @@
+---
+title: "Validate -- TAZ version"
+output: html_notebook
+---
+
+# Overhead
+```{r overhead, include = FALSE}
+packages_vector <- c("tidyverse")
+
+need_to_install <- packages_vector[!(packages_vector %in% installed.packages()[,"Package"])]
+
+if (length(need_to_install)) install.packages(need_to_install)
+
+for (package in packages_vector) {
+  library(package, character.only = TRUE)
+}
+
+```
+
+# Remote I-O
+```{r remote-io}
+input_dir <- "../populationsim-taz-2050/"
+output_dir <- "./"
+
+controls_meta_filename <- paste0(input_dir, "data/control_totals_county.csv")
+geo_crosswalk_filename <- paste0(input_dir, "data/geo_crosswalk.csv")
+
+summarise_taz_filename <- paste0(input_dir, "output/final_summary_TAZ.csv")
+summarise_county_fileprefix <- paste0(input_dir, "output/final_summary_COUNTY_")
+
+sim_output_hh_filename <- paste0(input_dir, "output/synthetic_households.csv")
+sim_output_per_filename <- paste0(input_dir, "output/synthetic_persons.csv")
+
+output_for_tableau_filename <- paste0(output_dir, "taz-summaries.csv")
+
+```
+
+# Parameters
+```{r parameters}
+
+
+```
+
+# Data Reads
+```{r data-reads}
+crosswalk_df <- read_csv(geo_crosswalk_filename, col_types = cols(.default = col_integer()))
+
+sum_taz_df <- read_csv(summarise_taz_filename, col_types = cols(.default = col_double(),
+                                                                geography = col_character(),
+                                                                id = col_integer()))
+
+meta_df <- read_csv(controls_meta_filename, col_types = cols(.default = col_double(),
+                                                             COUNTY = col_integer()))
+
+hh_df <- read_csv(sim_output_hh_filename, col_types = cols(.default = col_integer(),
+                                                           PUMA = col_character(),
+                                                           hh_income_2018 = col_double(),
+                                                           hh_income_2017 = col_double(),
+                                                           hh_income_2010 = col_double(),
+                                                           hh_income_2000 = col_double(),
+                                                           HINCP = col_double(),
+                                                           BLD = col_double(),
+                                                           HUPAC = col_double(),
+                                                           VEH = col_double(),
+                                                           HHT = col_double()))
+
+person_df <- read_csv(sim_output_per_filename, col_types = cols(.default = col_integer(),
+                                                                PUMA = col_character(),
+                                                                OCCP = col_double(),
+                                                                SOCP = col_character(),
+                                                                COW = col_double(),
+                                                                MIL = col_double(),
+                                                                SCHG = col_double(),
+                                                                SCHL = col_double(),
+                                                                WKHP = col_double(),
+                                                                WKW = col_double(),
+                                                                ESR = col_double()))
+
+```
+
+# Methods
+```{r methods}
+consume_meta_summary <- function(input_filename, meta_index) {
+  
+  df <- read_csv(input_filename, col_types = cols(.default = col_double(),
+                                                  control_name = col_character()))
+  
+  output_df <- df %>%
+    select(name = control_name,
+           Control = control_value,
+           Result = COUNTY_integer_weight) %>%
+    mutate(id = index,
+           geography = "META") %>%
+    mutate(Difference = Control - Result) %>%
+    pivot_longer(., cols = -c(id, geography, name), names_to = "source") %>%
+    left_join(., 
+              select(filter(., source == "Control"), name, control_size = value),
+              by = c("name"))
+  
+  return(output_df)
+  
+  
+}
+```
+
+
+# Process Meta-level Summaries
+```{r meta-summaries}
+number_meta <- length(unique(crosswalk_df$COUNTY))
+
+sum_meta_df <- tibble()
+for (index in 1:number_meta){
+  
+  filename <- paste0(summarise_county_fileprefix, index, ".csv")
+  df <- consume_meta_summary(filename, index)
+  sum_meta_df <- bind_rows(sum_meta_df, df)
+  
+}
+```
+
+
+# Reduce Output
+```{r reduce-output}
+sum_region_hh_df <- hh_df %>%
+  mutate(geography = "REGION") %>%
+  group_by(geography) %>%
+  summarise(hh_total_result = n(), .groups = "drop") %>%
+  mutate(id = 1L) %>%
+  mutate(hh_total_control = sum(sum_taz_df$num_hh_control)) %>%
+  mutate(hh_total_diff = hh_total_control - hh_total_result)
+
+sum_region_pers_df <- person_df %>%
+  mutate(geography = "REGION") %>%
+  group_by(geography) %>%
+  summarise(per_total_result = n(), .groups = "drop") %>%
+  mutate(id = 1L) %>%
+  mutate(per_total_control = sum(meta_df$POPSEX1) + sum(meta_df$POPSEX2)) %>%
+  mutate(per_total_diff = per_total_control - per_total_result)
+
+wide_df <- bind_rows(sum_taz_df,
+                     sum_region_hh_df,
+                     sum_region_pers_df)
+
+join_cross_df <- crosswalk_df %>%
+  select(id = COUNTY) %>%
+  distinct(.) %>%
+  mutate(geography = "META")
+  
+output_df <- wide_df %>%
+  pivot_longer(., -c(id, geography)) %>%
+  mutate(source = "missing") %>%
+  mutate(source = if_else(str_detect(name, "_control"), "Control", source)) %>%
+  mutate(source = if_else(str_detect(name, "_result"), "Result", source)) %>%
+  mutate(source = if_else(str_detect(name, "_diff"), "Difference", source)) %>%
+  mutate(name = str_replace(name, "_control", "")) %>%
+  mutate(name = str_replace(name, "_result", "")) %>%
+  mutate(name = str_replace(name, "_diff", "")) %>%
+  left_join(., 
+            select(filter(., source == "Control"), id, geography, name, control_size = value), 
+            by = c("id", "geography", "name")) %>%
+  filter(!is.na(control_size)) %>%
+  filter(!is.na(value)) %>%
+  bind_rows(., sum_meta_df) %>%
+  left_join(., join_cross_df, by = c("id", "geography"))
+
+```
+
+# Write to Disk
+```{r writes}
+write_csv(output_df, output_for_tableau_filename)
+```
+
+
+

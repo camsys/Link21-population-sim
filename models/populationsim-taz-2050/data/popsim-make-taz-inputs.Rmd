@@ -25,7 +25,7 @@ external_dir <- "./"
 model_dir <- "./"
 base_dir <- "../../populationsim-taz/data/"
 
-excel_filename <- paste0(interim_dir, "2. PopSim Control Totals 2050.xlsx")
+excel_filename <- paste0(interim_dir, "2. PopSim Control Totals 2050_revised.xlsx")
 
 input_crosswalk_filename <- paste0(base_dir, "geo_crosswalk.csv")
 

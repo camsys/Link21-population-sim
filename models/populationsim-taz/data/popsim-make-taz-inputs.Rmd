@@ -35,7 +35,7 @@ external_dir <- "./"
 model_dir <- "./"
 
 # excel_filename <- paste0(interim_dir, "PopSim Control Totals 03-25-2022.xlsx")
-excel_filename <- paste0(interim_dir, "2. PopSim Control Totals 2015.xlsx")
+excel_filename <- paste0(interim_dir, "2. PopSim Control Totals 2015_revised.xlsx")
 # taz_correspondence_excel_filename <- paste0(interim_dir, "TAZ Renumbers v15.xlsx")
 puma_shape_filename <- paste0(external_dir, "census/tl_2010_06_puma10.shp")
 taz_centroid_shape_filename <- paste0(interim_dir, "taz_boundary/Link21_TAZ_v26_Centroids.shp")

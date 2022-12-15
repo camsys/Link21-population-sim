@@ -97,6 +97,7 @@ output_synthetic_population:
       - HUPAC                 # HH presence and age category of children
       - VEH                   # Number of automobiles
       - HHT                   # Household type
+      - TEN                   # Housing tenure
       - hh_serial_id          # ID mapped to unique SERIALNO
       - hh_income_2018        # Adjusted household income ($2018)
       - hh_income_2017        # Adjusted household income ($2017)

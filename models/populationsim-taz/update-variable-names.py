@@ -20,7 +20,7 @@ rename_dict = {
     'VEH': 'VEHICL',
 }
 
-hh_columns_to_keep = ['HHID', 'TAZ', 'PERSONS', 'UNITTYPE', 'HINC', 'hworkers', 'HHT', 'VEHICL']
+hh_columns_to_keep = ['HHID', 'TAZ', 'PERSONS', 'UNITTYPE', 'HINC', 'TEN', 'hworkers', 'HHT', 'VEHICL']
 
 hh_update = hh_update.rename(columns=rename_dict)
 hh_update = hh_update[hh_columns_to_keep]

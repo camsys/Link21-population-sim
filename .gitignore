@@ -15,3 +15,7 @@ models/populationsim-taz-validate/.Rproj.user/*
 models/populationsim-taz-2050/output/*.zip
 models/populationsim-taz-2050/data/psam_*.csv
 models/populationsim-taz-2050/data/seed_*.csv
+
+models/populationsim-taz-2040/output/*.zip
+models/populationsim-taz-2040/data/psam_*.csv
+models/populationsim-taz-2040/data/seed_*.csv

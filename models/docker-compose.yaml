@@ -10,3 +10,7 @@ services:
       - ./populationsim-taz:/ps_taz
       - ./populationsim-taz-2040:/ps_taz_2040
       - ./populationsim-taz-2050:/ps_taz_2050
+      - ./populationsim-taz-2050-back-to-future:/ps_taz_2050_bttf
+      - ./populationsim-taz-2050-rising-tides:/ps_taz_2050_rt
+      - ./populationsim-taz-2050-green-clean:/ps_taz_2050_gc
+

@@ -1,0 +1,145 @@
+---
+title: "Populationsim -- Make TAZ Inputs"
+output: html_notebook
+---
+
+# Overhead
+```{r overhead, include = FALSE}
+packages_vector <- c("tidyverse",
+                     "readxl")
+
+need_to_install <- packages_vector[!(packages_vector %in% installed.packages()[,"Package"])]
+
+if (length(need_to_install)) install.packages(need_to_install)
+
+for (package in packages_vector) {
+  library(package, character.only = TRUE)
+}
+
+```
+
+# Remote I-O
+```{r remote-io}
+interim_dir <- "./"
+external_dir <- "./"
+model_dir <- "./"
+base_dir <- "../../populationsim-taz/data/"
+
+excel_filename <- paste0(interim_dir, "2. PopSim Control Totals 2050_RisingTides.xlsx")
+
+input_crosswalk_filename <- paste0(base_dir, "geo_crosswalk.csv")
+
+output_crosswalk_filename <- paste0(model_dir, "geo_crosswalk.csv")
+output_taz_control_filename <- paste0(model_dir, "control_totals_taz.csv")
+output_county_control_filename <- paste0(model_dir, "control_totals_county.csv")
+output_countypuma_control_filename <- paste0(model_dir, "control_totals_countypuma.csv")
+output_combined_county_control_filename <- paste0(model_dir, "control_totals_countycomb.csv")
+output_sub_region_control_filename <- paste0(model_dir, "control_totals_subregion.csv")
+output_region_control_filename <- paste0(model_dir, "control_totals_region.csv")
+output_single_control_filename <- paste0(model_dir, "control_totals_single.csv")
+```
+
+# Parameters
+```{r parameters}
+LAT_LNG_EPSG <- 4326
+PLANAR_EPSG <- 3857
+
+worker_controls_df <- tibble(county_name = c("Alameda", 
+                                             "Contra Costa",
+                                             "Marin",
+                                             "Napa",
+                                             "San Francisco",
+                                             "San Mateo",
+                                             "Santa Clara",
+                                             "Solano",
+                                             "Sonoma"),
+                             POPWRKR = c(817954,
+                                         581923,
+                                         125017,
+                                         73972,
+                                         618418,
+                                         485878,
+                                         1246601,
+                                         262204,
+                                         298165))
+                                                
+```
+
+# Data Reads
+```{r data-reads}
+taz_df <- read_excel(excel_filename, sheet = "TAZ")
+county_df <- read_excel(excel_filename, sheet = "County", skip = 1L)
+
+crosswalk_df <- read_csv(input_crosswalk_filename, col_types = "i")
+```
+
+# Make TAZ Control
+```{r taz-control}
+taz_control_df <- taz_df %>%
+  select(TAZ,
+         HHLESSGQ = HH,
+         HHCHILDNO = `No Children`,
+         HHCHILDYES = Children,
+         HHINC1 = `Less than 25k`,
+         HHINC2 = `25-50k`,
+         HHINC3 = `50-75k`,
+         HHINC4 = `75-100k`,
+         HHINC5 = `100-150k`,
+         HHINC6 = `150k+`,
+         HHGQYES = GQ,
+         HHGQNO = `HH Pop (nonGQ)`) %>%
+  mutate(HHBASE = HHLESSGQ + HHGQYES)
+
+write_csv(taz_control_df, output_taz_control_filename)
+```
+
+# Make County Control
+```{r county-control}
+county_names_df <- select(taz_df, county_name = County) %>%
+  distinct(.) %>%
+  mutate(COUNTY = row_number())
+
+join_taz_df <- taz_control_df %>%
+  left_join(., select(crosswalk_df, TAZ, COUNTY), by = c("TAZ")) %>%
+  select(-TAZ) %>%
+  group_by(COUNTY) %>%
+  summarise_all(sum)
+
+join_worker_control_df <- worker_controls_df %>%
+  left_join(., county_names_df, by = c("county_name")) %>%
+  select(-county_name)
+  
+county_control_df <- county_df %>%
+  filter(County != "Total") %>%
+  select(county_name = County,
+         HHSIZE1 = `1...4`,
+         HHSIZE2 = `2...5`,
+         HHSIZE3 = `3`,
+         HHSIZE4 = `4+`,
+         HHWORK0 = `0`,
+         HHWORK1 = `1...9`,
+         HHWORK2 = `2...10`,
+         HHWORK3 = `3+`,
+         POPAGE1 = `0-4`,
+         POPAGE2 = `5-17`,
+         POPAGE3 = `18-24`,
+         POPAGE4 = `25-34`,
+         POPAGE5 = `35-64`,
+         POPAGE6 = `65+`,
+         POPSEX1 = Male,
+         POPSEX2 = Female) %>%
+  left_join(., county_names_df, by = c("county_name")) %>%
+  left_join(., join_taz_df, by = c("COUNTY")) %>%
+  select(-county_name) %>%
+  arrange(COUNTY) %>%
+  relocate(COUNTY) %>%
+  left_join(., join_worker_control_df, by = c("COUNTY"))
+
+write_csv(county_control_df, output_county_control_filename)
+```
+
+# Write Geo Crosswalk
+```{r write-geo}
+write_csv(crosswalk_df, output_crosswalk_filename)
+```
+

@@ -19,3 +19,15 @@ models/populationsim-taz-2050/data/seed_*.csv
 models/populationsim-taz-2040/output/*.zip
 models/populationsim-taz-2040/data/psam_*.csv
 models/populationsim-taz-2040/data/seed_*.csv
+
+models/populationsim-taz-2050-back-to-future/output/*.zip
+models/populationsim-taz-2050-back-to-future/data/psam_*.csv
+models/populationsim-taz-2050-back-to-future/data/seed_*.csv
+
+models/populationsim-taz-2050-rising-tides/output/*.zip
+models/populationsim-taz-2050-rising-tides/data/psam_*.csv
+models/populationsim-taz-2050-rising-tides/data/seed_*.csv
+
+models/populationsim-taz-2050-green-clean/output/*.zip
+models/populationsim-taz-2050-green-clean/data/psam_*.csv
+models/populationsim-taz-2050-green-clean/data/seed_*.csv

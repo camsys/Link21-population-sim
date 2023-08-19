@@ -31,3 +31,7 @@ models/populationsim-taz-2050-rising-tides/data/seed_*.csv
 models/populationsim-taz-2050-green-clean/output/*.zip
 models/populationsim-taz-2050-green-clean/data/psam_*.csv
 models/populationsim-taz-2050-green-clean/data/seed_*.csv
+
+models/populationsim-taz-2050-pop-emp-test/output/*.zip
+models/populationsim-taz-2050-pop-emp-test/data/psam_*.csv
+models/populationsim-taz-2050-pop-emp-test/data/seed_*.csv

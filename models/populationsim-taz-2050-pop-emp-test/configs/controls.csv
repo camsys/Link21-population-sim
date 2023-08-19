@@ -1,0 +1,28 @@
+target,geography,seed_table,importance,control_field,expression
+num_hh,TAZ,households,1000000000,HHBASE,(households.WGTP > 0) & (households.WGTP < np.inf)
+hh_inc_25,TAZ,households,500,HHINC1,(households.TYPE == 1) & (households.hh_income_2017 > -999999999) & (households.hh_income_2017 <= 25000)
+hh_inc_25_50,TAZ,households,500,HHINC2,(households.TYPE == 1) & (households.hh_income_2017 > 25000) & (households.hh_income_2017 <= 50000)
+hh_inc_50_75,TAZ,households,500,HHINC3,(households.TYPE == 1) & (households.hh_income_2017 > 50000) & (households.hh_income_2017 <= 75000)
+hh_inc_75_100,TAZ,households,500,HHINC4,(households.TYPE == 1) & (households.hh_income_2017 > 75000) & (households.hh_income_2017 <= 100000)
+hh_inc_100_150,TAZ,households,500,HHINC5,(households.TYPE == 1) & (households.hh_income_2017 > 100000) & (households.hh_income_2017 <= 150000)
+hh_inc_150_plus,TAZ,households,500,HHINC6,(households.TYPE == 1) & (households.hh_income_2017 > 150000) & (households.hh_income_2017 <= 999999999)
+hh_gq,TAZ,households,100000000,HHGQYES,(households.TYPE == 3)
+hh_child,TAZ,households,500,HHCHILDNO,(households.TYPE == 1) & (households.hh_children == 1)
+hh_no_child,TAZ,households,500,HHCHILDYES,(households.TYPE == 1) & (households.hh_children == 2)
+hh_size_1,COUNTY,households,1000,HHSIZE1,(households.TYPE == 1) & (households.NP == 1)
+hh_size_2,COUNTY,households,1000,HHSIZE2,(households.TYPE == 1) & (households.NP == 2)
+hh_size_3,COUNTY,households,1000,HHSIZE3,(households.TYPE == 1) & (households.NP == 3)
+hh_size_4_plus,COUNTY,households,1000,HHSIZE4,(households.TYPE == 1) & (households.NP >= 4)
+hh_wrks_0,COUNTY,households,1000,HHWORK0,(households.TYPE == 1) & (households.hh_workers_from_esr == 0)
+hh_wrks_1,COUNTY,households,1000,HHWORK1,(households.TYPE == 1) & (households.hh_workers_from_esr == 1)
+hh_wrks_2,COUNTY,households,1000,HHWORK2,(households.TYPE == 1) & (households.hh_workers_from_esr == 2)
+hh_wrks_3_plus,COUNTY,households,1000,HHWORK3,(households.TYPE == 1) & (households.hh_workers_from_esr >= 3)
+per_age_04,COUNTY,persons,1000,POPAGE1,persons.AGEP <= 4
+per_age_05_17,COUNTY,persons,1000,POPAGE2,(persons.AGEP >= 5) & (persons.AGEP <= 17)
+per_age_18_24,COUNTY,persons,1000,POPAGE3,(persons.AGEP >= 18) & (persons.AGEP <= 24)
+per_age_25_34,COUNTY,persons,1000,POPAGE4,(persons.AGEP >= 25) & (persons.AGEP <= 34)
+per_age_35_64,COUNTY,persons,1000,POPAGE5,(persons.AGEP >= 35) & (persons.AGEP <= 64)
+per_age_65_plus,COUNTY,persons,1000,POPAGE6,persons.AGEP >= 65
+per_male,COUNTY,persons,1000,POPSEX1,persons.SEX == 1
+per_female,COUNTY,persons,1000,POPSEX2,persons.SEX == 2
+per_wrks,COUNTY,persons,1000,POPWRKR,persons.employed == 1

@@ -60,7 +60,7 @@ worker_controls_df <- tibble(county_name = c("Alameda",
                                          618418,
                                          485878,
                                          1246601,
-                                         262204,
+                                         258216,
                                          298165))
                                                 
 ```
